@@ -131,6 +131,12 @@ bot.on('messageCreate', (msg) => {
     bot.createMessage(msg.channel.id, 'no');  
 }, 500);
   }
+  
+  	if(msg.content.includes('wanna do drags')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'lemme start my macro');  
+}, 500);
+  }
 	
 	}
  });
