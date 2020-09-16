@@ -137,6 +137,18 @@ bot.on('messageCreate', (msg) => {
     bot.createMessage(msg.channel.id, 'lemme start my macro');  
 }, 500);
   }
+  
+    if(msg.content.includes('suck') || msg.content.includes('SUCK')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'no u');  
+}, 500);
+  }
+  
+     if(msg.content.includes('donate to me') || msg.content.includes('Donate to me')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'https://vignette.wikia.nocookie.net/hypixel-skyblock/images/9/99/Ender_Armor.png');  
+}, 500);
+  }
 	
 	}
  });
