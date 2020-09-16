@@ -132,7 +132,7 @@ bot.on('messageCreate', (msg) => {
 }, 500);
   }
   
-  	if(msg.content.includes('wanna do drags')) {                 
+  	if(msg.content.includes('wanna do drag')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'lemme start my macro');  
 }, 500);
