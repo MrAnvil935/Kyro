@@ -1,4 +1,5 @@
-const Eris = require("eris");
+const Discord = require('discord.js');
+const bot = new Discord.Client();
  
 var bot = new Eris(process.env.token);
 // Replace BOT_TOKEN with your bot account's token
