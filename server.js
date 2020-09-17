@@ -22,8 +22,6 @@ bot.on('messageCreate', (msg) => {
        setTimeout(function(){ 
 	   
 	   
-    if (message.content == '!roll') 
-    {
         var roll =(Math.floor(Math.random()*2)+1);
         if (roll == 1)
         {
@@ -32,7 +30,7 @@ bot.on('messageCreate', (msg) => {
         else 
         {
             message.reply('CAT');
-        }
+        
     }
 
 
