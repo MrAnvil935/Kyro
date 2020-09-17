@@ -23,7 +23,7 @@ bot.on('messageCreate', (msg) => {
    var x =(Math.floor((Math.random() * 100) + 1))	
        setTimeout(function(){ 
 	   if (x>30) {
-	   bot.createMessage(msg.channel.id, 'CAT');  }
+	   bot.createMessage(msg.channel.id, 'CAAAT');  }
        else { bot.createMessage(msg.channel.id, 'CAT');}
 }, 2500);
   }
@@ -32,7 +32,7 @@ bot.on('messageCreate', (msg) => {
    var x =(Math.floor((Math.random() * 100) + 1))		
        setTimeout(function(){ 
 	   if (x>30) {
-	   bot.createMessage(msg.channel.id, 'CAT');  }
+	   bot.createMessage(msg.channel.id, 'CAAAT');  }
        else { bot.createMessage(msg.channel.id, 'CAT');}
 }, 500);
   }
