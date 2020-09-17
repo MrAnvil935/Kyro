@@ -10,6 +10,23 @@ bot.on("ready", () => { // When the bot is ready
  
 bot.on('messageCreate', (msg) => {                     
     
+	controller.hears(['hello','hey','hi','aloha'], ['direct_message','direct_mention','mention'], function(bot, message) {
+    var message_options = [
+    	"Hello there!",
+    	"Hello.",
+        "Yes, I'm listening...",
+        "Hi! How can I help?",
+        "Hey, what's up!",
+        "Yes, tell me! What are you looking for?",
+    	"What's up?"
+	]
+	var random_index = Math.floor(Math.random() * message_options.length)
+	var chosen_message = message_options[random_index]
+
+  bot.reply(message, chosen_message)
+
+  });
+	
 	if (!msg.author.bot)
 	{
 		
@@ -23,18 +40,7 @@ bot.on('messageCreate', (msg) => {
 		
 	else if(msg.content.includes('cat')) {               
        setTimeout(function(){ 
-	   
-	   var message_options = [
-    "Hello there!",
-    "How are you?",
-    "What's up?"
-]
-var random_index = Math.floor(Math.random() * message_options.length)
-var chosen_message = message_options[random_index]
-
-bot.reply(message, chosen_message) 
-	   
-  
+    bot.createMessage(msg.channel.id, 'CAT');  
 }, 2500);
   }
 		
