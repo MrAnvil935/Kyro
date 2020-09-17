@@ -10,6 +10,21 @@ bot.on("ready", () => { // When the bot is ready
  
 bot.on('messageCreate', (msg) => {                     
     
+	Bot.on('message' , function (message){
+    if (message.content == '!testcom') 
+    {
+        var roll =(Math.floor(Math.random()*200)+1);
+        if (roll == 1)
+        {
+            message.reply('Wowza!');
+        }
+        else 
+        {
+            message.reply('lol!');
+        }
+    }
+}
+	
 	if (!msg.author.bot)
 	{
 		 if(msg.content.includes('dog') || msg.content.includes('DOG') || msg.content.includes('Dog')  ) {                 
