@@ -20,7 +20,20 @@ bot.on('messageCreate', (msg) => {
 		
 	else if(msg.content.includes('cat')) {               
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'CAT');  
+	   
+	   
+   // Array list of replies
+let replies = ["CAT", "CAAAAT"];
+// Random number from 0 to 2 for the array index
+let random = Math.floor(Math.random() * 2);
+
+// Send a random reply to a channel
+bot.sendMessage({
+    to: channelID,
+    message: replies[random]
+});
+
+
 }, 2500);
   }
 		
