@@ -127,9 +127,12 @@ bot.on('messageCreate', (msg) => {
 }, 500);
   }
   
-    if(msg.content.includes('pog') || msg.content.includes('Pog') || msg.content.includes('POG')) {                 
+    if(msg.content.includes('pog') || msg.content.includes('Pog') || msg.content.includes('POG')) {     
+ var x =(Math.floor((Math.random() * 100) + 1))	
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'pog');  
+       if (x>75) {
+	   bot.createMessage(msg.channel.id, 'POG');  }
+       else { bot.createMessage(msg.channel.id, 'pog');} 
 }, 500);
   }
 	
