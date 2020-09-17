@@ -22,16 +22,18 @@ bot.on('messageCreate', (msg) => {
        setTimeout(function(){ 
 	   
 	   
-   // Array list of replies
-let replies = ["CAT", "CAAAAT"];
-// Random number from 0 to 2 for the array index
-let random = Math.floor(Math.random() * 2);
-
-// Send a random reply to a channel
-bot.sendMessage({
-    to: channelID,
-    message: replies[random]
-});
+    if (message.content == '!roll') 
+    {
+        var roll =(Math.floor(Math.random()*2)+1);
+        if (roll == 1)
+        {
+            message.reply('CAAAAAT!');
+        }
+        else 
+        {
+            message.reply('CAT');
+        }
+    }
 
 
 }, 2500);
