@@ -21,7 +21,10 @@ bot.on('messageCreate', (msg) => {
 		
 	else if(msg.content.includes('cat')) {               
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'CAT');  
+	   
+	   var roll = Math.floor(Math.random() * 6) + 1;
+    message.reply("You rolled a " + roll);
+
 }, 2500);
   }
 		
