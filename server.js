@@ -19,15 +19,21 @@ bot.on('messageCreate', (msg) => {
 }, 500);
   }
 		
-	else if(msg.content.includes('cat')) {               
+	else if(msg.content.includes('cat')) {   
+   var x =(Math.floor((Math.random() * 100) + 1))	
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'CAT');  
+	   if (x>30) {
+	   bot.createMessage(msg.channel.id, 'CAT');  }
+       else { bot.createMessage(msg.channel.id, 'CAT');}
 }, 2500);
   }
 		
-	else if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') ) {               
+	else if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') ) {  
+   var x =(Math.floor((Math.random() * 100) + 1))		
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'CAT');  
+	   if (x>30) {
+	   bot.createMessage(msg.channel.id, 'CAT');  }
+       else { bot.createMessage(msg.channel.id, 'CAT');}
 }, 500);
   }
 		
