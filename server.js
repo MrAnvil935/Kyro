@@ -23,7 +23,18 @@ bot.on('messageCreate', (msg) => {
 		
 	else if(msg.content.includes('cat')) {               
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'CAT');  
+	   
+	   var message_options = [
+    "Hello there!",
+    "How are you?",
+    "What's up?"
+]
+var random_index = Math.floor(Math.random() * message_options.length)
+var chosen_message = message_options[random_index]
+
+bot.reply(message, chosen_message) 
+	   
+  
 }, 2500);
   }
 		
