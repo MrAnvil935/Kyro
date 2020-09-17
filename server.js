@@ -26,10 +26,7 @@ bot.on('messageCreate', (msg) => {
 	   let replies = ["reply 1", "reply 2", "reply 3"];
 	   let random = Math.floor(Math.random() * 3);
 	   
-    bot.sendMessage({
-    to: channelID,
-    message: replies[random]
- 
+      bot.createMessage(msg.channel.id, 'CAT');  
 }, 2500);
   }
 		
