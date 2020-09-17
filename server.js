@@ -19,11 +19,10 @@ bot.on('messageCreate', (msg) => {
 }, 500);
   }
 		
-	else if(msg.content.includes('cat')) {   
-	sendTyping(
+	else if(msg.content.includes('cat')) {               
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'CAT');  
-}, 2500);)
+}, 2500);
   }
 		
 	else if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') ) {               
