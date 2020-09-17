@@ -1,6 +1,7 @@
 const Eris = require("eris");
  
 var bot = new Eris(process.env.token);
+var roll = Math.floor(Math.random() * 6) + 1;
 // Replace BOT_TOKEN with your bot account's token
  
 bot.on("ready", () => { // When the bot is ready
@@ -22,7 +23,6 @@ bot.on('messageCreate', (msg) => {
 	else if(msg.content.includes('cat')) {               
        setTimeout(function(){ 
 	   
-	   var roll = Math.floor(Math.random() * 6) + 1;
     message.reply("You rolled a " + roll);
 
 }, 2500);
