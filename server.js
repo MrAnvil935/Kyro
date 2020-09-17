@@ -10,7 +10,7 @@ bot.on("ready", () => { // When the bot is ready
  
 bot.on('messageCreate', (msg) => {                     
     
-	Bot.on('message' , function (message){
+	
     if (message.content == '!testcom') 
     {
         var roll =(Math.floor(Math.random()*200)+1);
