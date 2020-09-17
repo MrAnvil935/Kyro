@@ -23,7 +23,7 @@ bot.on('messageCreate', (msg) => {
             message.reply('lol!');
         }
     }
-}
+
 	
 	if (!msg.author.bot)
 	{
