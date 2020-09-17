@@ -22,7 +22,7 @@ bot.on('messageCreate', (msg) => {
 	else if(msg.content.includes('cat')) {   
    var x =(Math.floor((Math.random() * 100) + 1))	
        setTimeout(function(){ 
-	   if (x>30) {
+	   if (x>75) {
 	   bot.createMessage(msg.channel.id, 'CAAAT');  }
        else { bot.createMessage(msg.channel.id, 'CAT');}
 }, 2500);
@@ -31,7 +31,7 @@ bot.on('messageCreate', (msg) => {
 	else if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') ) {  
    var x =(Math.floor((Math.random() * 100) + 1))		
        setTimeout(function(){ 
-	   if (x>30) {
+	   if (x>75) {
 	   bot.createMessage(msg.channel.id, 'CAAAT');  }
        else { bot.createMessage(msg.channel.id, 'CAT');}
 }, 500);
