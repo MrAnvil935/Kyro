@@ -23,7 +23,11 @@ bot.on('messageCreate', (msg) => {
 		
 	else if(msg.content.includes('cat')) {               
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'CAT');  
+	   
+	   var channelname = client.channels.find(channel => channel.id === ‘’)
+	   var answers = [“a”, “b”, “c”, “d”, “e”]
+	   var randomAnswer = answers[Math.floor(Math.random() * answers.length)]
+    channelname.send(randomAnswer)  
 }, 2500);
   }
 		
