@@ -190,7 +190,7 @@ bot.on('messageCreate', (msg) => {
 	   {bot.createMessage(msg.channel.id, 'young');  }
        if (x==81 || x==82 || x==83 || x==84 || x==85 || x==86 || x==87 || x==88 || x==89 || x==90 || x==91 || x==92 || x==93 || x==94 || x==95 || x==96)
 	   {bot.createMessage(msg.channel.id, 'strong');  }
-	   if (x==81 || x==97 || x==98 || x==99 || x==100)
+	   if (x==97 || x==98 || x==99 || x==100)
 	   {bot.createMessage(msg.channel.id, 'superior :D');  }
 }, 500);
   }
