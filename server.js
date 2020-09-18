@@ -163,9 +163,35 @@ bot.on('messageCreate', (msg) => {
 }, 500);
   }
   
+      if(msg.content.includes('Superior') || msg.content.includes('superior') || msg.content.includes('SUPERIOR')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'superior? warp meee');  
+}, 500);
+  }
+  
      if(msg.content.includes('donate to me') || msg.content.includes('Donate to me')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'https://vignette.wikia.nocookie.net/hypixel-skyblock/images/9/99/Ender_Armor.png');  
+}, 500);
+  }
+  
+      if(msg.content.includes('what drag') || msg.content.includes('What drag')) {     
+ var x =(Math.floor((Math.random() * 100) + 1))	
+       setTimeout(function(){ 
+       if (x==1 || x==2 || x==3 || x==4 || x==5 || x==6 || x==7 || x==8 || x==9 || x==10 || x==11 || x==12 || x==13 || x==14 || x==15 || x==16)
+	   {bot.createMessage(msg.channel.id, 'protector');  }
+       if (x==17 || x==18 || x==19 || x==20 || x==21 || x==22 || x==23 || x==24 || x==25 || x==26 || x==27 || x==28 || x==28 || x==30 || x==31 || x==32)
+	   {bot.createMessage(msg.channel.id, 'old');  }
+       if (x==33 || x==34 || x==35 || x==36 || x==37 || x==38 || x==39 || x==40 || x==41 || x==42 || x==43 || x==44 || x==45 || x==46 || x==47 || x==48)
+	   {bot.createMessage(msg.channel.id, 'unstable');  }
+       if (x==49 || x==50 || x==51 || x==52 || x==53 || x==54 || x==55 || x==56 || x==57 || x==58 || x==59 || x==60 || x==61 || x==62 || x==63 || x==64)
+	   {bot.createMessage(msg.channel.id, 'wise');  }
+       if (x==65 || x==66 || x==67 || x==68 || x==69 || x==70 || x==71 || x==72 || x==73 || x==74 || x==75 || x==76 || x==77 || x==78 || x==79 || x==80)
+	   {bot.createMessage(msg.channel.id, 'young');  }
+       if (x==81 || x==82 || x==83 || x==84 || x==85 || x==86 || x==87 || x==88 || x==89 || x==90 || x==91 || x==92 || x==93 || x==94 || x==95 || x==96)
+	   {bot.createMessage(msg.channel.id, 'strong');  }
+	   if (x==81 || x==97 || x==98 || x==99 || x==100)
+	   {bot.createMessage(msg.channel.id, 'superior :D');  }
 }, 500);
   }
 	
