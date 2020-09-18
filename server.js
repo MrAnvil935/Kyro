@@ -22,18 +22,24 @@ bot.on('messageCreate', (msg) => {
 	else if(msg.content.includes('cat')) {   
    var x =(Math.floor((Math.random() * 100) + 1))	
        setTimeout(function(){ 
+	      if (x==69)
+	   {bot.createMessage(msg.channel.id, 'CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT');  }
+       else {
 	   if (x>75) {
 	   bot.createMessage(msg.channel.id, 'CAAAT');  }
-       else { bot.createMessage(msg.channel.id, 'CAT');}
+       else { bot.createMessage(msg.channel.id, 'CAT');}}
 }, 2500);
   }
 		
 	else if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') ) {  
    var x =(Math.floor((Math.random() * 100) + 1))		
        setTimeout(function(){ 
+	   if (x==69)
+	   {bot.createMessage(msg.channel.id, 'CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT');  }
+       else {
 	   if (x>75) {
 	   bot.createMessage(msg.channel.id, 'CAAAT');  }
-       else { bot.createMessage(msg.channel.id, 'CAT');}
+       else { bot.createMessage(msg.channel.id, 'CAT');}}
 }, 500);
   }
 		
@@ -130,9 +136,12 @@ bot.on('messageCreate', (msg) => {
     if(msg.content.includes('pog') || msg.content.includes('Pog') || msg.content.includes('POG')) {     
  var x =(Math.floor((Math.random() * 100) + 1))	
        setTimeout(function(){ 
-       if (x>75) {
+       if (x==69)
+	   {bot.createMessage(msg.channel.id, 'POOOOOOOOOOOG');  }
+       else {
+	   if (x>75) {
 	   bot.createMessage(msg.channel.id, 'POG');  }
-       else { bot.createMessage(msg.channel.id, 'pog');} 
+       else { bot.createMessage(msg.channel.id, 'pog');}}
 }, 500);
   }
 	
