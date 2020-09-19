@@ -20,7 +20,7 @@ bot.on('messageCreate', (msg) => {
   }
 		
 	else if(msg.content.includes('cat')) {  
-if (msg.channel.id != 'general') {	
+if (msg.channel.id != '755098683086733354') {	
    var x =(Math.floor((Math.random() * 100) + 1))	
        setTimeout(function(){ 
 	      if (x==69)
@@ -33,7 +33,7 @@ if (msg.channel.id != 'general') {
 	}}
 		
 	else if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') ) {  
-   if (msg.channel.id != 'general') {	
+   if (msg.channel.id != '755098683514552432') {	
    var x =(Math.floor((Math.random() * 100) + 1))		
        setTimeout(function(){ 
 	   if (x==69)
