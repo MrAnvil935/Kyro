@@ -12,6 +12,9 @@ bot.on('messageCreate', (msg) => {
     
 	if (!msg.author.bot)
 	{
+	var y =(Math.floor((Math.random() * 100) + 1))	
+	if (y==97 || y==98 || y==99 || y==100)
+	   {bot.createMessage(msg.channel.id, 'test');  }	
 		
 	if(msg.content.includes('dog') || msg.content.includes('DOG') || msg.content.includes('Dog')  ) {                 
        setTimeout(function(){ 
