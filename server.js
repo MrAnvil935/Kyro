@@ -12,6 +12,11 @@ bot.on('messageCreate', (msg) => {
     
 	if (!msg.author.bot)
 	{
+		var y =(Math.floor((Math.random() * 10) + 1))	
+		if (x==1 || x==2 || x==3 || x==4)
+	   {bot.createMessage(msg.channel.id, 'test');  }
+		else
+		{	
 		
 	if(msg.content.includes('dog') || msg.content.includes('DOG') || msg.content.includes('Dog')  ) {                 
        setTimeout(function(){ 
@@ -147,9 +152,13 @@ if (msg.channel.id != '677876231609253914') {
 }, 500);
   }
 	
-	if(msg.content.includes('k!help')) {                 
-       setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'no');  
+	if(msg.content === 'k!help') {                 
+       var x =(Math.floor((Math.random() * 100) + 1))
+	   setTimeout(function(){ 
+	   if (x==69)
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, yah, everyone ping, fortnite, I\'m poor, animal, Brazil, angeli, god, fragile ego, RAID Shadow Legends, Italy, TNTnearchos, boomer, vnj, pog, wanna do drag, suck, superior, donate to me, what drag');  }
+       else {
+	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
   }
   
@@ -199,7 +208,7 @@ if (msg.channel.id != '677876231609253914') {
   }
 	
 	}
- });
+})};
 
  
 bot.connect(); 
