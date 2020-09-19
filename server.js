@@ -12,11 +12,6 @@ bot.on('messageCreate', (msg) => {
     
 	if (!msg.author.bot)
 	{
-		var y =(Math.floor((Math.random() * 10) + 1))	
-		if (x==1 || x==2 || x==3 || x==4)
-	   {bot.createMessage(msg.channel.id, 'test');  }
-		else
-		{	
 		
 	if(msg.content.includes('dog') || msg.content.includes('DOG') || msg.content.includes('Dog')  ) {                 
        setTimeout(function(){ 
@@ -208,7 +203,7 @@ if (msg.channel.id != '677876231609253914') {
   }
 	
 	}
-})};
+ });
 
  
 bot.connect(); 
