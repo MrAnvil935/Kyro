@@ -20,7 +20,7 @@ bot.on('messageCreate', (msg) => {
   }
 		
 	else if(msg.content.includes('cat')) {  
-if (msg.channel.id != '677876231609253908') {	
+if (msg.channel.id != 'general') {	
    var x =(Math.floor((Math.random() * 100) + 1))	
        setTimeout(function(){ 
 	      if (x==69)
@@ -33,7 +33,7 @@ if (msg.channel.id != '677876231609253908') {
 	}}
 		
 	else if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') ) {  
-   if (msg.channel.id != '677876231609253908') {	
+   if (msg.channel.id != 'general') {	
    var x =(Math.floor((Math.random() * 100) + 1))		
        setTimeout(function(){ 
 	   if (x==69)
@@ -166,7 +166,7 @@ if (msg.channel.id != '677876231609253908') {
   }
   
       if(msg.content.includes('Superior') || msg.content.includes('superior') || msg.content.includes('SUPERIOR')) {                 
-       if (msg.channel.id != '677876231609253908') {	
+       if (msg.channel.id != 'general') {	
 	   setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'superior? warp meee');  
 }, 500);
