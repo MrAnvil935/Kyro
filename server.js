@@ -19,7 +19,8 @@ bot.on('messageCreate', (msg) => {
 }, 500);
   }
 		
-	else if(msg.content.includes('cat')) {   
+	else if(msg.content.includes('cat')) {  
+if (msg.channel.id != '677876231609253908') {	
    var x =(Math.floor((Math.random() * 100) + 1))	
        setTimeout(function(){ 
 	      if (x==69)
@@ -29,9 +30,10 @@ bot.on('messageCreate', (msg) => {
 	   bot.createMessage(msg.channel.id, 'CAAAT');  }
        else { bot.createMessage(msg.channel.id, 'CAT');}}
 }, 2500);
-  }
+	}}
 		
 	else if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') ) {  
+   if (msg.channel.id != '677876231609253908') {	
    var x =(Math.floor((Math.random() * 100) + 1))		
        setTimeout(function(){ 
 	   if (x==69)
@@ -41,7 +43,7 @@ bot.on('messageCreate', (msg) => {
 	   bot.createMessage(msg.channel.id, 'CAAAT');  }
        else { bot.createMessage(msg.channel.id, 'CAT');}}
 }, 500);
-  }
+	}}
 		
 	if(msg.content.includes('got scammed')) {                 
        setTimeout(function(){ 
@@ -164,10 +166,11 @@ bot.on('messageCreate', (msg) => {
   }
   
       if(msg.content.includes('Superior') || msg.content.includes('superior') || msg.content.includes('SUPERIOR')) {                 
-       setTimeout(function(){ 
+       if (msg.channel.id != '677876231609253908') {	
+	   setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'superior? warp meee');  
 }, 500);
-  }
+	  }}
   
      if(msg.content.includes('donate to me') || msg.content.includes('Donate to me')) {                 
        setTimeout(function(){ 
