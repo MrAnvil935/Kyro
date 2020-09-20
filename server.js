@@ -12,7 +12,7 @@ bot.on('messageCreate', (msg) => {
     
 	if (!msg.author.bot)
 	{
-	if(msg.content.includes('yah') && msg.content.includes('fortnite') && msg.content.includes('poor') && msg.content.includes('angeli') && msg.content.includes('god') && msg.content.includes('superior') )
+	if(msg.content.includes('yah') && msg.content.includes('fortnite')&& msg.content.includes('angeli') )
          { bot.createMessage(msg.channel.id, 'fuck off'); }	
 		
 		else 
