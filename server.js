@@ -65,7 +65,7 @@ if (msg.channel.id != '677876231609253914') {
 }, 500);
   }
 	
-	 if(msg.content.includes('@everyone') || msg.content.includes('@755753210974830634')) {                 
+	 if(msg.content.includes('@everyone') || msg.content.includes('@755098192038854686')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'bru');  
 }, 500);
