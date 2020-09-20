@@ -159,7 +159,7 @@ if (msg.channel.id != '677876231609253914') {
        var x =(Math.floor((Math.random() * 100) + 1))
 	   setTimeout(function(){ 
 	   if (x==69)
-	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, yah, everyone ping, fortnite, I\'m poor, animal, Brazil, angeli, god, fragile ego, RAID Shadow Legends, Italy, TNTnearchos, boomer, vnj, pog, wanna do drag, suck, superior, donate to me, what drag');  }
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, yah, @ ping, fortnite, I\'m poor, animal, Brazil, angeli, god, fragile ego, RAID Shadow Legends, Italy, TNTnearchos, boomer, vnj, pog, wanna do drag, suck, superior, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
