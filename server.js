@@ -12,6 +12,9 @@ bot.on('messageCreate', (msg) => {
     
 	if (!msg.author.bot)
 	{
+		if(msg.content.includes('yah', 'fortnite', 'poor', 'angeli', 'god','superior') 
+		{ {bot.createMessage(msg.channel.id, 'fuck off');  }	
+		
 		
 		
 	var y =(Math.floor((Math.random() * 1000) + 1))	
