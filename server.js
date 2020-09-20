@@ -65,7 +65,7 @@ if (msg.channel.id != '677876231609253914') {
 }, 500);
   }
 	
-	 if(msg.content.includes('@everyone') || msg.content.includes('@755098192038854686') || msg.content.includes('@!755098192038854686') || msg.content.includes('@677880085797273610') || msg.content.includes('@685328009116254248')) {                 
+	 if(msg.content.includes('@everyone') || msg.content.includes('@755098192038854686') || msg.content.includes('@!755098192038854686') || msg.content.includes('@677880085797273610') || msg.content.includes('@685328009116254248') || msg.content.includes('@755099487005048996')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'bru');  
 }, 500);
