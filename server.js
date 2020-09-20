@@ -8,7 +8,8 @@ bot.on("ready", () => { // When the bot is ready
 });
  
  
-bot.on('messageCreate', (msg) => {                     
+bot.on('messageCreate', (msg) => { 
+if (roleID != '754416269423411251' ||  msg.channel.id === '756401543397245018')     {            
     
 	if (!msg.author.bot)
 	{
@@ -211,7 +212,7 @@ if (msg.channel.id != '677876231609253914') {
 }, 500);
   }
 	
-		}}
+		}}} 
  });
 
  
