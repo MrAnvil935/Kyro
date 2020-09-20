@@ -15,7 +15,7 @@ bot.on('messageCreate', (msg) => {
 		if(msg.content.includes('yah') && msg.content.includes('fortnite') && msg.content.includes('animal') && msg.content.includes('RAID') && msg.content.includes('vnj')  && msg.content.includes('pog')) 
 		{ {bot.createMessage(msg.channel.id, 'fuck off');  }	
 		
-		else {
+		
 		
 	var y =(Math.floor((Math.random() * 1000) + 1))	
 	if (y==97 || y==98 || y==99 || y==100)
@@ -210,7 +210,7 @@ if (msg.channel.id != '677876231609253914') {
 }, 500);
   }
 	
-		}}
+		}
  });
 
  
