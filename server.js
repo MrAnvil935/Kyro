@@ -9,7 +9,7 @@ bot.on("ready", () => { // When the bot is ready
  
  
 bot.on('messageCreate', (msg) => { 
-if (msg.role.id != '754416269423411251' ||  msg.channel.id === '756401543397245018')     {            
+if (msg.user.roles != '754416269423411251' ||  msg.channel.id === '756401543397245018')     {            
     
 	if (!msg.author.bot)
 	{
