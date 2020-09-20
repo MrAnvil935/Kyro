@@ -12,11 +12,11 @@ bot.on('messageCreate', (msg) => {
     
 	if (!msg.author.bot)
 	{
-		if(msg.content.includes('yah' , 'fortnite' , 'poor' , 'angeli' , 'god' , 'superior')) 
-		{ {bot.createMessage(msg.channel.id, 'fuck off');  }	
+	if(msg.content.includes('yah') && msg.content.includes('fortnite') && msg.content.includes('poor') && msg.content.includes('angeli') && msg.content.includes('god') && msg.content.includes('superior') )
+         { bot.createMessage(msg.channel.id, 'fuck off'); }	
 		
-		
-		
+		else 
+		{	
 	var y =(Math.floor((Math.random() * 1000) + 1))	
 	if (y==97 || y==98 || y==99 || y==100)
 	   {bot.createMessage(msg.channel.id, 'I got drag pet');  }	
@@ -210,7 +210,7 @@ if (msg.channel.id != '677876231609253914') {
 }, 500);
   }
 	
-		}
+		}}
  });
 
  
