@@ -77,7 +77,7 @@ if (msg.channel.id != '677876231609253914') {
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'bru');  
 }, 500);
-			  }}
+	 }}}}
   
   
   if (msg.channel.id != '677876231609253914') {
