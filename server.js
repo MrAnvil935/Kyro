@@ -9,7 +9,7 @@ bot.on("ready", () => { // When the bot is ready
  
  
 bot.on('messageCreate', (msg) => { 
-if (message.member.roles.has('756401543397245018'))   {} 
+   if(message.member.roles.find(r => r.name === "Member" ) ||   {} 
 else
   {            
     
