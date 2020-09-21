@@ -62,21 +62,29 @@ if (msg.channel.id != '677876231609253914') {
 }, 500);
   }
   
-  if (msg.channel.id != '677876231609253914') {
     if(msg.content.includes('YAH') || msg.content.includes('yah') || msg.content.includes('Yah')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'YAH');  
 }, 500);
-  }}
+  }
 	
+<<<<<<< HEAD
 
   
   if (msg.channel.id != '677876231609253914') {
+=======
+	 if(msg.content.includes('@everyone') || msg.content.includes('@755098192038854686') || msg.content.includes('@!755098192038854686') || msg.content.includes('@&677880085797273610') || msg.content.includes('@&685328009116254248') || msg.content.includes('@&755099487005048996')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'bru');  
+}, 500);
+  }
+  
+>>>>>>> parent of 5bf233c... Update server.js
   	 if(msg.content.includes('fortnite') || msg.content.includes('Fortnite') || msg.content.includes('Minecraft') || msg.content.includes('minecraft') || msg.content.includes('Terraria') || msg.content.includes('terraria') || msg.content.includes('LoL') || msg.content.includes('league of legends') || msg.content.includes('League of Legends') || msg.content.includes('League of legends')){                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'brawlhalla better');  
 }, 500);
-  }}
+  }
 	
 	  if(msg.content.includes('m poor')) {                 
        setTimeout(function(){ 
@@ -84,19 +92,17 @@ if (msg.channel.id != '677876231609253914') {
 }, 500);
   }
   
-  if (msg.channel.id != '677876231609253914') {
   	  if(msg.content.includes('animal') || msg.content.includes('Animal')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'cats>everything');  
 }, 500);
-  }}
+  }
   
-  if (msg.channel.id != '677876231609253914') {
     if(msg.content.includes('BRAZIL') || msg.content.includes('brazil') || msg.content.includes('Brazil')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'BRAZIL');  
 }, 500);
-  }}
+  }
 	
 	if(msg.content.includes('Angeli') || msg.content.includes('angeli') || msg.content.includes('ANGELI')) {                 
        setTimeout(function(){ 
@@ -104,12 +110,11 @@ if (msg.channel.id != '677876231609253914') {
 }, 500);
   }
   
-  if (msg.channel.id != '677876231609253914') {
   	if(msg.content.includes('god') || msg.content.includes('God') || msg.content.includes('GOD')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'I\'m god of cats');  
 }, 500);
-  }}
+  }
 	
 	if(msg.content.includes('fragile ego')) {                 
        setTimeout(function(){ 
@@ -159,7 +164,7 @@ if (msg.channel.id != '677876231609253914') {
        else { bot.createMessage(msg.channel.id, 'pog');}}
 }, 500);
   }
-	if (msg.channel.id != '677876231609253914') {
+	
 	if(msg.content === 'k!help') {                 
        var x =(Math.floor((Math.random() * 100) + 1))
 	   setTimeout(function(){ 
@@ -168,8 +173,7 @@ if (msg.channel.id != '677876231609253914') {
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
-	}}
-  
+  }
   
   	if(msg.content.includes('wanna do drag')) {                 
        setTimeout(function(){ 
@@ -177,12 +181,11 @@ if (msg.channel.id != '677876231609253914') {
 }, 500);
   }
   
-  if (msg.channel.id != '677876231609253914') {
     if(msg.content.includes('suck') || msg.content.includes('SUCK')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'no u');  
 }, 500);
-  }}
+  }
   
       if(msg.content.includes('Superior') || msg.content.includes('superior') || msg.content.includes('SUPERIOR')) {                 
        if (msg.channel.id != '677876231609253914') {	
@@ -197,7 +200,6 @@ if (msg.channel.id != '677876231609253914') {
 }, 500);
   }
   
-  if (msg.channel.id != '677876231609253914') {
       if(msg.content.includes('what drag') || msg.content.includes('What drag')) {     
  var x =(Math.floor((Math.random() * 100) + 1))	
        setTimeout(function(){ 
@@ -216,9 +218,8 @@ if (msg.channel.id != '677876231609253914') {
 	   if (x==97 || x==98 || x==99 || x==100)
 	   {bot.createMessage(msg.channel.id, 'superior :D');  }
 }, 500);
-  }}
+  }
   
-  if (msg.channel.id != '677876231609253914') {
 if(msg.content.includes('owo') || msg.content.includes('OWO') || msg.content.includes('OwO') || msg.content.includes('uwu') || msg.content.includes('UWU') || msg.content.includes('UwU'))       {         
        var x =(Math.floor((Math.random() * 10) + 1))
 	   setTimeout(function(){ 
@@ -244,7 +245,7 @@ if(msg.content.includes('owo') || msg.content.includes('OWO') || msg.content.inc
 	   {bot.createMessage(msg.channel.id, '```ᨐᵉᵒʷ ```');  }
    
 }, 500);
-  }}
+  }
 	
 	}}}
  });
