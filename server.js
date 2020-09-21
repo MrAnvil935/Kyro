@@ -8,10 +8,7 @@ bot.on("ready", () => { // When the bot is ready
 });
  
  
-bot.on('messageCreate', (msg) => { 
-   if(message.member.roles.find(r => r.name === "Member" )  {} 
-else
-  {            
+bot.on('messageCreate', (msg) => {                     
     
 	if (!msg.author.bot)
 	{
@@ -214,7 +211,7 @@ if (msg.channel.id != '677876231609253914') {
 }, 500);
   }
 	
-		}}} 
+		}}
  });
 
  
