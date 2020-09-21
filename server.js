@@ -12,6 +12,9 @@ bot.on('messageCreate', (msg) => {
     
 	if (!msg.author.bot)
 	{
+		
+		if (msg.user.id != '521672404242792448') {
+		
 	if(msg.content.includes('yah') && msg.content.includes('fortnite')&& msg.content.includes('angeli') && msg.content.includes('animal'))
          { bot.createMessage(msg.channel.id, 'fuck off'); }	
 		
@@ -67,10 +70,12 @@ if (msg.channel.id != '677876231609253914') {
   }}
 	
 	 if(msg.content.includes('@everyone') || msg.content.includes('@755098192038854686') || msg.content.includes('@!755098192038854686') || msg.content.includes('@&677880085797273610') || msg.content.includes('@&685328009116254248') || msg.content.includes('@&755099487005048996')) {                 
-       setTimeout(function(){ 
+      if (msg.channel.id != '678841647328395285' && msg.channel.id != '677892660815593503' && msg.channel.id != '693576629334573128') {
+	  setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'bru');  
 }, 500);
-  }
+	 }}
+  
   if (msg.channel.id != '677876231609253914') {
   	 if(msg.content.includes('fortnite') || msg.content.includes('Fortnite') || msg.content.includes('Minecraft') || msg.content.includes('minecraft') || msg.content.includes('Terraria') || msg.content.includes('terraria') || msg.content.includes('LoL') || msg.content.includes('league of legends') || msg.content.includes('League of Legends') || msg.content.includes('League of legends')){                 
        setTimeout(function(){ 
@@ -246,7 +251,7 @@ if(msg.content.includes('owo') || msg.content.includes('OWO') || msg.content.inc
 }, 500);
   }}
 	
-		}}
+	}}}
  });
 
  
