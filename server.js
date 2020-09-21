@@ -225,7 +225,7 @@ if(msg.content.includes('owo') || msg.content.includes('OWO') || msg.content.inc
 	   if (x==5)
 	   {bot.createMessage(msg.channel.id, '```—ฅ/ᐠ. ̫ .ᐟ\\ฅ —```');  }
        if (x==6)
-	   {bot.createMessage(msg.channel.id, '```/ᐠ. ｡.ᐟ\\ᵐᵉᵒʷˎ```ˊ');  }
+	   {bot.createMessage(msg.channel.id, '```/ᐠ. ｡.ᐟ\\ᵐᵉᵒʷ```');  }
        if (x==7)
 	   {bot.createMessage(msg.channel.id, '```/ᐠﹷ ‸ ﹷ ᐟ\\ﾉ```');  }
        if (x==8)
