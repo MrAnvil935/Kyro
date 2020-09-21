@@ -159,7 +159,7 @@ if (msg.channel.id != '677876231609253914') {
        var x =(Math.floor((Math.random() * 100) + 1))
 	   setTimeout(function(){ 
 	   if (x==69)
-	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, yah, @ ping, fortnite, I\'m poor, animal, Brazil, angeli, god, fragile ego, RAID Shadow Legends, Italy, TNTnearchos, boomer, vnj, pog, wanna do drag, suck, superior, donate to me, what drag');  }
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, yah, @ ping, fortnite, I\'m poor, animal, Brazil, angeli, god, fragile ego, RAID Shadow Legends, Italy, OwO , TNTnearchos, boomer, vnj, pog, wanna do drag, suck, superior, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
@@ -207,6 +207,33 @@ if (msg.channel.id != '677876231609253914') {
 	   {bot.createMessage(msg.channel.id, 'strong');  }
 	   if (x==97 || x==98 || x==99 || x==100)
 	   {bot.createMessage(msg.channel.id, 'superior :D');  }
+}, 500);
+  }
+  
+if(msg.content.includes('owo') || msg.content.includes('OWO') || msg.content.includes('OwO') || msg.content.includes('uwu') || msg.content.includes('UWU') || msg.content.includes('UwU'))       {         
+       var x =(Math.floor((Math.random() * 10) + 1))
+	   setTimeout(function(){ 
+	   if (x==1)
+	   {bot.createMessage(msg.channel.id, '=^._.^= ∫');  }
+       if (x==2)
+	   {bot.createMessage(msg.channel.id, '(=^･ω･^=)');  }
+       if (x==3)
+	   {bot.createMessage(msg.channel.id, '/ᐠ｡ꞈ｡ᐟ\ ');  }
+       if (x==4)
+	   {bot.createMessage(msg.channel.id, '[^._.^]ﾉ彡');  }
+	   if (x==5)
+	   {bot.createMessage(msg.channel.id, '—ฅ/ᐠ. ̫ .ᐟ\ฅ —');  }
+       if (x==6)
+	   {bot.createMessage(msg.channel.id, '/ᐠ. ｡.ᐟ\ᵐᵉᵒʷˎˊ');  }
+       if (x==7)
+	   {bot.createMessage(msg.channel.id, '/ᐠﹷ ‸ ﹷ ᐟ\ﾉ');  }
+       if (x==8)
+	   {bot.createMessage(msg.channel.id, '(ﾐΦ ﻌ Φﾐ)∫');  }
+       if (x==9)
+	   {bot.createMessage(msg.channel.id, '/ᐠ=ᆽ=ᐟ \ ');  }
+       if (x==10)
+	   {bot.createMessage(msg.channel.id, 'ᨐᵉᵒʷ ');  }
+   
 }, 500);
   }
 	
