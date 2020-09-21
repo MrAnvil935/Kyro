@@ -215,25 +215,25 @@ if(msg.content.includes('owo') || msg.content.includes('OWO') || msg.content.inc
        var x =(Math.floor((Math.random() * 10) + 1))
 	   setTimeout(function(){ 
 	   if (x==1)
-	   {bot.createMessage(msg.channel.id, '=^._.^= ∫');  }
+	   {bot.createMessage(msg.channel.id, '\=^._.^= ∫');  }
        if (x==2)
-	   {bot.createMessage(msg.channel.id, '(=^･ω･^=)');  }
+	   {bot.createMessage(msg.channel.id, '\(=^･ω･^=)');  }
        if (x==3)
-	   {bot.createMessage(msg.channel.id, '/ᐠ｡ꞈ｡ᐟ\ ');  }
+	   {bot.createMessage(msg.channel.id, '\/ᐠ｡ꞈ｡ᐟ\ ');  }
        if (x==4)
-	   {bot.createMessage(msg.channel.id, '[^._.^]ﾉ彡');  }
+	   {bot.createMessage(msg.channel.id, '\[^._.^]ﾉ彡');  }
 	   if (x==5)
-	   {bot.createMessage(msg.channel.id, '—ฅ/ᐠ. ̫ .ᐟ\ฅ —');  }
+	   {bot.createMessage(msg.channel.id, '\—ฅ/ᐠ. ̫ .ᐟ\ฅ —');  }
        if (x==6)
-	   {bot.createMessage(msg.channel.id, '/ᐠ. ｡.ᐟ\ᵐᵉᵒʷˎˊ');  }
+	   {bot.createMessage(msg.channel.id, '\/ᐠ. ｡.ᐟ\ᵐᵉᵒʷˎˊ');  }
        if (x==7)
-	   {bot.createMessage(msg.channel.id, '/ᐠﹷ ‸ ﹷ ᐟ\ﾉ');  }
+	   {bot.createMessage(msg.channel.id, '\/ᐠﹷ ‸ ﹷ ᐟ\ﾉ');  }
        if (x==8)
-	   {bot.createMessage(msg.channel.id, '(ﾐΦ ﻌ Φﾐ)∫');  }
+	   {bot.createMessage(msg.channel.id, '\(ﾐΦ ﻌ Φﾐ)∫');  }
        if (x==9)
-	   {bot.createMessage(msg.channel.id, '/ᐠ=ᆽ=ᐟ \ ');  }
+	   {bot.createMessage(msg.channel.id, '\/ᐠ=ᆽ=ᐟ \ ');  }
        if (x==10)
-	   {bot.createMessage(msg.channel.id, 'ᨐᵉᵒʷ ');  }
+	   {bot.createMessage(msg.channel.id, '\ᨐᵉᵒʷ ');  }
    
 }, 500);
   }
