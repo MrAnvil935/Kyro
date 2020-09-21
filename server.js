@@ -13,7 +13,7 @@ bot.on('messageCreate', (msg) => {
 	if (!msg.author.bot)
 	{
 		
-		if (msg.user.id != '521672404242792448') {
+		
 		
 	if(msg.content.includes('yah') && msg.content.includes('fortnite')&& msg.content.includes('angeli') && msg.content.includes('animal'))
          { bot.createMessage(msg.channel.id, 'fuck off'); }	
@@ -257,7 +257,7 @@ if(msg.content.includes('owo') || msg.content.includes('OWO') || msg.content.inc
 }, 500);
   }}
 	
-		}}}
+		}}
  });
 
  
