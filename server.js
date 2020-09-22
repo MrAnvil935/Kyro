@@ -141,6 +141,7 @@ if (msg.channel.id != '677876231609253914') {
 }, 500);
   }
 	
+	
 	if (msg.channel.id != '677876231609253914') {
 	if(msg.content.includes('TNTnearchos')) {                 
        setTimeout(function(){ 
@@ -157,11 +158,12 @@ if (msg.channel.id != '677876231609253914') {
 }, 500);
   }}}
   
+  if (msg.channel.id != '677876231609253914') {
     if(msg.content.includes('vnj') || msg.content.includes('Vnj') || msg.content.includes('VNJ')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, ':clown:');  
 }, 500);
-  }
+  }}
   
   if (msg.channel.id != '677876231609253914') {
 	  var y =(Math.floor((Math.random() * 10) + 1))
