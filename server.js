@@ -92,11 +92,13 @@ if (msg.channel.id != '677876231609253914') {
   }
   
   if (msg.channel.id != '677876231609253914') {
+	  var x =(Math.floor((Math.random() * 10) + 1))
+	  if (x<4) {
   	  if(msg.content.includes('animal') || msg.content.includes('Animal')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'cats>everything');  
 }, 500);
-  }}
+  }}}
   
   if (msg.channel.id != '677876231609253914') {
     if(msg.content.includes('BRAZIL') || msg.content.includes('brazil') || msg.content.includes('Brazil')) {                 
@@ -112,11 +114,13 @@ if (msg.channel.id != '677876231609253914') {
   }
   
   if (msg.channel.id != '677876231609253914') {
+	  var x =(Math.floor((Math.random() * 10) + 1))
+	  if (x<3) {
   	if(msg.content.includes('god') || msg.content.includes('God') || msg.content.includes('GOD')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'I\'m god of cats');  
 }, 500);
-  }}
+  }}}
 	
 	if(msg.content.includes('fragile ego')) {                 
        setTimeout(function(){ 
@@ -145,11 +149,13 @@ if (msg.channel.id != '677876231609253914') {
 	}}
   
   if (msg.channel.id != '677876231609253914') {
+	  var x =(Math.floor((Math.random() * 10) + 1))
+	  if (x<6) {
   	if(msg.content.includes('boomer') || msg.content.includes('Boomer') || msg.content.includes('BOOMER')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'ok boomer');  
 }, 500);
-  }}
+  }}}
   
     if(msg.content.includes('vnj') || msg.content.includes('Vnj') || msg.content.includes('VNJ')) {                 
        setTimeout(function(){ 
@@ -158,6 +164,8 @@ if (msg.channel.id != '677876231609253914') {
   }
   
   if (msg.channel.id != '677876231609253914') {
+	  var y =(Math.floor((Math.random() * 10) + 1))
+	  if (y<4) {
     if(msg.content.includes('pog') || msg.content.includes('Pog') || msg.content.includes('POG')) {     
  var x =(Math.floor((Math.random() * 100) + 1))	
        setTimeout(function(){ 
@@ -168,7 +176,7 @@ if (msg.channel.id != '677876231609253914') {
 	   bot.createMessage(msg.channel.id, 'POG');  }
        else { bot.createMessage(msg.channel.id, 'pog');}}
 }, 500);
-  }}
+  }}}
 	
 	if (msg.channel.id != '677876231609253914') {
 	if(msg.content === 'k!help') {                 
@@ -189,18 +197,22 @@ if (msg.channel.id != '677876231609253914') {
   }
   
   if (msg.channel.id != '677876231609253914') {
+	  var x =(Math.floor((Math.random() * 10) + 1))
+	  if (x<4) {
     if(msg.content.includes('suck') || msg.content.includes('SUCK')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'no u');  
 }, 500);
-  }}
+  }}}
   
       if(msg.content.includes('Superior') || msg.content.includes('superior') || msg.content.includes('SUPERIOR')) {                 
-       if (msg.channel.id != '677876231609253914') {	
+       var x =(Math.floor((Math.random() * 10) + 1))
+	  if (x<4) {
+	   if (msg.channel.id != '677876231609253914') {	
 	   setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'superior? warp meee');  
 }, 500);
-	  }}
+	  }}}
   
      if(msg.content.includes('donate to me') || msg.content.includes('Donate to me')) {                 
        setTimeout(function(){ 
