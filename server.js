@@ -167,7 +167,7 @@ if (msg.channel.id != '677876231609253914') {
   
   if (msg.channel.id != '677876231609253914') {
 	  var y =(Math.floor((Math.random() * 10) + 1))
-	  if (y<4) {
+	  if (y<6) {
     if(msg.content.includes('pog') || msg.content.includes('Pog') || msg.content.includes('POG')) {     
  var x =(Math.floor((Math.random() * 100) + 1))	
        setTimeout(function(){ 
@@ -200,7 +200,7 @@ if (msg.channel.id != '677876231609253914') {
   
   if (msg.channel.id != '677876231609253914') {
 	  var x =(Math.floor((Math.random() * 10) + 1))
-	  if (x<4) {
+	  if (x<6) {
     if(msg.content.includes('suck') || msg.content.includes('SUCK')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'no u');  
