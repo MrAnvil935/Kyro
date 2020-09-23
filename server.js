@@ -4,7 +4,7 @@ var bot = new Eris(process.env.token);
 // Replace BOT_TOKEN with your bot account's token
  
 bot.on("ready", () => { // When the bot is ready
-bot.user.game.name === "Brawlhalla";   
+client.user.setStatus('dnd', 'Made by KwinkyWolf') 
 console.log("Ready!"); // Log "Ready!"
 });
  
