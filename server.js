@@ -4,6 +4,7 @@ var bot = new Eris(process.env.token);
 // Replace BOT_TOKEN with your bot account's token
  
 bot.on("ready", () => { // When the bot is ready
+client.editStatus('dnd', 'Made by KwinkyWolf') ;
 console.log("Ready!"); // Log "Ready!"
 });
  
@@ -81,7 +82,6 @@ bot.on('messageCreate', (msg) => {
   if (msg.channel.id != '677876231609253914') {
   	 if(msg.content.includes('fortnite') || msg.content.includes('Fortnite') || msg.content.includes('Minecraft') || msg.content.includes('minecraft') || msg.content.includes('Terraria') || msg.content.includes('terraria') || msg.content.includes('LoL') || msg.content.includes('league of legends') || msg.content.includes('League of Legends') || msg.content.includes('League of legends')){                 
        setTimeout(function(){ 
-    client.editStatus('dnd', 'Made by KwinkyWolf') ;
     bot.createMessage(msg.channel.id, 'brawlhalla better');  
 }, 500);
   }}
