@@ -81,7 +81,7 @@ bot.on('messageCreate', (msg) => {
   if (msg.channel.id != '677876231609253914') {
   	 if(msg.content.includes('fortnite') || msg.content.includes('Fortnite') || msg.content.includes('Minecraft') || msg.content.includes('minecraft') || msg.content.includes('Terraria') || msg.content.includes('terraria') || msg.content.includes('LoL') || msg.content.includes('league of legends') || msg.content.includes('League of Legends') || msg.content.includes('League of legends')){                 
        setTimeout(function(){ 
-    editStatus('dnd', 'Made by KwinkyWolf') 
+    bot.user.editStatus('dnd', 'Made by KwinkyWolf') 
     bot.createMessage(msg.channel.id, 'brawlhalla better');  
 }, 500);
   }}
