@@ -4,7 +4,8 @@ var bot = new Eris(process.env.token);
 // Replace BOT_TOKEN with your bot account's token
  
 bot.on("ready", () => { // When the bot is ready
-    console.log("Ready!"); // Log "Ready!"
+game.name = "Brawlhalla";   
+console.log("Ready!"); // Log "Ready!"
 });
  
  
