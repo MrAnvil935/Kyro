@@ -4,7 +4,7 @@ var bot = new Eris(process.env.token);
 // Replace BOT_TOKEN with your bot account's token
  
 bot.on("ready", () => { // When the bot is ready
-client.editStatus()
+client.editStatus("online", "test")
     console.log("Ready!"); // Log "Ready!"
 });
  
