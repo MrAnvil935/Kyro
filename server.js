@@ -5,12 +5,14 @@ var bot = new Eris(process.env.token);
  
 bot.on("ready", () => { // When the bot is ready
 console.log("Ready!"); // Log "Ready!"
+ client.user.editStatus("online", "test");
 });
  
- client.user.editStatus("online", "test")
+
  
 bot.on('messageCreate', (msg) => {                     
     
+	
 	if (!msg.author.bot)
 	{
 		
