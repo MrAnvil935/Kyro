@@ -29,21 +29,21 @@ bot.on('messageCreate', (msg) => {
     bot.createMessage(msg.channel.id, 'cat > dog');   
 }, 500);
   }
-		
-	else if(msg.content.includes('cat')) {  
-if (msg.channel.id != '677876231609253914') {	
-   var x =(Math.floor((Math.random() * 100) + 1))	
+  
+    else if (msg.channel.id != '677876231609253914') {
+    if((msg.content === 't!cat')) {                 
        setTimeout(function(){ 
-	      if (x==69)
+     if (x==69)
 	   {bot.createMessage(msg.channel.id, 'CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT');  }
        else {
 	   if (x>75) {
 	   bot.createMessage(msg.channel.id, 'CAAAT');  }
        else { bot.createMessage(msg.channel.id, 'CAT');}}
 }, 2500);
-	}}
+  }}
 		
-	else if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') ) {  
+		
+	else if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') || msg.content.includes('cat')) {  
    if (msg.channel.id != '677876231609253914') {	
    var x =(Math.floor((Math.random() * 100) + 1))		
        setTimeout(function(){ 
