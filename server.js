@@ -7,7 +7,7 @@ bot.on("ready", () => { // When the bot is ready
 console.log("Ready!"); // Log "Ready!"
 });
  
- client.editStatus("online", "test")
+ client.user.editStatus("online", "test")
  
 bot.on('messageCreate', (msg) => {                     
     
