@@ -51,7 +51,7 @@ bot.on('messageCreate', (msg) => {
 		
 	if ((msg.content != 't!cat')) { 	
 	if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') || msg.content.includes('cat')) {  
-   if(msg.content.includes('catac') {}
+   if(msg.content.includes('catac')) {}
    else {
    if (msg.channel.id != '677876231609253914') {	
    var x =(Math.floor((Math.random() * 100) + 1))		
