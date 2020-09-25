@@ -51,6 +51,8 @@ bot.on('messageCreate', (msg) => {
 		
 	if ((msg.content != 't!cat')) { 	
 	if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') || msg.content.includes('cat')) {  
+   if(msg.content.includes('catac') {}
+   else {
    if (msg.channel.id != '677876231609253914') {	
    var x =(Math.floor((Math.random() * 100) + 1))		
        setTimeout(function(){ 
@@ -61,7 +63,7 @@ bot.on('messageCreate', (msg) => {
 	   bot.createMessage(msg.channel.id, 'CAAAT');  }
        else { bot.createMessage(msg.channel.id, 'CAT');}}
 }, 500);
-	}}}
+	}}}}
 		
 	if(msg.content.includes('got scammed')) {                 
        setTimeout(function(){ 
