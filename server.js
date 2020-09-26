@@ -118,10 +118,12 @@ bot.on('messageCreate', (msg) => {
   }}
 	
 	if(msg.content.includes('Angeli') || msg.content.includes('angeli') || msg.content.includes('ANGELI')) {                 
-       setTimeout(function(){ 
+       	  var x =(Math.floor((Math.random() * 10) + 1))
+	  if (x<3) {
+	   setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'ANGELI is DEAD');  
 }, 500);
-  }
+	}}
   
   if (msg.channel.id != '677876231609253914') {
 	  var x =(Math.floor((Math.random() * 10) + 1))
