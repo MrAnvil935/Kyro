@@ -252,6 +252,8 @@ bot.on('messageCreate', (msg) => {
 	   {bot.createMessage(msg.channel.id, 'strong');  }
 	   if (x==97 || x==98 || x==99 || x==100)
 	   {bot.createMessage(msg.channel.id, 'superior :D');  }
+       if (x==101)
+          {bot.createMessage(msg.channel.id, 'holy');  } 
 }, 500);
   }}
   
