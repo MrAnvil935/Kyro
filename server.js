@@ -204,7 +204,7 @@ bot.on('messageCreate', (msg) => {
 	}}
   
   
-  	if(msg.content.includes('wanna do drag')) {                 
+  	if(msg.content.includes('wanna do drag') || msg.content.includes('Wanna do drag') ) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'lemme start my macro');  
 }, 500);
