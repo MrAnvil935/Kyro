@@ -49,7 +49,7 @@ bot.on('messageCreate', (msg) => {
 }, 2500);
   }}
 		
-	if ((msg.content != 't!cat')) { 	
+	else if ((msg.content != 't!cat')) { 	
 	if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') || msg.content.includes('cat')) {  
    if(msg.content.includes('cata') || msg.content.includes('Cata')) {}
    else {
