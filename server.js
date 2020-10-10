@@ -39,9 +39,6 @@ bot.on('messageCreate', (msg) => {
   
     else if (msg.channel.id != '677876231609253914') {
     if((msg.content === 't!cat')) {  
-
-if(msg.content.includes('dog') {} 
-else {
               
        setTimeout(function(){ 
      if (x==69)
@@ -51,11 +48,11 @@ else {
 	   bot.createMessage(msg.channel.id, 'CAAAT');  }
        else { bot.createMessage(msg.channel.id, 'CAT');}}
 }, 2500);
-  }}} 
+  }}
 		
 	if ((msg.content != 't!cat')) { 	
 	if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') || msg.content.includes('cat')) {  
-   if(msg.content.includes('cata') || msg.content.includes('Cata')) {}
+   if(msg.content.includes('cata') || msg.content.includes('Cata') || msg.content.includes('dog') || msg.content.includes('Dog') || msg.content.includes('DOG') ) {}
    else {
    if (msg.channel.id != '677876231609253914') {	
    var x =(Math.floor((Math.random() * 100) + 1))		
