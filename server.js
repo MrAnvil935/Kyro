@@ -38,7 +38,11 @@ bot.on('messageCreate', (msg) => {
   }
   
     else if (msg.channel.id != '677876231609253914') {
-    if((msg.content === 't!cat')) {                 
+    if((msg.content === 't!cat')) {  
+
+if(msg.content.includes('dog') {} 
+else {
+              
        setTimeout(function(){ 
      if (x==69)
 	   {bot.createMessage(msg.channel.id, 'CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT');  }
@@ -47,9 +51,9 @@ bot.on('messageCreate', (msg) => {
 	   bot.createMessage(msg.channel.id, 'CAAAT');  }
        else { bot.createMessage(msg.channel.id, 'CAT');}}
 }, 2500);
-  }}
+  }}} 
 		
-	else if ((msg.content != 't!cat')) { 	
+	if ((msg.content != 't!cat')) { 	
 	if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') || msg.content.includes('cat')) {  
    if(msg.content.includes('cata') || msg.content.includes('Cata')) {}
    else {
