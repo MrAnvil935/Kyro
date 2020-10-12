@@ -5,7 +5,7 @@ var bot = new Eris(process.env.token);
 
  var status = "dnd"
 var game = new Object();
-game.name = 'Brawlhalla';
+game.name = 'Super Hentai';
  
 bot.on("ready", () => { // When the bot is ready
 bot.editStatus(status, game);
