@@ -81,8 +81,8 @@ bot.on('messageCreate', (msg) => {
 	
 	
 	
-	 if(msg.content.includes('@everyone') || msg.content.includes('@755098192038854686') || msg.content.includes('@!755098192038854686')) {                 
-       setTimeout(function(){ 
+	 if(msg.content.includes('@everyone') || msg.content.includes('@755098192038854686') || msg.content.includes('@!755098192038854686') msg.content.includes('@!768188654794571857')) {                 
+       setTimeout(function(){  
     bot.createMessage(msg.channel.id, 'bru');  
 }, 500);
   }
