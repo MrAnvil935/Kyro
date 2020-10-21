@@ -137,12 +137,10 @@ bot.on('messageCreate', (msg) => {
 	}}
 			
 	if(msg.content.includes('Brawlhalla') || msg.content.includes('brawlhalla') || msg.content.includes('BRAWLHALLA')) {                 
-       	  var x =(Math.floor((Math.random() * 10) + 1))
-	  if (x<3) {
 	   setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'Super Hentai better');  
 }, 500);
-	}}		
+	}		
   
   if (msg.channel.id != '677876231609253914') {
 	  var x =(Math.floor((Math.random() * 10) + 1))
