@@ -30,6 +30,10 @@ bot.on('messageCreate', (msg) => {
 	var y =(Math.floor((Math.random() * 1000) + 1))	
 	if (y==97 || y==98 || y==99 || y==100)
 	   {bot.createMessage(msg.channel.id, 'I got drag pet');  }	
+			
+	var z =(Math.floor((Math.random() * 5000) + 1))	
+	if (y==420)
+	   {bot.createMessage(msg.channel.id, 'CRAZY RARE DROP! (Real Life) (-420 Magic Find!)');  }
 		
 	if(msg.content.includes('dog') || msg.content.includes('DOG') || msg.content.includes('Dog')  ) {                 
        setTimeout(function(){ 
@@ -101,6 +105,12 @@ bot.on('messageCreate', (msg) => {
     bot.createMessage(msg.channel.id, 'just drop drag pet ez');  
 }, 500);
   }
+			
+	  if(msg.content.includes('have friend')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'like me');  
+}, 500);
+  }			
   
   if (msg.channel.id != '677876231609253914') {
 	  var x =(Math.floor((Math.random() * 10) + 1))
@@ -153,6 +163,12 @@ bot.on('messageCreate', (msg) => {
     bot.createMessage(msg.channel.id, 'i dont speak mafia');  
 }, 500);
   }
+			
+  	 if(msg.content.includes('t have life')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'same');  
+}, 500);
+  }			
 	
 	
 	if (msg.channel.id != '677876231609253914') {
