@@ -91,6 +91,11 @@ bot.on('messageCreate', (msg) => {
 }, 500);
   }
   
+if(msg.content.includes('ME')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'Ye');  
+}, 500);
+  }			
 
   if (msg.channel.id != '677876231609253914') {
   	 if(msg.content.includes('fortnite') || msg.content.includes('Fortnite') || msg.content.includes('Minecraft') || msg.content.includes('minecraft') || msg.content.includes('Terraria') || msg.content.includes('terraria') || msg.content.includes('LoL') || msg.content.includes('league of legends') || msg.content.includes('League of Legends') || msg.content.includes('League of legends')){                 
@@ -110,7 +115,8 @@ bot.on('messageCreate', (msg) => {
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'like me');  
 }, 500);
-  }			
+  }	
+		
   
   if (msg.channel.id != '677876231609253914') {
 	  var x =(Math.floor((Math.random() * 10) + 1))
