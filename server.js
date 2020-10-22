@@ -117,6 +117,11 @@ if(msg.content.includes('ME')) {
 }, 500);
   }	
 		
+  if(msg.content.includes('YOU')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'Nope you');  
+}, 500);
+  }	
   
   if (msg.channel.id != '677876231609253914') {
 	  var x =(Math.floor((Math.random() * 10) + 1))
