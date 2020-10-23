@@ -83,6 +83,12 @@ bot.on('messageCreate', (msg) => {
 }, 500);
   }}
 	
+  if (msg.member.id = '470582170151550977') {
+    if(msg.content.includes('hows drag') || msg.content.includes('HOWS DRAG') || msg.content.includes('Hows drag')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'YAH');  
+}, 500);
+  }}			
 	
 	
 	 if(msg.content.includes('@everyone') || msg.content.includes('@755098192038854686') || msg.content.includes('@!755098192038854686') || msg.content.includes('@!470582170151550977') || msg.content.includes('@470582170151550977')) {                 
@@ -231,7 +237,7 @@ if(msg.content.includes('ME')) {
        var x =(Math.floor((Math.random() * 100) + 1))
 	   setTimeout(function(){ 
 	   if (x==69)
-	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, yah, @ ping, fortnite, I\'m poor, animal, Brazil, angeli, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, have friend, pog, wanna do drag, suck, superior, donate to me, what drag');  }
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, yah, @ ping, fortnite, I\'m poor, animal, Brazil, angeli, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
