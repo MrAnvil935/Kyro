@@ -83,10 +83,10 @@ bot.on('messageCreate', (msg) => {
 }, 500);
   }}
 	
-  if (msg.member.id = '470582170151550977') {
+  if (msg.member.id == '470582170151550977') {
     if(msg.content.includes('hows drag') || msg.content.includes('HOWS DRAG') || msg.content.includes('Hows drag')) {                 
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'YAH');  
+    bot.createMessage(msg.channel.id, 'shut the fuck up');  
 }, 500);
   }}			
 	
