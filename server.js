@@ -83,14 +83,6 @@ bot.on('messageCreate', (msg) => {
 }, 500);
   }}
 	
-  if (msg.member.id == '521672404242792448') {
-    if(msg.content.includes('hows drag') || msg.content.includes('HOWS DRAG') || msg.content.includes('Hows drag')) {                 
-       setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'shut the fuck up');  
-}, 500);
-  }}			
-	
-	
 	 if(msg.content.includes('@everyone') || msg.content.includes('@755098192038854686') || msg.content.includes('@!755098192038854686') || msg.content.includes('@!470582170151550977') || msg.content.includes('@470582170151550977')) {                 
        setTimeout(function(){  
     bot.createMessage(msg.channel.id, 'bru');  
