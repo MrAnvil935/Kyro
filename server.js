@@ -84,7 +84,7 @@ bot.on('messageCreate', (msg) => {
   }}
 	
 	 if(msg.content.includes('@755098192038854686') || msg.content.includes('@!755098192038854686')) { 
-  var x =(Math.floor((Math.random() * 4) + 1))
+  var x =(Math.floor((Math.random() * 3) + 1))
        setTimeout(function(){  
 	if (x==3) {
 	bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/772883786517315613/772883815324319794/IMG_20201102_190332.jpg');}
