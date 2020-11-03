@@ -27,7 +27,7 @@ bot.on('messageCreate', (msg) => {
 		
 		else 
 		{	
-	var y =(Math.floor((Math.random() * 1000) + 1))	
+	var y =(Math.floor((Math.random() * 2000) + 1))	
 	if (y==97 || y==98 || y==99 || y==100)
 	   {bot.createMessage(msg.channel.id, 'I got drag pet');  }	
 			
