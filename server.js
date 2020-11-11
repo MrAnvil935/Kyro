@@ -31,7 +31,7 @@ bot.on('messageCreate', (msg) => {
 	if (y==97 || y==98 || y==99 || y==100)
 	   {bot.createMessage(msg.channel.id, 'I got drag pet');  }	
 			
-	var z =(Math.floor((Math.random() * 50) + 1))	
+	var z =(Math.floor((Math.random() * 3000) + 1))	
 	if (z==42)
 	   {bot.createMessage(msg.channel.id, 'CRAZY RARE DROP! (Real Life) (-420 Magic Find!)');  }
 		
