@@ -43,13 +43,13 @@ bot.on('messageCreate', (msg) => {
   
     else if (msg.channel.id != '677876231609253914') {
     if((msg.content === 't!cat')) {  
-  var c =(Math.floor((Math.random() * 200) + 1))            
+  var c =(Math.floor((Math.random() * 100) + 1))            
        setTimeout(function(){ 
 	   
-	     if (c==69 || c==100)
+	     if (c==69 || c==50)
 	   {bot.createMessage(msg.channel.id, 'CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT');  }
        
-	   else if (c>150) {
+	   else if (c>75) {
 	   bot.createMessage(msg.channel.id, 'CAAAT');  }
        
 	   else { bot.createMessage(msg.channel.id, 'CAT');}
@@ -61,16 +61,16 @@ bot.on('messageCreate', (msg) => {
    if(msg.content.includes('cata') || msg.content.includes('Cata') || msg.content.includes('dog') || msg.content.includes('Dog') || msg.content.includes('DOG') ) {}
    else {
    if (msg.channel.id != '677876231609253914') {	
-   var c =(Math.floor((Math.random() * 200) + 1))		
+   var c =(Math.floor((Math.random() * 100) + 1))		
        setTimeout(function(){ 
 	      
 		  if (c==10)
  {bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/755753210974830634/784850146104967208/kbvoro3xk7361.png');  }	
      
-	 if (c==69 || c==100)
+	 if (c==69 || c==50)
 	   {bot.createMessage(msg.channel.id, 'CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT');  }
      
-		   else if (c>150) 
+		   else if (c>75) 
 		   {bot.createMessage(msg.channel.id, 'CAAAT');  }
       
 	  else { bot.createMessage(msg.channel.id, 'CAT');}
