@@ -43,12 +43,14 @@ bot.on('messageCreate', (msg) => {
   
     else if (msg.channel.id != '677876231609253914') {
     if((msg.content === 't!cat')) {  
-              
+  var x =(Math.floor((Math.random() * 200) + 1))            
        setTimeout(function(){ 
-     if (x==69)
+if (x==10)
+ {bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/755753210974830634/784850146104967208/kbvoro3xk7361.png');  }	
+     if (x==69 || x==100)
 	   {bot.createMessage(msg.channel.id, 'CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT');  }
        else {
-	   if (x>75) {
+	   if (x>150) {
 	   bot.createMessage(msg.channel.id, 'CAAAT');  }
        else { bot.createMessage(msg.channel.id, 'CAT');}}
 }, 2500);
