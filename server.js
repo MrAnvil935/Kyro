@@ -47,13 +47,11 @@ bot.on('messageCreate', (msg) => {
        setTimeout(function(){ 
 	     if (x==69 || x==100)
 	   {bot.createMessage(msg.channel.id, 'CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT');  }
-       
-	  else
-       }if (x>150) {
+        else if (x>150) {
 	   bot.createMessage(msg.channel.id, 'CAAAT');  }
        else { bot.createMessage(msg.channel.id, 'CAT');}}
 }, 2500);
-  }}
+  }
 		
 	if ((msg.content != 't!cat')) { 	
 	if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') || msg.content.includes('cat')) {  
@@ -66,14 +64,13 @@ bot.on('messageCreate', (msg) => {
  {bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/755753210974830634/784850146104967208/kbvoro3xk7361.png');  }	
      if (x==69 || x==100)
 	   {bot.createMessage(msg.channel.id, 'CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT');  }
-       
-	   else {
-		   if (x>150) {
+     
+		   else if (x>150) {
 	   bot.createMessage(msg.channel.id, 'CAAAT');  }
        else { bot.createMessage(msg.channel.id, 'CAT');}}
 }, 500);
-	}}}}
-		
+	}}}
+	
 	if(msg.content.includes('got scammed')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'L');  
