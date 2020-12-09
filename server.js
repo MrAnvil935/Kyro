@@ -114,11 +114,12 @@ if(msg.content.includes('ME')) {
 
   if (msg.channel.id != '677876231609253914') {
   	 if(msg.content.includes('fortnite') || msg.content.includes('Fortnite') || msg.content.includes('Minecraft') || msg.content.includes('minecraft') || msg.content.includes('Terraria') || msg.content.includes('terraria') || msg.content.includes('LoL') || msg.content.includes('league of legends') || msg.content.includes('League of Legends') || msg.content.includes('League of legends')){                 
-    
-	   setTimeout(function(){ 
+    var t =(Math.floor((Math.random() * 3) + 1))
+	 if (t==2){
+    setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'brawlhalla better');  
 }, 500);
-  }}
+  }}}
 	
 	  if(msg.content.includes('m poor')) {                 
        setTimeout(function(){ 
