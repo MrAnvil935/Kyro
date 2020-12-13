@@ -83,6 +83,12 @@ bot.on('messageCreate', (msg) => {
 }, 500);
   }
   
+	if(msg.content.includes('test command 935')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'kd');  
+}, 500);
+  }			
+			
   if (msg.channel.id != '677876231609253914') {
     if(msg.content.includes('YAH') || msg.content.includes('yah') || msg.content.includes('Yah')) {                 
        setTimeout(function(){ 
