@@ -17,7 +17,7 @@ console.log("Ready!"); // Log "Ready!"
 bot.on('messageCreate', (msg) => {                     
     
 	
-	if (!msg.author.bot)
+	if (msg.user.id != '755098192038854686')
 	{
 		
 		
