@@ -141,6 +141,12 @@ if(msg.content.includes('ME')) {
 }, 500);
   }	
 		
+if (msg.author.id == '521672404242792448')	{	
+ setTimeout(function(){ 
+    bot.addMessageReaction(msg.channel.id, msg.id, "🤡")
+}, 500);		
+}
+			
   if(msg.content.includes('YOU')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'Nope you');  
