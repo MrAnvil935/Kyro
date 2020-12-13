@@ -83,9 +83,9 @@ bot.on('messageCreate', (msg) => {
 }, 500);
   }
   
-	if(msg.content.includes('test command 935')) {                 
+	if(msg.content.includes('is dropping') || msg.content.includes('m dropping')) {                 
        setTimeout(function(){ 
-    bot.addMessageReaction(msg.channel.id, msg.message.id, ":ribbon:")
+    bot.addMessageReaction(msg.channel.id, msg.id, "🎀")
 }, 500);
   }			
 			
@@ -96,6 +96,7 @@ bot.on('messageCreate', (msg) => {
 }, 500);
   }}
 	
+	  if (msg.channel.id != '777556071350403082') {
 	 if(msg.content.includes('@755098192038854686') || msg.content.includes('@!755098192038854686')) { 
   var x =(Math.floor((Math.random() * 3) + 1))
        setTimeout(function(){  
@@ -111,6 +112,7 @@ bot.on('messageCreate', (msg) => {
     bot.createMessage(msg.channel.id, 'bru');  
 }, 500);
   }
+	  }
   
 if(msg.content.includes('ME')) {                 
        setTimeout(function(){ 
