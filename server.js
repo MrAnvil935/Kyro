@@ -85,7 +85,7 @@ bot.on('messageCreate', (msg) => {
   
 	if(msg.content.includes('test command 935')) {                 
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'kd');  
+    bot.addMessageReaction(msg.channel.id, msg.message.id, ":ribbon:")
 }, 500);
   }			
 			
