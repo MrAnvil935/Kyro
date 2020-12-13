@@ -85,8 +85,8 @@ bot.on('messageCreate', (msg) => {
   
 	if(msg.content.includes('is dropping') || msg.content.includes('m dropping')) {                 
        setTimeout(function(){ 
-    bot.addMessageReaction(msg.channel.id, msg.id, "🎀")
-}, 2000);
+    bot.addMessageReaction(msg.channel.id, msg.id, "🍬")
+}, 3000);
   }			
 			
   if (msg.channel.id != '677876231609253914') {
