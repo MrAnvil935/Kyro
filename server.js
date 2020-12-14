@@ -147,7 +147,7 @@ if (msg.author.id == '521672404242792448')	{
 }, 500);		
 }
 
-if (msg.author.id == '772883786517315613')	{	
+if (msg.author.id == '771734443559878666')	{	
  setTimeout(function(){ 
     bot.addMessageReaction(msg.channel.id, msg.id, "🐋")
 }, 500);		
