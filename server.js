@@ -168,7 +168,7 @@ if (msg.author.id == '394489126310641664')	{
 }}
 
 if (msg.author.id == '670769970396790795')	{	
- var w =(Math.floor((Math.random() * 3) + 1))
+ var w =(Math.floor((Math.random() * 6) + 1))
 	if (w==2){
  setTimeout(function(){ 
     bot.addMessageReaction(msg.channel.id, msg.id, "trap:787809715417251856")
