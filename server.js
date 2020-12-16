@@ -30,10 +30,7 @@ bot.on('messageCreate', (msg) => {
 	var y =(Math.floor((Math.random() * 4000) + 1))	
 	if (y==97 || y==98 || y==99 || y==100)
 	   {bot.createMessage(msg.channel.id, 'I got drag pet');  }	
-			
-       var k =(Math.floor((Math.random() * 800) + 1))	
-	if (k==100)
-	   {bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/692723580118499349/788460581573230592/tenor.gif');  }			
+					
 			
 	var z =(Math.floor((Math.random() * 3000) + 1))	
 	if (z==42)
