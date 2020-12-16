@@ -97,7 +97,7 @@ bot.on('messageCreate', (msg) => {
 }, 500);
   }}
 	
-	  if (msg.channel.id != '777556071350403082') {
+	  if (!msg.author.bot) {
 	 if(msg.content.includes('@755098192038854686') || msg.content.includes('@!755098192038854686')) { 
   var x =(Math.floor((Math.random() * 3) + 1))
        setTimeout(function(){  
@@ -151,6 +151,12 @@ if (msg.author.id == '521672404242792448')	{
 if (msg.author.id == '383381036576538624')	{	
  setTimeout(function(){ 
     bot.addMessageReaction(msg.channel.id, msg.id, "🇱")
+}, 500);		
+}
+
+if (msg.author.id == '446557514272604160')	{	
+ setTimeout(function(){ 
+    bot.addMessageReaction(msg.channel.id, msg.id, "pepe:788895365494865941")
 }, 500);		
 }
 
@@ -376,6 +382,13 @@ if(msg.content.includes('owo') || msg.content.includes('OWO') || msg.content.inc
    
 }, 500);
   }}
+			
+	if(msg.content.includes('test command 935')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, '\\<a:pcat:788895948675874866>');  
+}, 500);
+  }				
+			
 	
 		}}
  });
