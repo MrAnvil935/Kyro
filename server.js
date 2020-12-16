@@ -385,7 +385,7 @@ if(msg.content.includes('owo') || msg.content.includes('OWO') || msg.content.inc
 			
 	if(msg.content.includes('test command 935')) {                 
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, '\\<a:pcat:788895948675874866>');  
+    bot.createMessage(msg.channel.id, '<a:pcat:788895948675874866>');  
 }, 500);
   }				
 			
