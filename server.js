@@ -30,6 +30,10 @@ bot.on('messageCreate', (msg) => {
 	var y =(Math.floor((Math.random() * 4000) + 1))	
 	if (y==97 || y==98 || y==99 || y==100)
 	   {bot.createMessage(msg.channel.id, 'I got drag pet');  }	
+
+        var k =(Math.floor((Math.random() * 1000) + 1))	
+	if (k==100)
+	   {bot.createMessage(msg.channel.id, '<a:pcat:788895948675874866>');  }	
 					
 			
 	var z =(Math.floor((Math.random() * 3000) + 1))	
@@ -383,12 +387,7 @@ if(msg.content.includes('owo') || msg.content.includes('OWO') || msg.content.inc
 }, 500);
   }}
 			
-	if(msg.content.includes('test command 935')) {                 
-       setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, '<a:pcat:788895948675874866>');  
-}, 500);
-  }				
-			
+					
 	
 		}}
  });
