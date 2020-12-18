@@ -31,8 +31,8 @@ bot.on('messageCreate', (msg) => {
 	if (y==97 || y==98 || y==99 || y==100)
 	   {bot.createMessage(msg.channel.id, 'I got drag pet');  }	
 
-        var k =(Math.floor((Math.random() * 1000) + 1))	
-	if (k==100)
+        var k =(Math.floor((Math.random() * 100) + 1))	
+	if (k==69)
 	   {bot.createMessage(msg.channel.id, '<a:pcat:788895948675874866>');  }	
 					
 			
