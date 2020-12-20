@@ -145,30 +145,6 @@ if(msg.content.includes('ME')) {
     bot.createMessage(msg.channel.id, 'like me');  
 }, 500);
   }	
-		
-if (msg.author.id == '521672404242792448')	{	
- setTimeout(function(){ 
-    bot.addMessageReaction(msg.channel.id, msg.id, "🤡")
-}, 500);		
-}
-
-if (msg.author.id == '383381036576538624')	{	
- setTimeout(function(){ 
-    bot.addMessageReaction(msg.channel.id, msg.id, "🇱")
-}, 500);		
-}
-
-if (msg.author.id == '446557514272604160')	{	
- setTimeout(function(){ 
-    bot.addMessageReaction(msg.channel.id, msg.id, "pepe:788895365494865941")
-}, 500);		
-}
-
-if (msg.author.id == '303234870451240960')	{	
- setTimeout(function(){ 
-    bot.addMessageReaction(msg.channel.id, msg.id, "hoe_thonk:754351845396185208")
-}, 500);		
-}
 
 if (msg.author.id == '394489126310641664')	{	
  var w =(Math.floor((Math.random() * 5) + 1))
