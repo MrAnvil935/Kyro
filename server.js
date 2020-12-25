@@ -125,7 +125,7 @@ if(msg.content.includes('ME')) {
 }, 500);
   }	
 			
-if(msg.content.includes('egrill') || msg.content.includes('Egrill') || msg.content.includes('EGRILL') msg.content.includes('egirl') || msg.content.includes('Egirl') || msg.content.includes('EGIRL')) {                 
+if(msg.content.includes('egrill') || msg.content.includes('Egrill') || msg.content.includes('EGRILL') || msg.content.includes('egirl') || msg.content.includes('Egirl') || msg.content.includes('EGIRL')) {                 
        setTimeout(function(){ 
    bot.addMessageReaction(msg.channel.id, msg.id, "egrill:792107202994372628")
 }, 500);
