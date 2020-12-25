@@ -125,11 +125,12 @@ if(msg.content.includes('ME')) {
 }, 500);
   }	
 
-if(msg.content.includes('egrill') || msg.content.includes('Egrill') || msg.content.includes('EGRILL')) {                 
+if ((msg.content != ':egrill:')) { 			
+if(msg.content.includes('egrill') || msg.content.includes('Egrill') || msg.content.includes('EGRILL') msg.content.includes('egirl') || msg.content.includes('Egirl') || msg.content.includes('EGIRL')) {                 
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/677876231609253914/792103917181468702/grill.png ');  
+   bot.addMessageReaction(msg.channel.id, msg.id, "egrill:792107202994372628"); 
 }, 500);
-  }					
+  }	}				
 
   if (msg.channel.id != '677876231609253914') {
   	 if(msg.content.includes('fortnite') || msg.content.includes('Fortnite') || msg.content.includes('Minecraft') || msg.content.includes('minecraft') || msg.content.includes('Terraria') || msg.content.includes('terraria') || msg.content.includes('LoL') || msg.content.includes('league of legends') || msg.content.includes('League of Legends') || msg.content.includes('League of legends')){                 
