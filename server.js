@@ -92,7 +92,7 @@ bot.on('messageCreate', (msg) => {
        setTimeout(function(){ 
     bot.addMessageReaction(msg.channel.id, msg.id, "🍬")
 }, 3000);
-  }			
+  }					
 			
   if (msg.channel.id != '677876231609253914') {
     if(msg.content.includes('YAH') || msg.content.includes('yah') || msg.content.includes('Yah')) {                 
@@ -123,7 +123,13 @@ if(msg.content.includes('ME')) {
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'Ye');  
 }, 500);
-  }			
+  }	
+
+if(msg.content.includes('egrill') || msg.content.includes('Egrill') || msg.content.includes('EGRILL')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/677876231609253914/792103917181468702/grill.png ');  
+}, 500);
+  }					
 
   if (msg.channel.id != '677876231609253914') {
   	 if(msg.content.includes('fortnite') || msg.content.includes('Fortnite') || msg.content.includes('Minecraft') || msg.content.includes('minecraft') || msg.content.includes('Terraria') || msg.content.includes('terraria') || msg.content.includes('LoL') || msg.content.includes('league of legends') || msg.content.includes('League of Legends') || msg.content.includes('League of legends')){                 
