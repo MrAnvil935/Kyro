@@ -124,13 +124,12 @@ if(msg.content.includes('ME')) {
     bot.createMessage(msg.channel.id, 'Ye');  
 }, 500);
   }	
-
-if ((msg.content != ':egrill:')) { 			
+			
 if(msg.content.includes('egrill') || msg.content.includes('Egrill') || msg.content.includes('EGRILL') msg.content.includes('egirl') || msg.content.includes('Egirl') || msg.content.includes('EGIRL')) {                 
        setTimeout(function(){ 
-   bot.addMessageReaction(msg.channel.id, msg.id, "egrill:792107202994372628"); 
+   bot.addMessageReaction(msg.channel.id, msg.id, "egrill:792107202994372628")
 }, 500);
-  }	}				
+  }					
 
   if (msg.channel.id != '677876231609253914') {
   	 if(msg.content.includes('fortnite') || msg.content.includes('Fortnite') || msg.content.includes('Minecraft') || msg.content.includes('minecraft') || msg.content.includes('Terraria') || msg.content.includes('terraria') || msg.content.includes('LoL') || msg.content.includes('league of legends') || msg.content.includes('League of Legends') || msg.content.includes('League of legends')){                 
@@ -283,7 +282,7 @@ if (msg.author.id == '670769970396790795')	{
        var x =(Math.floor((Math.random() * 100) + 1))
 	   setTimeout(function(){ 
 	   if (x==69)
-	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, yah, @ ping, fortnite, I\'m poor, animal, Brazil, angeli, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, donate to me, what drag');  }
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, yah, @ ping, egirl, fortnite, I\'m poor, animal, Brazil, angeli, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
