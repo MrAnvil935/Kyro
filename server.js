@@ -334,14 +334,15 @@ if (msg.author.id == '670769970396790795')	{
   }}
   
    if(msg.content.includes('what drag') || msg.content.includes('What drag')) {}			
-   else (msg.content.includes('Superior') || msg.content.includes('superior') || msg.content.includes('SUPERIOR')) {                 
+   else {
+if (msg.content.includes('Superior') || msg.content.includes('superior') || msg.content.includes('SUPERIOR')) {                 
        var x =(Math.floor((Math.random() * 10) + 1))
 	  if (x<4) {
 	   if (msg.channel.id != '677876231609253914') {	
 	   setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'superior? warp meee');  
 }, 500);
-	  }}}
+	  }}}}
 
   if (msg.channel.id != '677876231609253914') {
 if(msg.content.includes('owo') || msg.content.includes('OWO') || msg.content.includes('OwO') || msg.content.includes('uwu') || msg.content.includes('UWU') || msg.content.includes('UwU'))       {         
