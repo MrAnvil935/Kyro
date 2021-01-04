@@ -333,7 +333,7 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);
   }}
   
-   if else (msg.content.includes('Superior') || msg.content.includes('superior') || msg.content.includes('SUPERIOR')) {                 
+   if (msg.content.includes('Superior') || msg.content.includes('superior') || msg.content.includes('SUPERIOR')) {                 
        var x =(Math.floor((Math.random() * 10) + 1))
 	  if (x<4) {
 	   if (msg.channel.id != '677876231609253914') {	
