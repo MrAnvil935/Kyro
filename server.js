@@ -309,18 +309,9 @@ if (msg.author.id == '670769970396790795')	{
     bot.createMessage(msg.channel.id, 'https://vignette.wikia.nocookie.net/hypixel-skyblock/images/9/99/Ender_Armor.png');  
 }, 500);
   }
-  
-      if(msg.content.includes('Superior') || msg.content.includes('superior') || msg.content.includes('SUPERIOR')) {                 
-       var x =(Math.floor((Math.random() * 10) + 1))
-	  if (x<4) {
-	   if (msg.channel.id != '677876231609253914') {	
-	   setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'superior? warp meee');  
-}, 500);
-	  }}}
 
   
-  if else (msg.channel.id != '677876231609253914') {
+  if (msg.channel.id != '677876231609253914') {
       if(msg.content.includes('what drag') || msg.content.includes('What drag')) {     
  var x =(Math.floor((Math.random() * 100) + 1))	
        setTimeout(function(){ 
@@ -342,6 +333,15 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);
   }}
   
+   if else (msg.content.includes('Superior') || msg.content.includes('superior') || msg.content.includes('SUPERIOR')) {                 
+       var x =(Math.floor((Math.random() * 10) + 1))
+	  if (x<4) {
+	   if (msg.channel.id != '677876231609253914') {	
+	   setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'superior? warp meee');  
+}, 500);
+	  }}}
+
   if (msg.channel.id != '677876231609253914') {
 if(msg.content.includes('owo') || msg.content.includes('OWO') || msg.content.includes('OwO') || msg.content.includes('uwu') || msg.content.includes('UWU') || msg.content.includes('UwU'))       {         
        var x =(Math.floor((Math.random() * 10) + 1))
