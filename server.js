@@ -313,7 +313,10 @@ if (msg.author.id == '670769970396790795')	{
   
   if (msg.channel.id != '677876231609253914') {
       if(msg.content.includes('what drag') || msg.content.includes('What drag')) {     
- var x =(Math.floor((Math.random() * 100) + 1))	
+if (msg.author.id == '470582170151550977') {
+	bot.createMessage(msg.channel.id, 'superior :D'}
+else {			  
+	      var x =(Math.floor((Math.random() * 100) + 1))	
        setTimeout(function(){ 
        if (x==1 || x==2 || x==3 || x==4 || x==5 || x==6 || x==7 || x==8 || x==9 || x==10 || x==11 || x==12 || x==13 || x==14 || x==15 || x==16)
 	   {bot.createMessage(msg.channel.id, 'protector');  }
@@ -331,7 +334,7 @@ if (msg.author.id == '670769970396790795')	{
 	   {bot.createMessage(msg.channel.id, 'superior :D');  }
       
 }, 500);
-  }}
+  }}}
   
    if(msg.content.includes('what drag') || msg.content.includes('What drag')) {}			
    else {
