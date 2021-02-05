@@ -126,7 +126,7 @@ bot.on('messageCreate', (msg) => {
   }
 	  }
   
-if(msg.content.includes('ME')) {                 
+if(msg.content.startsWith('ME')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'Ye');  
 }, 500);
@@ -175,7 +175,7 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);		
 }}
 			
-  if(msg.content.includes('YOU')) {                 
+  if(msg.content.startsWith('YOU')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'Nope you');  
 }, 500);
