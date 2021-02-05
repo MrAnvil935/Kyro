@@ -63,7 +63,7 @@ bot.on('messageCreate', (msg) => {
 		
 	if ((msg.content != 't!cat')) { 	
 	if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') || msg.content.includes('cat')) {  
-   if(msg.content.includes('cata') || msg.content.includes('Cata') || msg.content.includes('dog') || msg.content.includes('Dog') || msg.content.includes('DOG') ) {}
+   if(msg.content.toLowerCase().includes('cata') || msg.content.toLowerCase().includes('dog') ) {}
    else {
    if (msg.channel.id != '677876231609253914') {	
    var c =(Math.floor((Math.random() * 100) + 1))		
@@ -82,27 +82,27 @@ bot.on('messageCreate', (msg) => {
 }, 500);
 	}}}}
 	
-	if(msg.content.includes('got scammed')) {                 
+	if(msg.content.toLowerCase().includes('got scammed')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'L');  
 }, 500);
   }
   
-	if(msg.content.includes('is dropping') || msg.content.includes('m dropping')) {                 
+	if(msg.content.toLowerCase().includes('is dropping') || msg.content.toLowerCase().includes('m dropping')) {                 
        setTimeout(function(){ 
     bot.addMessageReaction(msg.channel.id, msg.id, "🍬")
 }, 3000);
   }					
 			
   if (msg.channel.id != '677876231609253914') {
-    if(msg.content.includes('YAH') || msg.content.includes('yah') || msg.content.includes('Yah')) {                 
+    if(msg.content.toLowerCase().includes('yah')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'YAH');  
 }, 500);
   }}
 
 
-   if(msg.content.includes('stfu Kyro') || msg.content.includes('stfu kyro') || msg.content.includes('Stfu Kyro') || msg.content.includes('Stfu kyro') || msg.content.includes('STFU Kyro') || msg.content.includes('STFU KYRO') || msg.content.includes('shut up Kyro') || msg.content.includes('Shut up Kyro') || msg.content.includes('shut up kyro') || msg.content.includes('fuck up Kyro') || msg.content.includes('fuck up kyro')) {                 
+   if(msg.content.toLowerCase().includes('stfu kyro') ||  msg.content.includes('shut up kyro') || msg.content.includes('fuck up kyro')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'no');  
 }, 500);
@@ -132,14 +132,14 @@ if(msg.content.includes('ME')) {
 }, 500);
   }	
 			
-if(msg.content.includes('egrill') || msg.content.includes('Egrill') || msg.content.includes('EGRILL') || msg.content.includes('egirl') || msg.content.includes('Egirl') || msg.content.includes('EGIRL')) {                 
+if(msg.content.toLowerCase().includes('egrill') || msg.content.toLowerCase().includes('egirl')) {                 
        setTimeout(function(){ 
    bot.addMessageReaction(msg.channel.id, msg.id, "egrill:792107202994372628")
 }, 500);
   }					
 
   if (msg.channel.id != '677876231609253914') {
-  	 if(msg.content.includes('fortnite') || msg.content.includes('Fortnite') || msg.content.includes('Minecraft') || msg.content.includes('minecraft') || msg.content.includes('Terraria') || msg.content.includes('terraria') || msg.content.includes('LoL') || msg.content.includes('league of legends') || msg.content.includes('League of Legends') || msg.content.includes('League of legends')){                 
+  	 if(msg.content.toLowerCase().includes('fortnite') || msg.content.toLowerCase().includes('minecraft') ||  msg.content.toLowerCase().includes('terraria') || msg.content.includes('LoL') || msg.content.toLowerCase().includes('league of legends')){                 
     var t =(Math.floor((Math.random() * 3) + 1))
 	 if (t==2){
     setTimeout(function(){ 
@@ -147,13 +147,13 @@ if(msg.content.includes('egrill') || msg.content.includes('Egrill') || msg.conte
 }, 500);
   }}}
 	
-	  if(msg.content.includes('m poor')) {                 
+	  if(msg.content.toLowerCase().includes('m poor')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'just drop drag pet ez');  
 }, 500);
   }
 			
-	  if(msg.content.includes('have friend')) {                 
+	  if(msg.content.toLowerCase().includes('have friend')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'like me');  
 }, 500);
@@ -184,20 +184,20 @@ if (msg.author.id == '670769970396790795')	{
   if (msg.channel.id != '677876231609253914') {
 	  var x =(Math.floor((Math.random() * 10) + 1))
 	  if (x<4) {
-  	  if(msg.content.includes('animal') || msg.content.includes('Animal')) {                 
+  	  if(msg.content.toLowerCase().includes('animal')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'cats>everything');  
 }, 500);
   }}}
   
   if (msg.channel.id != '677876231609253914') {
-    if(msg.content.includes('BRAZIL') || msg.content.includes('brazil') || msg.content.includes('Brazil')) {                 
+    if(msg.content.toLowerCase().includes('brazil')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'BRAZIL');  
 }, 500);
   }}
 	
-	if(msg.content.includes('Angeli') || msg.content.includes('angeli') || msg.content.includes('ANGELI')) {                 
+	if(msg.content.toLowerCase().includes('angeli')) {                 
        	  var x =(Math.floor((Math.random() * 10) + 1))
 	  if (x<3) {
 	   setTimeout(function(){ 
@@ -205,7 +205,7 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);
 	}}
 			
-	if(msg.content.includes('Brawlhalla') || msg.content.includes('brawlhalla') || msg.content.includes('BRAWLHALLA')) {                 
+	if(msg.content.toLowerCase().includes('brawlhalla')) {                 
 	   setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'Super Hentai better');  
 }, 500);
@@ -214,32 +214,32 @@ if (msg.author.id == '670769970396790795')	{
   if (msg.channel.id != '677876231609253914') {
 	  var x =(Math.floor((Math.random() * 10) + 1))
 	  if (x<3) {
-  	if(msg.content.includes('god') || msg.content.includes('God') || msg.content.includes('GOD')) {                 
+  	if(msg.content.toLowerCase().includes('god')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'I\'m god of cats');  
 }, 500);
   }}}
 	
-	if(msg.content.includes('fragile ego')) {                 
+	if(msg.content.toLowerCase().includes('fragile ego')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'look whos talking');  
 }, 500);
   }
 	
    if (msg.channel.id != '677876231609253914') {	
-	if(msg.content.includes('shadow legends') || msg.content.includes('Shadow Legends') || msg.content.includes('RAID')) {                 
+	if(msg.content.toLowerCase().includes('shadow legends') || msg.content.includes('RAID')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'RAID: Shadow Legends™ is an immersive online experience with everything you\'d expect from a brand new RPG title. It\'s got an amazing storyline, awesome 3D graphics, giant boss fights, PVP battles, and hundreds of never before seen champions to collect and customize.I never expected to get this level of performance out of a mobile game. Look how crazy the level of detail is on these champions!RAID: Shadow Legends™ is getting big real fast, so you should definitely get in early. Starting now will give you a huge head start. There\'s also an upcoming Special Launch Tournament with crazy prizes! And not to mention, this game is absolutely free!So go ahead and check out the video description to find out more about RAID: Shadow Legends™. There, you will find a link to the store page and a special code to unlock all sorts of goodies. Using the special code, you can get 50,000 Silver immediately, and a FREE Epic Level Champion as part of the new players program, courtesy of course of the RAID: Shadow Legends™ devs.');  
 }, 500);
   }} 
   
-  	 if(msg.content.includes('italy') || msg.content.includes('Italy')) {                 
+  	 if(msg.content.toLowerCase().includes('italy')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'i dont speak mafia');  
 }, 500);
   }
 			
-  	 if(msg.content.includes('t have life')) {                 
+  	 if(msg.content.toLowerCase().includes('t have life')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'same');  
 }, 500);
@@ -247,7 +247,7 @@ if (msg.author.id == '670769970396790795')	{
 	
 	
 	if (msg.channel.id != '677876231609253914') {
-	if(msg.content.includes('TNTnearchos')) {                 
+	if(msg.content.toLowerCase().includes('tntnearchos')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'haha autoclickr');  
 }, 500);
@@ -256,14 +256,14 @@ if (msg.author.id == '670769970396790795')	{
   if (msg.channel.id != '677876231609253914') {
 	  var x =(Math.floor((Math.random() * 10) + 1))
 	  if (x<6) {
-  	if(msg.content.includes('boomer') || msg.content.includes('Boomer') || msg.content.includes('BOOMER')) {                 
+  	if(msg.content.toLowerCase().includes('boomer')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'ok boomer');  
 }, 500);
   }}}
   
   if (msg.channel.id != '677876231609253914') {
-    if(msg.content.includes('vnj') || msg.content.includes('Vnj') || msg.content.includes('VNJ')) {                 
+    if(msg.content.toLowerCase().includes('vnj')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, ':clown:');  
 }, 500);
@@ -272,7 +272,7 @@ if (msg.author.id == '670769970396790795')	{
   if (msg.channel.id != '677876231609253914') {
 	  var y =(Math.floor((Math.random() * 10) + 1))
 	  if (y<6) {
-    if(msg.content.includes('pog') || msg.content.includes('Pog') || msg.content.includes('POG')) {     
+    if(msg.content.toLowerCase().includes('pog')) {     
  var x =(Math.floor((Math.random() * 100) + 1))	
        setTimeout(function(){ 
        if (x==69)
@@ -296,7 +296,7 @@ if (msg.author.id == '670769970396790795')	{
 	}}
   
   
-  	if(msg.content.includes('wanna do drag') || msg.content.includes('Wanna do drag') ) {                 
+  	if(msg.content.toLowerCase().includes('wanna do drag')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'lemme start my macro');  
 }, 500);
@@ -305,13 +305,13 @@ if (msg.author.id == '670769970396790795')	{
   if (msg.channel.id != '677876231609253914') {
 	  var x =(Math.floor((Math.random() * 10) + 1))
 	  if (x<6) {
-    if(msg.content.includes('suck') || msg.content.includes('SUCK')) {                 
+    if(msg.content.toLowerCase().includes('suck')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'no u');  
 }, 500);
   }}}
   
-     if(msg.content.includes('donate to me') || msg.content.includes('Donate to me')) {                 
+     if(msg.content.toLowerCase().includes('donate to me')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'https://vignette.wikia.nocookie.net/hypixel-skyblock/images/9/99/Ender_Armor.png');  
 }, 500);
@@ -319,7 +319,7 @@ if (msg.author.id == '670769970396790795')	{
 
   
   if (msg.channel.id != '677876231609253914') {
-      if(msg.content.includes('what drag') || msg.content.includes('What drag')) {     
+      if(msg.content.toLowerCase().includes('what drag')) {     
 if (msg.author.id == '470582170151550977') {
 	bot.createMessage(msg.channel.id, 'superior :D')}
 else {			  
@@ -343,9 +343,9 @@ else {
 }, 500);
   }}}
   
-   if(msg.content.includes('what drag') || msg.content.includes('What drag')) {}			
+   if(msg.content.toLowerCase().includes('what drag')) {}			
    else {
-if (msg.content.includes('Superior') || msg.content.includes('superior') || msg.content.includes('SUPERIOR')) {                 
+if (msg.content.toLowerCase().includes('superior')) {                 
        var x =(Math.floor((Math.random() * 10) + 1))
 	  if (x<4) {
 	   if (msg.channel.id != '677876231609253914') {	
@@ -355,7 +355,7 @@ if (msg.content.includes('Superior') || msg.content.includes('superior') || msg.
 	  }}}}
 
   if (msg.channel.id != '677876231609253914') {
-if(msg.content.includes('owo') || msg.content.includes('OWO') || msg.content.includes('OwO') || msg.content.includes('uwu') || msg.content.includes('UWU') || msg.content.includes('UwU'))       {         
+if(msg.content.toLowerCase().includes('owo') || msg.content.toLowerCase().includes('uwu'))       {         
        var x =(Math.floor((Math.random() * 10) + 1))
 	   setTimeout(function(){ 
 	   if (x==1)
