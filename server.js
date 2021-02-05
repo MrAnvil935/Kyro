@@ -100,6 +100,13 @@ bot.on('messageCreate', (msg) => {
     bot.createMessage(msg.channel.id, 'YAH');  
 }, 500);
   }}
+
+
+   if(msg.content.includes('stfu Kyro') || msg.content.includes('stfu kyro') || msg.content.includes('Stfu Kyro') || msg.content.includes('Stfu kyro') || msg.content.includes('STFU Kyro') || msg.content.includes('STFU KYRO') || msg.content.includes('shut up Kyro') || msg.content.includes('Shut up Kyro') || msg.content.includes('shut up kyro') || msg.content.includes('fuck up Kyro') || msg.content.includes('fuck up kyro')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'no');  
+}, 500);
+  }
 	
 	  if (!msg.author.bot) {
 	 if(msg.content.includes('@755098192038854686') || msg.content.includes('@!755098192038854686')) { 
@@ -282,7 +289,7 @@ if (msg.author.id == '670769970396790795')	{
        var k =(Math.floor((Math.random() * 100) + 1))
 	   setTimeout(function(){ 
 	   if (k==69)
-	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, yah, @ ping, egirl, fortnite, I\'m poor, animal, Brazil, angeli, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, donate to me, what drag');  }
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, yah, @ ping, egirl, fortnite, I\'m poor, animal, Brazil, angeli, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, stfu Kyro, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
