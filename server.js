@@ -40,7 +40,7 @@ bot.on('messageCreate', (msg) => {
 	if (z==42)
 	   {bot.createMessage(msg.channel.id, 'CRAZY RARE DROP! (Real Life) (-420 Magic Find!)');  }
 		
-	if(msg.content.includes('dog') || msg.content.includes('DOG') || msg.content.includes('Dog')  ) {                 
+	if(msg.content.toLowerCase().includes('dog')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'cat > dog');   
 }, 500);
@@ -62,7 +62,7 @@ bot.on('messageCreate', (msg) => {
 	}}
 		
 	if ((msg.content != 't!cat')) { 	
-	if(msg.content.includes('c a t') || msg.content.includes('Cat')|| msg.content.includes('CAT') || msg.content.includes('cat')) {  
+	if(msg.content.toLowerCase().includes('c a t') || msg.content.toLowerCase().includes('cat')) {  
    if(msg.content.toLowerCase().includes('cata') || msg.content.toLowerCase().includes('dog') ) {}
    else {
    if (msg.channel.id != '677876231609253914') {	
