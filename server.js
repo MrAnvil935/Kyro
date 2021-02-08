@@ -102,7 +102,7 @@ bot.on('messageCreate', (msg) => {
   }}
 
 
-   if(msg.content.toLowerCase().includes('stfu kyro') ||  msg.content.includes('shut up kyro') || msg.content.includes('fuck up kyro')) {                 
+   if(msg.content.toLowerCase().includes('stfu kyro') ||  msg.content.toLowerCase().includes('shut up kyro') || msg.content.toLowerCase().includes('fuck up kyro')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'no');  
 }, 500);
