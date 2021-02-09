@@ -62,7 +62,7 @@ bot.on('messageCreate', (msg) => {
 	}}
 		
 	if ((msg.content != 't!cat')) { 	
-	if(msg.content.toLowerCase().includes('c a t') || msg.content.toLowerCase().includes('cat')) {  
+	if(msg.content.toLowerCase().includes('c a t') || msg.content.toLowerCase().includes(' cat') || msg.content.toLowerCase().includes(' cats') || msg.content.toLowerCase().startsWith('cat') || msg.content.toLowerCase().startsWith('cats')) {  
    if(msg.content.toLowerCase().includes('cata') || msg.content.toLowerCase().includes('dog') ) {}
    else {
    if (msg.channel.id != '677876231609253914') {	
@@ -359,7 +359,7 @@ if (msg.content.toLowerCase().includes('superior')) {
 	  }}}}
 
   if (msg.channel.id != '677876231609253914') {
-if(msg.content.toLowerCase().includes(' owo') || msg.content.toLowerCase().includes(' uwu') || msg.content.toLowerCase().startsWith('owo') || msg.content.toLowerCase().startsWith('uwu'))       {         
+if(msg.content.toLowerCase().includes('owo') || msg.content.toLowerCase().includes('uwu'))       {         
        var x =(Math.floor((Math.random() * 10) + 1))
 	   setTimeout(function(){ 
 	   if (x==1)
