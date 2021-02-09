@@ -199,7 +199,7 @@ if (msg.author.id == '670769970396790795')	{
 	
 	if(msg.content.toLowerCase().includes('angeli')) {                 
        	  var x =(Math.floor((Math.random() * 10) + 1))
-	  if (x<3) {
+	  if (x<5) {
 	   setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'ANGELI is DEAD');  
 }, 500);
