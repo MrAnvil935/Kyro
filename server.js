@@ -321,6 +321,12 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);
   }
 
+     if(msg.content.toLowerCase().includes('macro')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/756401543397245018/808795891192299550/angeli.png');  
+}, 500);
+  }
+
   
   if (msg.channel.id != '677876231609253914') {
       if(msg.content.toLowerCase().includes('what drag')) {     
