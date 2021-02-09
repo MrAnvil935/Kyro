@@ -245,7 +245,11 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);
   }			
 	
-	
+  	if(msg.content.toLowerCase().includes('anime bad')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'you bad');  
+}, 500);
+  }
 	if (msg.channel.id != '677876231609253914') {
 	if(msg.content.toLowerCase().includes('tntnearchos')) {                 
        setTimeout(function(){ 
@@ -289,7 +293,7 @@ if (msg.author.id == '670769970396790795')	{
        var k =(Math.floor((Math.random() * 100) + 1))
 	   setTimeout(function(){ 
 	   if (k==69)
-	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, yah, @ ping, egirl, fortnite, I\'m poor, animal, Brazil, angeli, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, stfu Kyro, donate to me, what drag');  }
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, yah, @ ping, egirl, fortnite, I\'m poor, animal, Brazil, angeli, anime bad, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, stfu Kyro, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
