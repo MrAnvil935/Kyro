@@ -359,7 +359,7 @@ if (msg.content.toLowerCase().includes('superior')) {
 	  }}}}
 
   if (msg.channel.id != '677876231609253914') {
-if(msg.content.toLowerCase().includes('owo') || msg.content.toLowerCase().includes('uwu'))       {         
+if(msg.content.toLowerCase().includes(' owo') || msg.content.toLowerCase().includes(' uwu') || msg.content.toLowerCase().startsWith('owo') || msg.content.toLowerCase().startsWith('uwu'))       {         
        var x =(Math.floor((Math.random() * 10) + 1))
 	   setTimeout(function(){ 
 	   if (x==1)
