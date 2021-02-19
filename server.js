@@ -392,7 +392,11 @@ if(msg.content.toLowerCase().includes('owo') || msg.content.toLowerCase().includ
 }, 500);
   }}
 			
-					
+if(msg.content.startsWith('k_temp_command')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, '_ _\n\n _ _');  
+}, 500);
+  }					
 	
 		}}
  });
