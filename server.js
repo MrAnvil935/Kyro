@@ -167,6 +167,14 @@ if (msg.author.id == '394489126310641664')	{
 }, 500);		
 }}
 
+if (msg.author.id == '666000579692331018')	{	
+ var w =(Math.floor((Math.random() * 5) + 1))
+	if (w==3){
+ setTimeout(function(){ 
+    bot.addMessageReaction(msg.channel.id, msg.id, "🏳️‍🌈")
+}, 500);		
+}}
+
 if (msg.author.id == '670769970396790795')	{	
  var w =(Math.floor((Math.random() * 6) + 1))
 	if (w==2){
