@@ -205,7 +205,7 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);
   }}
 	
-	if(msg.content.toLowerCase().includes('angeli')) {                 
+	if(msg.content.toLowerCase().startsWith('angeli') || msg.content.toLowerCase().includes(' angeli')) {                 
        	  var x =(Math.floor((Math.random() * 10) + 1))
 	  if (x<5) {
 	   setTimeout(function(){ 
