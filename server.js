@@ -313,6 +313,12 @@ if (msg.author.id == '670769970396790795')	{
     bot.createMessage(msg.channel.id, 'lemme start my macro');  
 }, 500);
   }
+			
+    if(msg.content.toLowerCase().includes(' puta') || msg.content.toLowerCase().startsWith('puta')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'no u');  
+}, 500);
+  }			
   
   if (msg.channel.id != '677876231609253914') {
 	  var x =(Math.floor((Math.random() * 10) + 1))
@@ -418,10 +424,6 @@ bot.createMessage(msg.channel.id, '\n\n_ _\n\n_ _\n\n_ _\n\n_ _\n\n_ _\n\n_ _\n\
  });
 
  
-    if(msg.content.toLowerCase().includes(' puta') || msg.content.toLowerCase().startsWith('puta')) {                 
-       setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'no u');  
-}, 500);
-  }
+
  
 bot.connect(); 
