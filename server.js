@@ -417,11 +417,11 @@ bot.createMessage(msg.channel.id, '\n\n_ _\n\n_ _\n\n_ _\n\n_ _\n\n_ _\n\n_ _\n\
 		}}
  });
 
-  if (msg.channel.id == '711193679657697350') {
+ 
     if(msg.content.toLowerCase().includes(' puta') || msg.content.toLowerCase().startsWith('puta')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'no u');  
 }, 500);
-  }}
+  }
  
 bot.connect(); 
