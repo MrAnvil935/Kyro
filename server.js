@@ -90,7 +90,7 @@ bot.on('messageCreate', (msg) => {
   
 	if(msg.content.toLowerCase().includes('is dropping') || msg.content.toLowerCase().includes('m dropping')) {                 
        setTimeout(function(){ 
-    bot.addMessageReaction(msg.channel.id, msg.id, "🍬")
+    bot.addMessageReaction(msg.channel.id, msg.id, "TrolleadorCara:792338470898499584")
 }, 3000);
   }					
 			
