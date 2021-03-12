@@ -110,9 +110,11 @@ bot.on('messageCreate', (msg) => {
 	
 	  if (!msg.author.bot) {
 	 if(msg.content.includes('@755098192038854686') || msg.content.includes('@!755098192038854686')) { 
-  var x =(Math.floor((Math.random() * 3) + 1))
+  var p =(Math.floor((Math.random() * 5) + 1))
        setTimeout(function(){  
-	if (x==3) {
+	if (p==4) {
+	bot.createMessage(msg.channel.id, 'fuck off with pings');}
+	if (p==3) {
 	bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/772883786517315613/772883815324319794/IMG_20201102_190332.jpg');}
 	else {       
     bot.createMessage(msg.channel.id, 'bru');  }
