@@ -114,10 +114,11 @@ bot.on('messageCreate', (msg) => {
        setTimeout(function(){  
 	if (p==4) {
 	bot.createMessage(msg.channel.id, 'fuck off with pings');}
-	if (p==3) {
+	else {
+        if (p==3) {
 	bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/772883786517315613/772883815324319794/IMG_20201102_190332.jpg');}
 	else {       
-    bot.createMessage(msg.channel.id, 'bru');  }
+    bot.createMessage(msg.channel.id, 'bru');  }}
 }, 500);
   }			
 			
