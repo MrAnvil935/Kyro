@@ -39,6 +39,10 @@ bot.on('messageCreate', (msg) => {
 	var z =(Math.floor((Math.random() * 3000) + 1))	
 	if (z==42)
 	   {bot.createMessage(msg.channel.id, 'CRAZY RARE DROP! (Real Life) (-420 Magic Find!)');  }
+
+	var m =(Math.floor((Math.random() * 2000) + 1))	
+	if (m==42)
+	   {bot.createMessage(msg.channel.id, 'k');  }
 		
 	if(msg.content.toLowerCase().includes('dog')) {                 
        setTimeout(function(){ 
