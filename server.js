@@ -35,9 +35,10 @@ bot.on('messageCreate', (msg) => {
 	if (k==69)
 	   {bot.createMessage(msg.channel.id, '<a:pcat:788895948675874866>');  }	
 
-        var j =(Math.floor((Math.random() * 1600) + 1))	
+	if (msg.channel.id != '806105660722774016') {		
+        var j =(Math.floor((Math.random() * 1000) + 1))	
 	if (j==69)
-	   {bot.createMessage(msg.channel.id, 'https://youtu.be/BDriZtSFKck');  }
+	   {bot.createMessage(msg.channel.id, 'https://youtu.be/BDriZtSFKck');  }}
 					
 			
 	var z =(Math.floor((Math.random() * 3000) + 1))	
