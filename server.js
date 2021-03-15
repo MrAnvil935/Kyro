@@ -259,6 +259,12 @@ if (msg.author.id == '670769970396790795')	{
     bot.createMessage(msg.channel.id, 'i dont speak mafia');  
 }, 500);
   }
+
+  	 if(msg.content.toLowerCase().includes('toyota')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/617120220661678080/819760815120711720/Toyota144P_1.mp4');  
+}, 500);
+  }
 			
   	 if(msg.content.toLowerCase().includes('t have life')) {                 
        setTimeout(function(){ 
@@ -314,7 +320,7 @@ if (msg.author.id == '670769970396790795')	{
        var k =(Math.floor((Math.random() * 100) + 1))
 	   setTimeout(function(){ 
 	   if (k==69)
-	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, @ ping, macro, egirl, fortnite, I\'m poor, animal, Brazil, angeli, anime bad, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, stfu Kyro, donate to me, what drag');  }
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, @ ping, macro, egirl, toyota,fortnite, I\'m poor, animal, Brazil, angeli, anime bad, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, stfu Kyro, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
