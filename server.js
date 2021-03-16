@@ -270,12 +270,13 @@ if (msg.author.id == '670769970396790795')	{
     bot.createMessage(msg.channel.id, 'i dont speak mafia');  
 }, 500);
   }
-
+ var toyota =(Math.floor((Math.random() * 3) + 1))	
+	if (toyota==2) {
   	 if(msg.content.toLowerCase().includes('toyota')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/617120220661678080/819760815120711720/Toyota144P_1.mp4');  
 }, 500);
-  }
+  }}
 			
   	 if(msg.content.toLowerCase().includes('t have life')) {                 
        setTimeout(function(){ 
