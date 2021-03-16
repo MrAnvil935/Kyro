@@ -401,7 +401,7 @@ if (msg.content.toLowerCase().includes('superior')) {
     bot.createMessage(msg.channel.id, 'superior? warp meee');  
 }, 500);
 	  }}}}
-
+if (msg.author.id != '408785106942164992')	{
   if (msg.channel.id != '677876231609253914') {
 if(msg.content.toLowerCase().includes('owo') || msg.content.toLowerCase().includes('uwu') || msg.content.toLowerCase().includes('meow'))       {         
        var x =(Math.floor((Math.random() * 10) + 1))
@@ -428,7 +428,7 @@ if(msg.content.toLowerCase().includes('owo') || msg.content.toLowerCase().includ
 	   {bot.createMessage(msg.channel.id, '```ᨐᵉᵒʷ ```');  }
    
 }, 500);
-  }}
+  }}}
 			
      if(msg.content.toLowerCase().includes('k_test')) {                 
        setTimeout(function(){ 
