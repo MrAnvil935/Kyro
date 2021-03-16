@@ -41,8 +41,8 @@ bot.on('messageCreate', (msg) => {
 	   {bot.createMessage(msg.channel.id, 'https://youtu.be/BDriZtSFKck');  }}
 					
 			
-	var z =(Math.floor((Math.random() * 3000) + 1))	
-	if (z==42)
+	var c =(Math.floor((Math.random() * 5000) + 1))	
+	if (c==420)
 	   {bot.createMessage(msg.channel.id, 'CRAZY RARE DROP! (Real Life) (-420 Magic Find!)');  }
 
 	var m =(Math.floor((Math.random() * 2000) + 1))	
