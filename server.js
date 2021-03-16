@@ -251,6 +251,12 @@ if (msg.author.id == '670769970396790795')	{
     bot.createMessage(msg.channel.id, 'look whos talking');  
 }, 500);
   }
+
+	if(msg.content.toLowerCase().includes('nefersit')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, '!ban <@563397766324420608>');  
+}, 500);
+  }
 	
    if (msg.channel.id != '677876231609253914') {	
 	if(msg.content.toLowerCase().includes('shadow legends') || msg.content.includes('RAID')) {                 
