@@ -39,8 +39,8 @@ bot.on('messageCreate', (msg) => {
         var j =(Math.floor((Math.random() * 1000) + 1))	
 	if (j==69)
 	{   var h =(Math.floor((Math.random() * 2) + 1))	
-          if (h==2) {bot.createMessage(msg.channel.id, 'https://youtu.be/mlbch74sfG4');  }}
-	  else {bot.createMessage(msg.channel.id, 'https://youtu.be/BDriZtSFKck');  }}
+          if (h==2) {bot.createMessage(msg.channel.id, 'https://youtu.be/mlbch74sfG4');  }
+	  else {bot.createMessage(msg.channel.id, 'https://youtu.be/BDriZtSFKck');  }
 	}
 					
 			
