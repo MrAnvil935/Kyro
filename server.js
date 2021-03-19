@@ -370,11 +370,13 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);
   }
 
+ var gojo =(Math.floor((Math.random() * 3) + 1))	
+	if (gojo==2) {
      if(msg.content.toLowerCase().includes('gojo')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'E2 P13 GOJO hpltfz FS DM ME');  
 }, 500);
-  }
+  }}
 
      if(msg.content.toLowerCase().includes('macro')) {                 
        setTimeout(function(){ 
