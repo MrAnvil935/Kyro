@@ -384,6 +384,12 @@ if (msg.author.id == '670769970396790795')	{
     bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/756401543397245018/808795891192299550/angeli.png');  
 }, 500);
   }
+			
+if(msg.content.toLowerCase().includes(' ok') || msg.content.toLowerCase().startsWith('ok')) {  	
+   var kk =(Math.floor((Math.random() * 5) + 1))	
+	if (kk==3)	
+{bot.createMessage(msg.channel.id, '<a:kk:823876172826935356>');  }	
+}
 
   
   if (msg.channel.id != '677876231609253914') {
@@ -410,6 +416,10 @@ else {
       
 }, 500);
   }}}
+			
+    bot.createMessage(msg.channel.id, 'just drop drag pet ez');  
+}, 500);
+  }			
   
    if(msg.content.toLowerCase().includes('what drag')) {}			
    else {
