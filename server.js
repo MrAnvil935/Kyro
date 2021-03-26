@@ -416,10 +416,7 @@ else {
       
 }, 500);
   }}}
-			
-    bot.createMessage(msg.channel.id, 'just drop drag pet ez');  
-}, 500);
-  }			
+						
   
    if(msg.content.toLowerCase().includes('what drag')) {}			
    else {
