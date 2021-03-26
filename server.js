@@ -388,7 +388,7 @@ if (msg.author.id == '670769970396790795')	{
 if(msg.content.toLowerCase().includes(' ok') || msg.content.toLowerCase().startsWith('ok')) {  	
    var ook =(Math.floor((Math.random() * 5) + 1))	
 	if (ook==3)	
-{bot.createMessage(msg.channel.id, '<a:kk:823876172826935356>');  }	
+{bot.createMessage(msg.channel.id, '<:kk:823876172826935356>');  }	
 }
 
   
