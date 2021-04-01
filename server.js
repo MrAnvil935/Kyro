@@ -36,7 +36,7 @@ bot.on('messageCreate', (msg) => {
 	   {bot.createMessage(msg.channel.id, '<a:pcat:788895948675874866>');  }	
 
 	if (msg.channel.id != '806105660722774016') {		
-        var j =(Math.floor((Math.random() * 1000) + 1))	
+        var j =(Math.floor((Math.random() * 3000) + 1))	
 	if (j==69)
 	{  
 	var h =(Math.floor((Math.random() * 2) + 1))	
