@@ -256,11 +256,6 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);
   }
 
-	if(msg.content.toLowerCase().includes('xd')) {                 
-       setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'XDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXD');  
-}, 500);
-  }
 
 	if(msg.content.toLowerCase().includes('nefersit')) {                 
        setTimeout(function(){ 
@@ -285,6 +280,14 @@ if (msg.author.id == '670769970396790795')	{
   	 if(msg.content.toLowerCase().includes('toyota')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/617120220661678080/819760815120711720/Toyota144P_1.mp4');  
+}, 500);
+  }}
+
+ var xd =(Math.floor((Math.random() * 5) + 1))	
+	if (xd==2) {
+  	 if(msg.content.toLowerCase().includes('xd')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'XDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXD');  
 }, 500);
   }}
 			
