@@ -256,6 +256,12 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);
   }
 
+	if(msg.content.toLowerCase().includes('xd')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'XDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXD');  
+}, 500);
+  }
+
 	if(msg.content.toLowerCase().includes('nefersit')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, '!ban <@563397766324420608>');  
