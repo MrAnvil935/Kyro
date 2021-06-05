@@ -156,7 +156,7 @@ if(msg.content.toLowerCase().includes('egrill') || msg.content.toLowerCase().inc
 
 if(msg.content.toLowerCase() === 'bruh' || msg.content.toLowerCase() === 'bru') {                 
        setTimeout(function(){ 
-   bot.addMessageReaction(msg.channel.id, msg.id, "bruh:793642148762484777")
+   bot.addMessageReaction(msg.channel.id, msg.id, "bruh:783813323543937034")
 }, 300);
   }				
 
