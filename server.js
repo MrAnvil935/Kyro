@@ -275,7 +275,7 @@ if (msg.author.id == '670769970396790795')	{
     bot.createMessage(msg.channel.id, 'i dont speak mafia');  
 }, 500);
   }
- var toyota =(Math.floor((Math.random() * 3) + 1))	
+ var toyota =(Math.floor((Math.random() * 2) + 1))	
 	if (toyota==2) {
   	 if(msg.content.toLowerCase().includes('toyota')) {                 
        setTimeout(function(){ 
@@ -283,7 +283,7 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);
   }}
 
- var xd =(Math.floor((Math.random() * 5) + 1))	
+ var xd =(Math.floor((Math.random() * 8) + 1))	
 	if (xd==2) {
   	 if(msg.content.toLowerCase().includes('xd')) {                 
        setTimeout(function(){ 
