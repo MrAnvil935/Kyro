@@ -133,7 +133,7 @@ bot.on('messageCreate', (msg) => {
 	else {       
     bot.createMessage(msg.channel.id, 'bru');  }}
 }, 500);
-  }
+  }}
 
 	  
 	 if(msg.content.toLowerCase().includes('rgb')) { 
