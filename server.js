@@ -133,7 +133,21 @@ bot.on('messageCreate', (msg) => {
 	else {       
     bot.createMessage(msg.channel.id, 'bru');  }}
 }, 500);
-  }			
+  }
+
+	  
+	 if(msg.content.toLowerCase().includes('rgb')) { 
+  var rgbd =(Math.floor((Math.random() * 3) + 1))
+       setTimeout(function(){  
+	if (rgbd==3) {
+	bot.createMessage(msg.channel.id, '<a:cocaine:886341039273693214>');}
+	else {
+        if (rgbd==2) {
+	bot.createMessage(msg.channel.id, '<a:rgbcat:886341087499812894>');}
+	else {       
+    bot.createMessage(msg.channel.id, '<a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362>');  }}
+}, 500);
+  			
 			
 	 if(msg.content.includes('@everyone') || msg.content.includes('@!470582170151550977') || msg.content.includes('@470582170151550977')) {                 
        setTimeout(function(){  
@@ -345,7 +359,7 @@ if (msg.author.id == '670769970396790795')	{
        var k =(Math.floor((Math.random() * 100) + 1))
 	   setTimeout(function(){ 
 	   if (k==69)
-	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, @ ping, macro, egirl, toyota, xd, nefersit, fortnite,cock, I\'m poor, animal, Brazil, angeli, anime bad, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, stfu Kyro, donate to me, what drag');  }
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, @ ping, macro, egirl, toyota, xd, rgb, nefersit, fortnite,cock, I\'m poor, animal, Brazil, angeli, anime bad, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, stfu Kyro, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
