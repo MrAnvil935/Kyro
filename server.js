@@ -488,7 +488,7 @@ if(msg.content.toLowerCase().includes('owo') || msg.content.toLowerCase().includ
 			
      if(msg.content.toLowerCase().includes('k_test')) {                 
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id.tts, 'test');  
+    bot.createMessage(msg.channel.id.tts, 'Kyro moment');  
 }, 500);
   }
 						
