@@ -408,6 +408,12 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);
   }
 
+ 	 if(msg.content.toLowerCase().includes('ping tnt')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, '<@221381845739110402>');  
+}, 500);
+  }
+
      if(msg.content.toLowerCase().includes('macro')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/756401543397245018/808795891192299550/angeli.png');  
