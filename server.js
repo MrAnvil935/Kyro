@@ -358,7 +358,7 @@ if (msg.author.id == '670769970396790795')	{
 	if(msg.content.toLowerCase().includes ('kyro gib key words')) {                 
        var k =(Math.floor((Math.random() * 50) + 1))
 	   setTimeout(function(){ 
-	   if (k==69)
+	   if (k==33)
 	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, @ ping, macro, egirl, toyota, xd, rgb, ping tnt, genshin, nefersit, fortnite,cock, I\'m poor, animal, Brazil, angeli, anime bad, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, stfu Kyro, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
