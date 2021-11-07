@@ -356,10 +356,10 @@ if (msg.author.id == '670769970396790795')	{
 	
 	if (msg.channel.id != '677876231609253914') {
 	if(msg.content === 'k!help?') {                 
-       var k =(Math.floor((Math.random() * 100) + 1))
+       var k =(Math.floor((Math.random() * 50) + 1))
 	   setTimeout(function(){ 
 	   if (k==69)
-	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, @ ping, macro, egirl, toyota, xd, rgb, ping tnt, nefersit, fortnite,cock, I\'m poor, animal, Brazil, angeli, anime bad, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, stfu Kyro, donate to me, what drag');  }
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, @ ping, macro, egirl, toyota, xd, rgb, ping tnt, genshin, nefersit, fortnite,cock, I\'m poor, animal, Brazil, angeli, anime bad, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, stfu Kyro, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
@@ -419,7 +419,13 @@ if (msg.author.id == '670769970396790795')	{
     bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/756401543397245018/808795891192299550/angeli.png');  
 }, 500);
   }
-			
+	
+if(msg.content.toLowerCase().includes('genshin')) {  	
+   var gen =(Math.floor((Math.random() * 3) + 1))	
+	if (gen==2)	
+{bot.createMessage(msg.channel.id, 'genshin sucks');  }	
+}
+		
 if(msg.content.toLowerCase().includes(' ok') || msg.content.toLowerCase().startsWith('ok')) {  	
    var ook =(Math.floor((Math.random() * 5) + 1))	
 	if (ook==3)	
