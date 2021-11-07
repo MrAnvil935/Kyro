@@ -355,7 +355,7 @@ if (msg.author.id == '670769970396790795')	{
   }}}
 	
 	if (msg.channel.id != '677876231609253914') {
-	if(msg.content === 'kyro gib key words') {                 
+	if(msg.content.toLowerCase().includes ('kyro gib key words')) {                 
        var k =(Math.floor((Math.random() * 50) + 1))
 	   setTimeout(function(){ 
 	   if (k==69)
