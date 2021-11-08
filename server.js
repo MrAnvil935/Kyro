@@ -1,15 +1,14 @@
 const Eris = require("eris");
  
 var bot = new Eris(process.env.token);
-// Replace BOT_TOKEN with your bot account's token
 
  var status = "dnd"
 var game = new Object();
 game.name = 'Super Hentai';
  
-bot.on("ready", () => { // When the bot is ready
+bot.on("ready", () => {
 bot.editStatus(status, game);
-console.log("Ready!"); // Log "Ready!"
+console.log("Ready!");
 });
  
 
