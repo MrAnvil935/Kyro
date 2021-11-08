@@ -402,7 +402,7 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);
   }}}
 
- 	 if(msg.content.toLowerCase().includes('cock')) {                 
+ 	 if(msg.content.toLowerCase().includes('cock') || msg.content.toLowerCase().includes('penis') ) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'cock lol');  
 }, 500);
