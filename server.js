@@ -358,7 +358,7 @@ if (msg.author.id == '670769970396790795')	{
        var k =(Math.floor((Math.random() * 50) + 1))
 	   setTimeout(function(){ 
 	   if (k==33)
-	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, @ ping, macro, egirl, toyota, xd, rgb, ping tnt, genshin, no, nefersit, fortnite,cock, puta, I\'m poor, animal, Brazil, angeli, ping tori, anime bad, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, gojo, stfu Kyro, donate to me, what drag');  }
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, @ ping, macro, egirl, toyota, xd, rgb, ping tnt, genshin, no, nefersit, gay, fortnite,cock, puta, I\'m poor, animal, Brazil, angeli, ping tori, anime bad, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, gojo, stfu Kyro, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
@@ -389,6 +389,12 @@ if (msg.author.id == '670769970396790795')	{
      if(msg.content.toLowerCase().includes('donate to me')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'https://vignette.wikia.nocookie.net/hypixel-skyblock/images/9/99/Ender_Armor.png');  
+}, 500);
+  }
+
+if(msg.content.toLowerCase().includes('gay')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, 'https://media.discordapp.net/attachments/755753210974830634/907656500787425330/IMG_20211109_164238.jpg');  
 }, 500);
   }
 
