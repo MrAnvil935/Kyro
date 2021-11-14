@@ -560,7 +560,7 @@ else{
 	   {bot.createMessage(msg.channel.id, 'frags');  }
    
       
-}, 300);
+}, 500);
 }}				
 	
 		}}
