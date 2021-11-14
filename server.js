@@ -538,13 +538,13 @@ bot.createMessage(msg.channel.id, '\n\n_ _\n\n_ _\n\n_ _\n\n_ _\n\n_ _\n\n_ _\n\
   }					
 	
 		}}
- }
+
 
 if (msg.author.id == '755098192038854686')	{	
 if(msg.content.toLowerCase().includes('!ban <@512671815928119296>')) { 
     bot.addMessageReaction(msg.channel.id, msg.id, "troll:909449186569777162")}}
 
-
+ }
 
 
 );
