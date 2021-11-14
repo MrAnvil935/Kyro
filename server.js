@@ -542,7 +542,7 @@ if(msg.content.toLowerCase().includes('what drop')) {
 if (msg.author.id == '470582170151550977') 
  {bot.createMessage(msg.channel.id, 'pet :D');  }
 else{		  
-	      var dd =(Math.floor((Math.random() * 1000) + 1))	
+	      var dd =(Math.floor((Math.random() * 950) + 1))	
        setTimeout(function(){ 
        if (dd == 1)
 	   {bot.createMessage(msg.channel.id, 'pet :D');  }
@@ -556,7 +556,7 @@ else{
 	   {bot.createMessage(msg.channel.id, 'boots');  }
        if (dd > 650 && dd <= 850  )
 	   {bot.createMessage(msg.channel.id, 'helmet');  }
-       if (dd > 850 && dd <= 1000  )
+       if (dd > 850 && dd <= 950  )
 	   {bot.createMessage(msg.channel.id, 'frags');  }
    
       
