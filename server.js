@@ -566,9 +566,14 @@ else{
 		}}
 
 
-if (msg.author.id == '755098192038854686')	{	
+if (msg.author.id == '755098192038854686')	{
+
+if(msg.content.toLowerCase().includes('frags')) { 
+bot.addMessageReaction(msg.channel.id, msg.id, "🤡")}
+	
 if(msg.content.toLowerCase().includes('!ban <@512671815928119296>')) { 
-    bot.addMessageReaction(msg.channel.id, msg.id, "troll:909449186569777162")}}
+    bot.addMessageReaction(msg.channel.id, msg.id, "troll:909449186569777162")}
+}
 
  }
 
