@@ -40,7 +40,7 @@ bot.on('messageCreate', (msg) => {
 	{  
 	var h =(Math.floor((Math.random() * 2) + 1))	
           if (h==2) {bot.createMessage(msg.channel.id, 'https://youtu.be/mlbch74sfG4');  }
-	  else {bot.createMessage(msg.channel.id, 'https://youtu.be/mlbch74sfG4');  }
+	  else {bot.createMessage(msg.channel.id, 'https://youtu.be/FljGi6jzDmM');  }
 	}}
 					
 			
