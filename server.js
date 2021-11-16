@@ -121,7 +121,7 @@ bot.on('messageCreate', (msg) => {
   }
 	
 	  if (!msg.author.bot) {
-	 if(msg.content.includes('@755098192038854686') || msg.content.includes('@!755098192038854686')) { 
+	 if(msg.content.includes('@755098192038854686') || msg.content.includes('@everyone')) { 
   var p =(Math.floor((Math.random() * 5) + 1))
        setTimeout(function(){  
 	if (p==4) {
