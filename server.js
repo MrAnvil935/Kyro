@@ -544,7 +544,7 @@ bot.createMessage(msg.channel.id, '\n\n_ _\n\n_ _\n\n_ _\n\n_ _\n\n_ _\n\n_ _\n\
   }	
 
 if(msg.content.toLowerCase().includes('amoung us')) {  	
-   var sus =(Math.floor((Math.random() * 3) + 1))	
+   var sus =(Math.floor((Math.random() * 2) + 1))	
 	if (sus==2)	
 {bot.createMessage(msg.channel.id, '**STOP POSTING ABOUT AMONG US!** \n\n STOP POSTING ABOUT AMONG US! I\'M TIRED OF SAYING IT, MY FRIENDS ON TIK TOK SEND ME MEMES, ON DISCORD ITS FUCKING MEMES. \n\n I was in a server, right? AND ALL OF THE CHANNELS ARE JUST AMONG US STUFF. \n\n I SHOWED MY CHAMPION UNDERWEAR TO MY GIRLFRIEND, AND THE LOGO I FLIPPED IT AND I SAID "hey babe, when the underwear sus!" \n\n HAHA DING DING DING DING DING DING DING DING DING DING, I FUCKING LOOKED AT A TRASH CAN AND I SAID "thats a bit sussy!" \n\n I LOOKED AT MY PENIS, I THINK OF THE ASTRONAUT\'S HELMET, AND I GO "PENIS? MORE LIKE PEN-SUS!" AHHHHHH');  }	
 }
