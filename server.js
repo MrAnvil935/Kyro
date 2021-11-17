@@ -11,7 +11,7 @@ bot.editStatus(status, game);
 console.log("Ready!");
 });
  
-
+// reading past this point may cause severe eye bleeding and other damage to physical and mental health
  
 bot.on('messageCreate', (msg) => {                     
     
