@@ -363,7 +363,7 @@ if (msg.author.id == '670769970396790795')	{
        var k =(Math.floor((Math.random() * 50) + 1))
 	   setTimeout(function(){ 
 	   if (k==33)
-	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, what drop, @ ping, macro, amoung us, egirl, toyota, xd, rgb, ping tnt, genshin, no, nefersit, gay, fortnite, fuck off tori, cock, puta, I\'m poor, animal, Brazil, angeli, ping tori, anime bad, padoru, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, gojo, stfu Kyro, donate to me, what drag');  }
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, what drop, @ ping, macro, among us, egirl, toyota, xd, rgb, ping tnt, genshin, no, nefersit, gay, fortnite, fuck off tori, cock, puta, I\'m poor, animal, Brazil, angeli, ping tori, anime bad, padoru, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, gojo, stfu Kyro, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
@@ -543,7 +543,7 @@ bot.createMessage(msg.channel.id, '\n\n_ _\n\n_ _\n\n_ _\n\n_ _\n\n_ _\n\n_ _\n\
 }, 500);
   }	
 
-if(msg.content.toLowerCase().includes('amoung us')) {  	
+if(msg.content.toLowerCase().includes('among us')) {  	
    var sus =(Math.floor((Math.random() * 2) + 1))	
 	if (sus==2)	
 {bot.createMessage(msg.channel.id, '**STOP POSTING ABOUT AMONG US!** \n\n STOP POSTING ABOUT AMONG US! I\'M TIRED OF SAYING IT, MY FRIENDS ON TIK TOK SEND ME MEMES, ON DISCORD ITS FUCKING MEMES. \n\n I was in a server, right? AND ALL OF THE CHANNELS ARE JUST AMONG US STUFF. \n\n I SHOWED MY CHAMPION UNDERWEAR TO MY GIRLFRIEND, AND THE LOGO I FLIPPED IT AND I SAID "hey babe, when the underwear sus!" \n\n HAHA DING DING DING DING DING DING DING DING DING DING, I FUCKING LOOKED AT A TRASH CAN AND I SAID "thats a bit sussy!" \n\n I LOOKED AT MY PENIS, I THINK OF THE ASTRONAUT\'S HELMET, AND I GO "PENIS? MORE LIKE PEN-SUS!" AHHHHHH');  }	
