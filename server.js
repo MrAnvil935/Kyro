@@ -5,8 +5,6 @@ var bot = new Eris(process.env.token);
 var status = "dnd"
 var game = new Object();
 game.name = 'Super Hentai'
-
-game.url = `https://youtu.be/dQw4w9WgXcQ`
  
 bot.on("ready", () => {
 bot.editStatus(status, game);
