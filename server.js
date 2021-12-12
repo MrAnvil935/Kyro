@@ -120,7 +120,7 @@ bot.on('messageCreate', (msg) => {
   }
 	
 	  if (!msg.author.bot) {
-	 if(msg.content.includes('<@755098192038854686>') || msg.content.includes('@everyone')) { 
+	 if(msg.content.includes('755098192038854686') || msg.content.includes('@everyone')) { 
   var p =(Math.floor((Math.random() * 5) + 1))
        setTimeout(function(){  
 	if (p==4) {
@@ -145,14 +145,7 @@ bot.on('messageCreate', (msg) => {
 	else {       
     bot.createMessage(msg.channel.id, '<a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362>');  }}
 }, 500);
-  			
-			
-	 if(msg.content.includes('@everyone') || msg.content.includes('@!470582170151550977') || msg.content.includes('@470582170151550977')) {                 
-       setTimeout(function(){  
-    bot.createMessage(msg.channel.id, 'bru');  
-}, 500);
-  }
-	  }
+  						
   
 if(msg.content.startsWith('ME')) {                 
        setTimeout(function(){ 
