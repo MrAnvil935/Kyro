@@ -133,6 +133,7 @@ bot.on('messageCreate', (msg) => {
 }, 500);
   }}
 
+	  }
 	  
 	 if(msg.content.toLowerCase().includes('rgb')) { 
   var rgbd =(Math.floor((Math.random() * 3) + 1))
@@ -596,3 +597,4 @@ if(msg.content.toLowerCase().includes('!ban <@512671815928119296>')) {
 
  
 bot.connect(); 
+
