@@ -132,8 +132,7 @@ bot.on('messageCreate', (msg) => {
     bot.createMessage(msg.channel.id, 'bru');  }}
 }, 500);
   }}
-
-	  }
+ 
 	  
 	 if(msg.content.toLowerCase().includes('rgb')) { 
   var rgbd =(Math.floor((Math.random() * 3) + 1))
@@ -146,7 +145,7 @@ bot.on('messageCreate', (msg) => {
 	else {       
     bot.createMessage(msg.channel.id, '<a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362><a:rgbwave:886341055665037362>');  }}
 }, 500);
-  						
+ } 						
   
 if(msg.content.startsWith('ME')) {                 
        setTimeout(function(){ 
