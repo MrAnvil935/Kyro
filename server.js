@@ -216,10 +216,10 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);		
 }}
 
-if (msg.author.id == '646937666251915264')	{	
-  if(msg.content.toLowerCase().includes('character lookup')) {
+if (msg.author.id == '646937666251915264') {	
+  if(msg.content.includes('Character Lookup')) {
  setTimeout(function(){ 
-    bot.addMessageReaction(msg.channel.id, msg.id, "🖌")
+    bot.addMessageReaction(msg.channel.id, msg.id, "🖌️")
 }, 500);		
 }} 
 			
