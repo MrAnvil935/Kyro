@@ -387,7 +387,7 @@ if (msg.author.id == '670769970396790795')	{
   
      if(msg.content.toLowerCase().includes('kyro source code')) {                 
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'https://github.com/MrAnvil935/Kyro/blob/master/server.js');  
+    bot.createMessage(msg.channel.id, 'https://github.com/MrAnvil935/Kyro');  
 }, 500);
   }
 
