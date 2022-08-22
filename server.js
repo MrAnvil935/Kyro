@@ -190,6 +190,13 @@ if(msg.content.toLowerCase() === 'bruh' || msg.content.toLowerCase() === 'bru') 
 }, 500);
   }	
 
+if(msg.content.toLowerCase().includes('kyro what') && msg.content.toLowerCase().includes('id')) {            
+       setTimeout(function(){ 
+var kid = msg.author.id
+    bot.createMessage(msg.channel.id, kid);  
+}, 500);
+  }
+
 if (msg.author.id == '394489126310641664')	{	
  var w =(Math.floor((Math.random() * 5) + 1))
 	if (w==3){
@@ -361,7 +368,7 @@ if (msg.author.id == '670769970396790795')	{
        var k =(Math.floor((Math.random() * 50) + 1))
 	   setTimeout(function(){ 
 	   if (k==33)
-	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, what drop, @ ping, macro, bubble wrap, kyro what iq, among us, egirl, toyota, xd, rgb, ping tnt, genshin, no, nefersit, gay, fortnite, fuck off tori, cock, puta, I\'m poor, animal, Brazil, angeli, kyro source code, ping tori, anime bad, padoru, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, wanna do drag, suck, superior, gojo, stfu Kyro, donate to me, what drag');  }
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, what drop, @ ping, macro, bubble wrap, kyro what iq, among us, egirl, toyota, xd, rgb, ping tnt, genshin, no, nefersit, gay, fortnite, fuck off tori, cock, puta, I\'m poor, animal, Brazil, angeli, kyro source code, ping tori, anime bad, padoru, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, kyro what id, wanna do drag, suck, superior, gojo, stfu Kyro, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
