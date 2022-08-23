@@ -171,7 +171,7 @@ if(msg.content.toLowerCase() === 'bruh' || msg.content.toLowerCase() === 'bru') 
 
 if(msg.content.toLowerCase().includes('kyro') && msg.content.toLowerCase().includes('rate')) {            
        setTimeout(function(){ 
-var rat = (Math.floor((Math.random() * 11) + 1))
+var rat = (Math.floor((Math.random() * 12) + 1))-1
 	
          bot.createMessage(msg.channel.id, rat+'/10');  
 }, 500);
