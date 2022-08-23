@@ -184,7 +184,7 @@ if(msg.content.toLowerCase().includes('kyro') && msg.content.toLowerCase().inclu
 var tof = (Math.floor((Math.random() * 3) + 1))
 	if (tof==3) { bot.createMessage(msg.channel.id, 'maybe')}  
          if (tof==2) { bot.createMessage(msg.channel.id, 'no')} 
-         else {  bot.createMessage(msg.channel.id, 'yes')} 
+         if (tof==1) {  bot.createMessage(msg.channel.id, 'yes')} 
 ;  
 }, 500);
   }
