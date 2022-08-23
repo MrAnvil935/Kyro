@@ -306,7 +306,7 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);
   }}
 
- var xd =(Math.floor((Math.random() * 8) + 1))	
+ var xd =(Math.floor((Math.random() * 10) + 1))	
 	if (xd==2) {
   	 if(msg.content.toLowerCase().includes('xd')) {                 
        setTimeout(function(){ 
