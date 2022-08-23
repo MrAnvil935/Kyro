@@ -169,6 +169,15 @@ if(msg.content.toLowerCase() === 'bruh' || msg.content.toLowerCase() === 'bru') 
 }, 300);
   }				
 
+if(msg.content.toLowerCase().includes('kyro') && msg.content.toLowerCase().includes('yes') && msg.content.toLowerCase().includes('no')) {            
+       setTimeout(function(){ 
+var ynm = (Math.floor((Math.random() * 2) + 1))
+	 if (ynm==2) { bot.createMessage(msg.channel.id, 'no')} 
+         else {  bot.createMessage(msg.channel.id, 'yes')} 
+;  
+}, 500);
+  }
+
   if (msg.channel.id != '677876231609253914') {
   	 if(msg.content.toLowerCase().includes('fortnite') || msg.content.toLowerCase().includes('minecraft') ||  msg.content.toLowerCase().includes('terraria') || msg.content.includes('LoL') || msg.content.toLowerCase().includes('league of legends')){                 
     var t =(Math.floor((Math.random() * 3) + 1))
@@ -368,7 +377,7 @@ if (msg.author.id == '670769970396790795')	{
        var k =(Math.floor((Math.random() * 50) + 1))
 	   setTimeout(function(){ 
 	   if (k==33)
-	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, what drop, @ ping, macro, bubble wrap, kyro what iq, among us, egirl, toyota, xd, rgb, ping tnt, genshin, no, nefersit, gay, fortnite, fuck off tori, cock, puta, I\'m poor, animal, Brazil, angeli, kyro source code, ping tori, anime bad, padoru, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, kyro what id, wanna do drag, suck, superior, gojo, stfu Kyro, donate to me, what drag');  }
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, what drop, @ ping, macro, bubble wrap, kyro what iq, among us, egirl, kyro yes no, toyota, xd, rgb, ping tnt, genshin, no, nefersit, gay, fortnite, fuck off tori, cock, puta, I\'m poor, animal, Brazil, angeli, kyro source code, ping tori, anime bad, padoru, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, kyro what id, wanna do drag, suck, superior, gojo, stfu Kyro, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
