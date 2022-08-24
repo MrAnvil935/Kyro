@@ -187,7 +187,7 @@ var ynm = (Math.floor((Math.random() * 2) + 1))
   }
 
 
-if(msg.content.toLowerCase().includes('kyro') && msg.content.toLowerCase().includes('true') || msg.content.toLowerCase().includes('should')) {            
+if(msg.content.toLowerCase().includes('kyro') && msg.content.toLowerCase().includes('true') || msg.content.toLowerCase().includes('kyro') && msg.content.toLowerCase().includes('should')) {            
        setTimeout(function(){ 
 var tof = (Math.floor((Math.random() * 3) + 1))
 	if (tof==3) { bot.createMessage(msg.channel.id, 'maybe')}  
