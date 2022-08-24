@@ -84,10 +84,10 @@ bot.on('messageCreate', (msg) => {
    var c =(Math.floor((Math.random() * 100) + 1))		
        setTimeout(function(){ 
 	      
-		  if (c==10 || c==1)
+		  if (c==10 || c==11)
  {bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/755753210974830634/784850146104967208/kbvoro3xk7361.png');  }	
      
-	elde if (c==69 || c==50)
+	else if (c==69 || c==50)
 	   {bot.createMessage(msg.channel.id, 'CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT');  }
      
 		   else if (c>75) 
