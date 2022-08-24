@@ -189,10 +189,10 @@ var ynm = (Math.floor((Math.random() * 2) + 1))
 
 if(msg.content.toLowerCase().includes('kyro') && msg.content.toLowerCase().includes('true') || msg.content.toLowerCase().includes('kyro') && msg.content.toLowerCase().includes('should')) {            
        setTimeout(function(){ 
-var tof = (Math.floor((Math.random() * 3) + 1))
-	if (tof==3) { bot.createMessage(msg.channel.id, 'maybe')}  
-         if (tof==2) { bot.createMessage(msg.channel.id, 'no')} 
-         if (tof==1) {  bot.createMessage(msg.channel.id, 'yes')} 
+var tof = (Math.floor((Math.random() * 5) + 1))
+	if (tof > 3 && tof <= 5  ) { bot.createMessage(msg.channel.id, 'yes')}  
+         if (tof > 1 && tof <= 3  ) { bot.createMessage(msg.channel.id, 'no')} 
+         if (tof==1) {  bot.createMessage(msg.channel.id, 'maybe')} 
 ;  
 }, 500);
   }
