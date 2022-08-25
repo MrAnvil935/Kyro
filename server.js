@@ -5,7 +5,6 @@ var bot = new Eris(process.env.token);
 var status = "dnd"
 var game = new Object();
 game.name = 'Super Hentai'
-const kyromode = 0
  
 bot.on("ready", () => {
 bot.editStatus(status, game);
