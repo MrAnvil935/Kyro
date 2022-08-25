@@ -177,7 +177,7 @@ if (msg.author.id == '470582170151550977')
 if (kyromode == 1)
 {
 var troll = msg.content
-bot.createMessage(msg.channel.id, troll);  
+bot.createMessage(msg.channel.id, troll+" xd");  
 }
 } 	
 
