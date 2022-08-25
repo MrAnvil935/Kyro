@@ -6,7 +6,7 @@ var status = "dnd"
 var game = new Object();
 game.name = 'Super Hentai'
 var kyromode = 0
-var kyrotestmode
+var kyrotestmode = 1
 
 bot.on("ready", () => {
 bot.editStatus(status, game);
