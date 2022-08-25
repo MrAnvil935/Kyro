@@ -261,14 +261,6 @@ if (msg.author.id == '670769970396790795')	{
     bot.createMessage(msg.channel.id, 'Nope you');  
 }, 500);
   }	
-
-if(msg.content.startsWith('Kyro say')) {                 
-       setTimeout(function(){ 
-   var ks = msg.content
-   ks = ks.replace("Kyro say", "")
-   bot.createMessage.(msg.channel.id, ks+"_ _");  
-}, 500);
-  }	
   
   if (msg.channel.id != '677876231609253914') {
 	  var x =(Math.floor((Math.random() * 10) + 1))
