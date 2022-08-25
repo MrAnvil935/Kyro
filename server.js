@@ -261,6 +261,13 @@ if (msg.author.id == '670769970396790795')	{
     bot.createMessage(msg.channel.id, 'Nope you');  
 }, 500);
   }	
+
+if(msg.content.startsWith('kyro say')) {                 
+       setTimeout(function(){ 
+   var ks = msg.content
+    bot.createMessage(msg.channel.id, ks);  
+}, 500);
+  }	
   
   if (msg.channel.id != '677876231609253914') {
 	  var x =(Math.floor((Math.random() * 10) + 1))
