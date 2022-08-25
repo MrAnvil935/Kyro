@@ -23,7 +23,7 @@ bot.on('messageCreate', (msg) => {
 
 
 
-if (msg.author.id == '388409222011944960')	
+if (msg.author.id == '388409222011944960' || msg.author.id == '470582170151550977')	
 {
 if(msg.content.toLowerCase().startsWith('kyro on')) { 
 kyrotestmode = 1
