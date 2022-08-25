@@ -5,6 +5,7 @@ var bot = new Eris(process.env.token);
 var status = "dnd"
 var game = new Object();
 game.name = 'Super Hentai'
+var kyromode = 0
  
 bot.on("ready", () => {
 bot.editStatus(status, game);
@@ -19,7 +20,11 @@ bot.on('messageCreate', (msg) => {
 	if (msg.author.id != '755098192038854686')
 	{
 
-		
+	if(msg.content.startsWith('Kyro mode on')) { var kyromode = 1 } 
+        if(msg.content.startsWith('Kyro mode off')) { var kyromode = 2 } 
+if(msg.content.startsWith('Kyro mode test')) { bot.createMessage(msg.channel.id, kyromode); } 
+
+
 	if(msg.content.includes('yah') && msg.content.includes('fortnite')&& msg.content.includes('angeli') && msg.content.includes('animal'))
          { bot.createMessage(msg.channel.id, 'fuck off'); }	
 		
