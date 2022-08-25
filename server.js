@@ -265,7 +265,8 @@ if (msg.author.id == '670769970396790795')	{
 if(msg.content.toLowerCase().startsWith('kyro say')) {                 
        setTimeout(function(){ 
    var ks = msg.content
-    bot.createMessage(msg.channel.id, ks-"kyro say"+"_ _");  
+   var ksr = "kyro say" 
+    bot.createMessage(msg.channel.id, ks-ksr+"_ _");  
 }, 500);
   }	
   
