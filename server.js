@@ -262,10 +262,10 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);
   }	
 
-if(msg.content.startsWith('kyro say')) {                 
+if(msg.content.toLowerCase().startsWith('kyro say')) {                 
        setTimeout(function(){ 
    var ks = msg.content
-    bot.createMessage(msg.channel.id, ks);  
+    bot.createMessage(msg.channel.id, ks-"kyro say"+"_ _");  
 }, 500);
   }	
   
