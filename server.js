@@ -23,7 +23,7 @@ bot.on('messageCreate', (msg) => {
 
 
 
-if (msg.author.id == '388409222011944960' || msg.author.id == '470582170151550977')	
+if (msg.author.id == '388409222011944960')	
 {
 if(msg.content.toLowerCase().startsWith('kyro on')) { 
 kyrotestmode = 1
@@ -36,7 +36,7 @@ bot.addMessageReaction(msg.channel.id, msg.id, "done:1012382136252239893")
 if(msg.content.toLowerCase().startsWith('kyro test')) { bot.createMessage(msg.channel.id, "current value is " + kyrotestmode) } 
 } 
 
-
+if (kyrotestmode == 1) {
 
 	if(msg.content.includes('yah') && msg.content.includes('fortnite')&& msg.content.includes('angeli') && msg.content.includes('animal'))
          { bot.createMessage(msg.channel.id, 'fuck off'); }	
@@ -667,7 +667,7 @@ else{
 }, 500);
 }}				
 	
-		}}
+		}}} 
 
 
 if (msg.author.id == '755098192038854686')	{
