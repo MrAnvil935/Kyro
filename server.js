@@ -158,9 +158,21 @@ if(msg.content.startsWith('ME')) {
 }, 500);
   }	
 	
+
+if (msg.author.id == '388409222011944960')	
+{
 if(msg.content.startsWith('Kyro mode on')) { kyromode = 1 }    
 if(msg.content.startsWith('Kyro mode off')) { kyromode = 2 } 
-if(msg.content.startsWith('Kyro mode test')) { bot.createMessage(msg.channel.id, kyromode+"_ _") } 
+} 
+
+if (msg.author.id == '388409222011944960')
+{
+if (kyromode == 1)
+{
+var troll = msg.content
+bot.createMessage(msg.channel.id, troll);  
+}
+} 	
 		
 if(msg.content.toLowerCase().includes('egrill') || msg.content.toLowerCase().includes('egirl')) {                 
        setTimeout(function(){ 
