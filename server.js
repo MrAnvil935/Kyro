@@ -20,10 +20,6 @@ bot.on('messageCreate', (msg) => {
 	if (msg.author.id != '755098192038854686')
 	{
 
-	if(msg.content.startsWith('Kyro mode on')) { var kyromode = 1 } 
-        if(msg.content.startsWith('Kyro mode off')) { var kyromode = 2 } 
-if(msg.content.startsWith('Kyro mode test')) { bot.createMessage(msg.channel.id, kyromode); } 
-
 
 	if(msg.content.includes('yah') && msg.content.includes('fortnite')&& msg.content.includes('angeli') && msg.content.includes('animal'))
          { bot.createMessage(msg.channel.id, 'fuck off'); }	
@@ -161,7 +157,11 @@ if(msg.content.startsWith('ME')) {
     bot.createMessage(msg.channel.id, 'Ye');  
 }, 500);
   }	
-			
+	
+if(msg.content.startsWith('Kyro mode on')) { var kyromode = 1 }    
+if(msg.content.startsWith('Kyro mode off')) { var kyromode = 2 } 
+if(msg.content.startsWith('Kyro mode test')) { bot.createMessage(msg.channel.id, kyromode) } 
+		
 if(msg.content.toLowerCase().includes('egrill') || msg.content.toLowerCase().includes('egirl')) {                 
        setTimeout(function(){ 
    bot.addMessageReaction(msg.channel.id, msg.id, "egrill:792107202994372628")
