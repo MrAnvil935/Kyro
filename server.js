@@ -160,7 +160,7 @@ if(msg.content.startsWith('ME')) {
 	
 if(msg.content.startsWith('Kyro mode on')) { var kyromode = 1 }    
 if(msg.content.startsWith('Kyro mode off')) { var kyromode = 2 } 
-if(msg.content.startsWith('Kyro mode test')) { bot.createMessage(msg.channel.id, kyromode) } 
+if(msg.content.startsWith('Kyro mode test')) { bot.createMessage(msg.channel.id, kyromode+"_ _") } 
 		
 if(msg.content.toLowerCase().includes('egrill') || msg.content.toLowerCase().includes('egirl')) {                 
        setTimeout(function(){ 
