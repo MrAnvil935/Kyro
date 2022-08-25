@@ -6,6 +6,7 @@ var status = "dnd"
 var game = new Object();
 game.name = 'Super Hentai'
 var kyromode = 0
+var kyrotestmode
 
 bot.on("ready", () => {
 bot.editStatus(status, game);
@@ -17,6 +18,21 @@ console.log("Ready!");
 bot.on('messageCreate', (msg) => {                     
     
 	
+
+if (msg.author.id == '388409222011944960')	
+{
+if(msg.content.toLowerCase().startsWith('kyro on')) { 
+kyrotestmode = 1
+bot.addMessageReaction(msg.channel.id, msg.id, "done:1012382136252239893")
+ }    
+if(msg.content.toLowerCase().startsWith('kyro off')) {
+ kyrotestmode = 0
+bot.addMessageReaction(msg.channel.id, msg.id, "done:1012382136252239893")
+ } 
+
+if (kyrotestmode == 1) {
+
+
 	if (msg.author.id != '755098192038854686')
 	{
 
@@ -650,7 +666,7 @@ else{
 }, 500);
 }}				
 	
-		}}
+		}}} 
 
 
 if (msg.author.id == '755098192038854686')	{
