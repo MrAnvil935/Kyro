@@ -30,7 +30,7 @@ if(msg.content.toLowerCase().startsWith('kyro off')) {
 bot.addMessageReaction(msg.channel.id, msg.id, "done:1012382136252239893")
  } 
 
-if (kyrotestmode == 1) {
+if (kyrotestmode == 1) {} 
 
 
 	if (msg.author.id != '755098192038854686')
@@ -666,7 +666,7 @@ else{
 }, 500);
 }}				
 	
-		}}} 
+		}}
 
 
 if (msg.author.id == '755098192038854686')	{
