@@ -163,11 +163,12 @@ if (msg.author.id == '388409222011944960' || msg.author.id == '47058217015155097
 {
 if(msg.content.toLowerCase().startsWith('Kyro mode on')) {
  kyromode = 1 
-bot.addMessageReaction(msg.channel.id, msg.id, "done:1012382136252239893")}
+bot.addMessageReaction(msg.channel.id, msg.id, "done:1012382136252239893")
 }    
 if(msg.content.toLowerCase().startsWith('Kyro mode off')) {
  kyromode = 2 
-bot.addMessageReaction(msg.channel.id, msg.id, "done:1012382136252239893")}
+bot.addMessageReaction(msg.channel.id, msg.id, "done:1012382136252239893")
+
 } 
 } 
 
