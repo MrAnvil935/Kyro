@@ -161,15 +161,15 @@ if(msg.content.startsWith('ME')) {
 
  if (msg.author.id == '388409222011944960' || msg.author.id == '470582170151550977')	
 {
-if(msg.content.toLowerCase().startsWith('Kyro mode on')) { 
+if(msg.content.toLowerCase().startsWith('kyro mode on')) { 
 kyromode = 1
 bot.addMessageReaction(msg.channel.id, msg.id, "done:1012382136252239893")
  }    
-if(msg.content.toLowerCase().startsWith('Kyro mode off')) {
+if(msg.content.toLowerCase().startsWith('kyro mode off')) {
  kyromode = 0
 bot.addMessageReaction(msg.channel.id, msg.id, "done:1012382136252239893")
  } 
-if(msg.content.toLowerCase().startsWith('Kyro mode test')) { bot.createMessage(msg.channel.id, "current value is " + kyromode) } 
+if(msg.content.toLowerCase().startsWith('kyro mode test')) { bot.createMessage(msg.channel.id, "current value is " + kyromode) } 
 } 
 
 if (msg.author.id == '470582170151550977')
