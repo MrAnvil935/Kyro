@@ -38,10 +38,6 @@ if(msg.content.toLowerCase().startsWith('kyro test')) { bot.createMessage(msg.ch
 
 if (kyrotestmode == 1) {
 
-if(msg.content.toLowerCase().startsWith('kyro test')) {
-var myString = "data-123";
-var myNewString = myString.replace("data-", "");
- bot.createMessage(msg.channel.id, "current value is " + myNewString ) } 
 
 	if(msg.content.includes('yah') && msg.content.includes('fortnite')&& msg.content.includes('angeli') && msg.content.includes('animal'))
          { bot.createMessage(msg.channel.id, 'fuck off'); }	
@@ -244,6 +240,11 @@ var tof = (Math.floor((Math.random() * 5) + 1))
 ;  
 }, 500);
   }
+
+if(msg.content.toLowerCase().startsWith('kyro say')) {
+var myString = msg.content ;
+var myNewString = myString.replace("kyro say", "");
+ bot.createMessage(msg.channel.id, "" + myNewString ) } 
 
   if (msg.channel.id != '677876231609253914') {
   	 if(msg.content.toLowerCase().includes('fortnite') || msg.content.toLowerCase().includes('minecraft') ||  msg.content.toLowerCase().includes('terraria') || msg.content.includes('LoL') || msg.content.toLowerCase().includes('league of legends')){                 
