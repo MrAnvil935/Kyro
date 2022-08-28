@@ -38,6 +38,11 @@ if(msg.content.toLowerCase().startsWith('kyro test')) { bot.createMessage(msg.ch
 
 if (kyrotestmode == 1) {
 
+if(msg.content.toLowerCase().startsWith('kyro test')) {
+var myString = "data-123";
+var myNewString = myString.replace("data-", "");
+ bot.createMessage(msg.channel.id, "current value is " + myNewString ) } 
+
 	if(msg.content.includes('yah') && msg.content.includes('fortnite')&& msg.content.includes('angeli') && msg.content.includes('animal'))
          { bot.createMessage(msg.channel.id, 'fuck off'); }	
 		
