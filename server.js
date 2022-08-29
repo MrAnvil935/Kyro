@@ -73,6 +73,10 @@ if (kyrotestmode == 1) {
 	var m =(Math.floor((Math.random() * 2000) + 1))	
 	if (m==42)
 	   {bot.createMessage(msg.channel.id, 'k');  }
+
+        var mogus =(Math.floor((Math.random() * 2000) + 1))	
+	if (mogus==69)
+	   {bot.createMessage(msg.channel.id, '<a:amogus:1013862610757763>');  }
 		
 	if(msg.content.toLowerCase().includes('dog')) {                 
        setTimeout(function(){ 
