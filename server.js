@@ -200,7 +200,7 @@ bot.createMessage(msg.channel.id, troll+" xd");
 } 	
 
 
-if(msg.content.toLowerCase().includes('kyro long cat')) {            
+if(msg.content.toLowerCase().startsWith('kyro long cat')) {            
        setTimeout(function(){ 
 var longcat = (Math.floor((Math.random() * 69) + 1))
 
