@@ -204,7 +204,7 @@ if(msg.content.toLowerCase().includes('kyro long cat')) {
        setTimeout(function(){ 
 var longcat = (Math.floor((Math.random() * 25) + 1))
 
-         bot.createMessage(msg.channel.id, ':cat:'.repeat(longcat) );  
+         bot.createMessage(msg.channel.id, "placeholder 1" + ':cat:'.repeat(longcat) + "placeholder 2");  
 }, 500);
   }
 
