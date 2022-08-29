@@ -221,13 +221,6 @@ var rat = (Math.floor((Math.random() * 12) + 1))-1
 }, 500);
   }
 
-if(msg.content.toLowerCase().includes('kyro long cat')) {            
-       setTimeout(function(){ 
-var longcat = (Math.floor((Math.random() * 25) + 1))
-	
-         bot.createMessage(msg.channel.id, '😼' + '='.repeat(longcat) + '\' );  
-}, 500);
-  }
 
 if(msg.content.toLowerCase().includes('kyro') && msg.content.toLowerCase().includes('yes') && msg.content.toLowerCase().includes('no')) {            
        setTimeout(function(){ 
