@@ -200,6 +200,13 @@ bot.createMessage(msg.channel.id, troll+" xd");
 } 	
 
 
+if(msg.content.toLowerCase().includes('kyro long cat')) {            
+       setTimeout(function(){ 
+var longcat = (Math.floor((Math.random() * 25) + 1))
+	
+         bot.createMessage(msg.channel.id, "O" + '='.repeat(longcat) + "-" );  
+}, 500);
+  }
 		
 if(msg.content.toLowerCase().includes('egrill') || msg.content.toLowerCase().includes('egirl')) {                 
        setTimeout(function(){ 
