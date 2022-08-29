@@ -95,7 +95,7 @@ if (kyrotestmode == 1) {
 }, 2500);
 	}}
 		
-	if ((msg.content != 't!cat') || msg.content.toLowerCase().includes('long cat')) { 	
+	if (msg.content != 't!cat' || msg.content.toLowerCase().includes('long cat')) { 	
 	if(msg.content.toLowerCase().includes('c a t') || msg.content.toLowerCase().includes(' cat') || msg.content.toLowerCase().startsWith('cat')) {  
    if(msg.content.toLowerCase().includes('cata') || msg.content.toLowerCase().includes('dog') ) {}
    else {
