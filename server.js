@@ -202,9 +202,9 @@ bot.createMessage(msg.channel.id, troll+" xd");
 
 if(msg.content.toLowerCase().includes('kyro long cat')) {            
        setTimeout(function(){ 
-var longcat = (Math.floor((Math.random() * 25) + 1))
+var longcat = (Math.floor((Math.random() * 69) + 1))
 
-         bot.createMessage(msg.channel.id, "placeholder 1" + ':cat:'.repeat(longcat) + "placeholder 2");  
+         bot.createMessage(msg.channel.id, "<:lcat1:1013728986397950003>" + '<:lcat2:1013729014529134612>'.repeat(longcat) + "<:lcat3:1013729041125228585>");  
 }, 500);
   }
 
