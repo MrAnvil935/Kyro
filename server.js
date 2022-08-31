@@ -465,12 +465,18 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);
   }}}
 	
+  	if(msg.content.toLowerCase().includes('kyro what') && msg.content.toLowerCase().includes('art collects')) {                 
+       setTimeout(function(){ 
+    bot.createMessage(msg.channel.id, "Akame ga Kill! • Angel Beats • Another • Arcane • Assassination Classroom • Attack on Titan • Bakugan • Black Lagoon (no spin offs) • My Hero Academia • Danganronpa • Dalring in the FranXX • Date a Live • Death Note • Death Parade • Dororo • Fullmetal Alchemist Brotherhood • Ghost in the Shell (only original 1,2 movies) • God of High School • Ishuzoku Reviewers • Island • Jujutsu Kaisen • Kill la Kill • Demon Slayer • Kobayashi-san Chi no Maid Dragon • Konosuba • Mob Psycho 100 • Monster Musume • Mushoku Tensei (Jobless Reincarnation) • My Dressup Darling  • Neon Genesis Evangelion (no spin offs) • No Game No Life • One Piece (some movies included) • One Punch Man • Overlord • Plasitc Memories • Psycho-Pass • Re: Zero • Redo of Healer • Sewayaki Kitsune no Senko-san • Spice and Wolf (still gotta watch 2nd season) • Shield Hero • The Promised Neverland • Vivy: Fluorite Eye's Song • Wonder Egg Priority • Ya Boy Kongming • Bubble • Maquia When the Promised Flower Blooms • Silent Voice • Your Name • Tokyo Ghoul • Solo Leveling • Genshin Impact • Honkai Impact • Hololive (kinda) • NieR Automata • Doki Doki Literature Club • Made in Abyss • Shelter • Me! Me! Me! • Hatsune Miku: Downloader • Gravity Rush • Fate/Zero"');  
+}, 500);
+  }
+
 	if (msg.channel.id != '677876231609253914') {
 	if(msg.content.toLowerCase().includes('kyro gib key words') || msg.content.toLowerCase().includes('kyro gib keywords')) {                 
        var k =(Math.floor((Math.random() * 50) + 1))
 	   setTimeout(function(){ 
 	   if (k==33)
-	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, what drop, @ ping, macro, bubble wrap, kyro what iq, among us, is good at, kyro say, kyro longcat, egirl, kyro yes no, kyro true, kyro rate, toyota, xd, rgb, ping tnt, genshin, no, nefersit, gay, fortnite, fuck off tori, cock, puta, I\'m poor, animal, Brazil, angeli, kyro source code, ping tori, anime bad, padoru, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, kyro what id, wanna do drag, suck, superior, gojo, stfu Kyro, donate to me, what drag');  }
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, what drop, @ ping, macro, bubble wrap, kyro what iq, kyro what art collects, among us, is good at, kyro say, kyro longcat, egirl, kyro yes no, kyro true, kyro rate, toyota, xd, rgb, ping tnt, genshin, no, nefersit, gay, fortnite, fuck off tori, cock, puta, I\'m poor, animal, Brazil, angeli, kyro source code, ping tori, anime bad, padoru, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, kyro what id, wanna do drag, suck, superior, gojo, stfu Kyro, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
