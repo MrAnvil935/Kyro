@@ -112,6 +112,9 @@ if (kyrotestmode == 1) {
      
 	else if (c==69 || c==50)
 	   {bot.createMessage(msg.channel.id, 'CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT');  }
+
+	else if (c==30 || c==40)
+	   {bot.createMessage(msg.channel.id, ' https://images-ext-2.discordapp.net/external/7el_2l8YiVCa4pAtGMv68NjuS-EalSsO4B5o6v3OnDQ/https/media.discordapp.net/attachments/702707867215724655/856575111531855902/image0-15.gif https://images-ext-2.discordapp.net/external/U1_97LBhtT7moEbXiRkxvlilNCAtpmSWPsD2Vn8_xvI/https/media.discordapp.net/attachments/702707867215724655/856575112013938738/tenor_13.gif');  }
      
 		   else if (c>75) 
 		   {bot.createMessage(msg.channel.id, 'CAAAT');  }
