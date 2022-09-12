@@ -284,7 +284,7 @@ if(msg.content.toLowerCase().includes('is good at') || msg.content.toLowerCase()
 }
 
 if(msg.content.toLowerCase().includes('died') || msg.content.toLowerCase().includes("killed")) {  	
-   var gatk =(Math.floor((Math.random() * 2) + 1))	
+   var gatk =(Math.floor((Math.random() * 3) + 1))	
 	if (gatk==1)	
 {bot.createMessage(msg.channel.id, 'noob');  }	
 }
