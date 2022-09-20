@@ -524,11 +524,12 @@ if (msg.author.id == '670769970396790795')	{
 }, 500);
   }
 
-if(msg.content.toLowerCase().includes('gay')) {                 
-       setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'https://media.discordapp.net/attachments/755753210974830634/907656500787425330/IMG_20211109_164238.jpg');  
-}, 500);
-  }
+if(msg.content.toLowerCase().includes('gay')) {  	
+   var gey =(Math.floor((Math.random() * 2) + 1))	
+	if (gey==2)	
+{bot.createMessage(msg.channel.id, 'https://media.discordapp.net/attachments/755753210974830634/907656500787425330/IMG_20211109_164238.jpg');    }	
+}
+
 
   if (msg.author.id != '470582170151550977') {
  var gojo =(Math.floor((Math.random() * 8) + 1))	
