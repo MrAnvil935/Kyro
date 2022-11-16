@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "concurrently \"node server.js\" \"(cd additions && npm run start) & npm run start\""
   },
   "dependencies": {
+    "concurrently": "^7.5.0",
     "eris": "^0.7.2"
   },
   "engines": {
