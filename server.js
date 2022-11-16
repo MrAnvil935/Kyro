@@ -1,6 +1,6 @@
 const Eris = require("eris");
  
-var bot = new Eris("NzU1MDk4MTkyMDM4ODU0Njg2.X1-V_g.y0lQH-2EGfDc2KdGVQxodNDR44A");
+var bot = new Eris(process.env.token);
 
 var status = "dnd"
 var game = new Object();
