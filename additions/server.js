@@ -12,7 +12,6 @@ bot.on("ready", function () {
 	console.log("Ready to begin! Serving in " + bot.channels.length + " channels");
 });
 
-
 // This code will run once the bot receives any message.
 bot.on('message', message => {
   if (message.content === 'kping') {  
