@@ -1,0 +1,24 @@
+{
+  "name": "Kyro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrAnvil935/Kyro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrAnvil935/Kyro/issues"
+  },
+  "homepage": "https://github.com/MrAnvil935/Kyro#readme"
+}
