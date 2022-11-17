@@ -306,7 +306,7 @@ client.on("interactionCreate", async (interaction) => {
                       `⚠️ Game Over - \`${interaction.user.tag}\` ⚠️`
                     )
                     .setFooter({
-                      text: `Total fish caught :: ${data.Score}`,
+                      text: `Total fish caught : ${data.Score}`,
                       iconURL: client.user.displayAvatarURL({ dynamic: true }),
                     }),
                 ],
