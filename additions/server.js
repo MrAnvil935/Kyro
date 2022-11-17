@@ -9,7 +9,8 @@ const {
 //snake code from https://github.com/kabirsingh2004/Snake-Game
 
 const client = new Client({
-  intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_MESSAGES"],
+   intents: ['GUILD_PRESENCES', 'GUILD_MEMBERS', Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.DIRECT_MESSAGES],
+   partials: ['CHANNEL', 'MESSAGE', 'REACTION']
 });
 let commands = [
   {
