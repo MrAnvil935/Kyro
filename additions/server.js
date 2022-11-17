@@ -363,9 +363,24 @@ client.on("interactionCreate", async (interaction) => {
 });
 
 client.on("messageCreate", async (message) => {
+  
+  if (msg.author.id == '388409222011944960' || msg.author.id == '470582170151550977')	
+  
+  {
+if(msg.content.toLowerCase().startsWith('kyro on')) { 
+kyrotestmode = 1
+ }    
+if(msg.content.toLowerCase().startsWith('kyro off')) {
+ kyrotestmode = 0
+ } 
+} 
+
+if (kyrotestmode == 1) {
+  
   if (message.content === 'kping') {  
     message.channel.send(`Latency is ${Date.now() - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms`);
   }
+}
 });
 
 client.on("guildCreate", async (guild) => {
