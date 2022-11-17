@@ -6,6 +6,8 @@ const {
   Collection,
 } = require("discord.js");
 
+//snake code from https://github.com/kabirsingh2004/Snake-Game
+
 const client = new Client({
   intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_MESSAGES"],
 });
@@ -44,8 +46,8 @@ const db = new Collection();
 
 // bot settings
 const settings = {
-  width: 15,
-  height: 10,
+  width: 12,
+  height: 8,
   Food: "🐟",
   background: "⬛",
   Snake: "🐱",
