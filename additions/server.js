@@ -4,6 +4,7 @@ const {
   MessageActionRow,
   MessageButton,
   Collection,
+  Intents,
 } = require("discord.js");
 
 //snake code from https://github.com/kabirsingh2004/Snake-Game
