@@ -14,12 +14,12 @@ const client = new Client({
 let commands = [
   {
     name: "snake",
-    description: `play snake game on discord`,
+    description: `snake but cat`,
     type: "CHAT_INPUT",
   },
   {
     name: "ping",
-    description: `see ping of bot`,
+    description: `check ping of bot`,
     type: "CHAT_INPUT",
   },
   {
