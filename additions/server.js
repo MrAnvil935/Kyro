@@ -339,22 +339,7 @@ client.on("interactionCreate", async (interaction) => {
           return send(interaction, `Ping :: **${client.ws.ping}**`);
         }
         break;
-      case "leaderboard":
-        {
-          let string = db
-            .sort((a, b) => b.Score - a.Score)
-            // .filter((t, i) => i < 10)
-            .map((value) => {
-              let user = client.users.cache.get(value.UserID);
-              return ` **${user?.tag}** Score: \`${value.Score}\` Level: \`${value.Level}\``;
-            })
-            .join("\n\n");
-          send(
-            interaction,
-            `${string.substring(0, 1000)}` || `No One Playing Now`
-          );
-        }
-        break;
+		
       case "stop":
         {
           if (!db.has(`snake-${interaction.user.id}`)) {
