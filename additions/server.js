@@ -360,6 +360,12 @@ client.on("interactionCreate", async (interaction) => {
   }
 });
 
+client.on('message', message => {
+  if (message.content === 'kping') {  
+    message.channel.send(`Latency is ${Date.now() - message.createdTimestamp}ms. API Latency is ${Math.round(bot.ws.ping)}ms`);
+  }
+});
+
 client.on("guildCreate", async (guild) => {
   await guild.commands.set(commands);
 });
