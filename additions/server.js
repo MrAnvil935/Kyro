@@ -379,7 +379,7 @@ if(message.content.toLowerCase().startsWith('kyro off')) {
 
 if (kyrotestmode == 1) {
   
-  if (message.content === 'kping') {  
+ if(message.content.toLowerCase().startsWith('kyro ping')) {  
     message.channel.send(`Latency is ${Date.now() - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms`);
   }
 }
