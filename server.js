@@ -78,9 +78,13 @@ if (kyrotestmode == 1) {
 	if (mogus==69)
 	   {bot.createMessage(msg.channel.id, '<a:amogus:1013862610757763124>');  }
 		
-	if(msg.content.toLowerCase().includes('dog')) {                 
+	if(msg.content.toLowerCase().includes('dog')) {            
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'cat > dog');   
+var doggo = (Math.floor((Math.random() * 5) + 1))
+	if (doggo > 3 && doggo <= 5  ) { bot.createMessage(msg.channel.id, 'cat > dog')}  
+         if (doggo > 1 && doggo <= 3  ) { bot.createMessage(msg.channel.id, 'dog')} 
+         if (doggo==1) {  bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/692723580118499349/1036070814241525800/IMG-20221024-WA0003.jpg')} 
+;  
 }, 500);
   }
   
