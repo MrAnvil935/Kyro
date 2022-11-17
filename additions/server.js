@@ -7,6 +7,8 @@ const {
   Intents,
 } = require("discord.js");
 
+var kyrotestmode = 1
+
 //snake code from https://github.com/kabirsingh2004/Snake-Game
 
 const client = new Client({
