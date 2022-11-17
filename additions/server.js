@@ -364,13 +364,13 @@ client.on("interactionCreate", async (interaction) => {
 
 client.on("messageCreate", async (message) => {
   
-  if (msg.author.id == '388409222011944960' || msg.author.id == '470582170151550977')	
+  if (message.author.id == '388409222011944960' || message.author.id == '470582170151550977')	
   
   {
-if(msg.content.toLowerCase().startsWith('kyro on')) { 
+if(message.content.toLowerCase().startsWith('kyro on')) { 
 kyrotestmode = 1
  }    
-if(msg.content.toLowerCase().startsWith('kyro off')) {
+if(message.content.toLowerCase().startsWith('kyro off')) {
  kyrotestmode = 0
  } 
 } 
