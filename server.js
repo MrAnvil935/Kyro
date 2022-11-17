@@ -267,6 +267,32 @@ var tof = (Math.floor((Math.random() * 5) + 1))
 ;  
 }, 500);
   }
+  
+  if(msg.content.includes('kyro') && msg.content.toLowerCase().includes('or')) {
+var myString2 = msg.content ;
+var myNewString2 = myString2.substring(myString2.indexOf('or') + 2);
+var myNewString3 = myString2.replace(myNewString2, "");
+var myNewString4 = myNewString3.replace("or", "");
+var myNewString5 = myNewString4.replace("kyro", "");
+var randomor = (Math.floor((Math.random() * 2) + 1))
+if (randomor == 2) {
+bot.createMessage(msg.channel.id, myNewString2 +"_ _" ) }
+if (randomor == 1) {
+bot.createMessage(msg.channel.id, myNewString5 +"_ _" ) }
+} 
+
+  if(msg.content.includes('Kyro') && msg.content.toLowerCase().includes('or')) {
+var myString2 = msg.content ;
+var myNewString2 = myString2.substring(myString2.indexOf('or') + 2);
+var myNewString3 = myString2.replace(myNewString2, "");
+var myNewString4 = myNewString3.replace("or", "");
+var myNewString5 = myNewString4.replace("Kyro", "");
+var randomor = (Math.floor((Math.random() * 2) + 1))
+if (randomor == 2) {
+bot.createMessage(msg.channel.id, myNewString2 +"_ _" ) }
+if (randomor == 1) {
+bot.createMessage(msg.channel.id, myNewString5 +"_ _" ) }
+} 
 
 if(msg.content.startsWith('kyro say')) {
 var myString = msg.content ;
@@ -494,7 +520,7 @@ if (msg.author.id == '670769970396790795')	{
        var k =(Math.floor((Math.random() * 50) + 1))
 	   setTimeout(function(){ 
 	   if (k==33)
-	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, what drop, @ ping, macro, bubble wrap, kyro what iq, kyro what art collects, among us, is good at, kyro say, kyro longcat, egirl, kyro yes no, kyro true, kyro rate, toyota, xd, rgb, ping tnt, fuck you kyro, died, genshin, no, nefersit, kyro ping, gay, fortnite, fuck off tori, cock, puta, I\'m poor, animal, Brazil, angeli, kyro source code, ping tori, anime bad, padoru, god, fragile ego, RAID Shadow Legends, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, kyro what id, wanna do drag, suck, art, superior, gojo, stfu Kyro, donate to me, what drag');  }
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, what drop, @ ping, macro, bubble wrap, kyro what iq, kyro what art collects, among us, is good at, kyro say, kyro longcat, egirl, kyro yes no, kyro true, kyro rate, toyota, xd, rgb, ping tnt, fuck you kyro, died, genshin, no, nefersit, kyro ping, gay, fortnite, fuck off tori, cock, puta, I\'m poor, animal, Brazil, angeli, kyro source code, ping tori, anime bad, padoru, god, fragile ego, RAID Shadow Legends, kyro or, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, kyro what id, wanna do drag, suck, art, superior, gojo, stfu Kyro, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
