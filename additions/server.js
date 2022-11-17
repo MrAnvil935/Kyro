@@ -23,11 +23,6 @@ let commands = [
     type: "CHAT_INPUT",
   },
   {
-    name: "leaderboard",
-    description: `check global leaderboard`,
-    type: "CHAT_INPUT",
-  },
-  {
     name: "stop",
     description: `stop your running game`,
     type: "CHAT_INPUT",
@@ -50,7 +45,7 @@ const settings = {
   height: 8,
   Food: "🐟",
   background: "⬛",
-  Snake: "🐱",
+  Snake: "🐈",
   color: "#464F3D",
   emojis: {
     left: "⬅️",
