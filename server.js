@@ -268,9 +268,9 @@ var tof = (Math.floor((Math.random() * 5) + 1))
 }, 500);
   }
   
-  if(msg.content.includes('kyro') && msg.content.toLowerCase().includes(' or ')) {
+  if(msg.content.includes('kyro') && msg.content.toLowerCase().includes(' or')) {
 var myString2 = msg.content ;
-var myNewString2 = myString2.substring(myString2.indexOf(' or ') + 1);
+var myNewString2 = myString2.substring(myString2.indexOf('or ') + 2);
 var myNewString3 = myString2.replace(myNewString2, "");
 var myNewString4 = myNewString3.replace("or", "");
 var myNewString5 = myNewString4.replace("kyro", "");
@@ -281,9 +281,9 @@ if (randomor == 1) {
 bot.createMessage(msg.channel.id, myNewString5 +"_ _" ) }
 } 
 
-  if(msg.content.includes('Kyro') && msg.content.toLowerCase().includes(' or ')) {
+  if(msg.content.includes('Kyro') && msg.content.toLowerCase().includes(' or')) {
 var myString2 = msg.content ;
-var myNewString2 = myString2.substring(myString2.indexOf(' or ') + 1);
+var myNewString2 = myString2.substring(myString2.indexOf(' or') + 2);
 var myNewString3 = myString2.replace(myNewString2, "");
 var myNewString4 = myNewString3.replace("or", "");
 var myNewString5 = myNewString4.replace("Kyro", "");
