@@ -103,9 +103,9 @@ var doggo = (Math.floor((Math.random() * 5) + 1))
 }, 2500);
 	}}
 		
-	if (msg.content != 't!cat' && msg.content != 'Kyro long cat' && msg.content != 'kyro long cat' && msg.content != 'Kyro gib cat' && msg.content != 'kyro gib cat'  && msg.content != 'Kyro cat say' && msg.content != 'kyro cat say') { 	
-	if(msg.content.toLowerCase().includes('c a t') || msg.content.toLowerCase().includes(' cat') || msg.content.toLowerCase().startsWith('cat')) {  
-   if(msg.content.toLowerCase().includes('cata') || msg.content.toLowerCase().includes('dog') ) {}
+	if (msg.content != 't!cat' && msg.content != 'Kyro long cat' && msg.content != 'kyro long cat' && msg.content != 'Kyro gib cat' && msg.content != 'kyro gib cat') { 
+	if else(msg.content.toLowerCase().includes('c a t') || msg.content.toLowerCase().includes(' cat') || msg.content.toLowerCase().startsWith('cat')) {  
+   if(msg.content.toLowerCase().includes('cata') || msg.content.toLowerCase().includes('dog') || msg.content.toLowerCase().includes('kyro cat say') {}
    else {
    if (msg.channel.id != '677876231609253914') {	
    var c =(Math.floor((Math.random() * 100) + 1))		
@@ -304,12 +304,12 @@ bot.createMessage(msg.channel.id, myNewString5 +"_ _" ) }
 
 if(msg.content.startsWith('kyro cat say')) {
 var cmyString = msg.content ;
-var cmyNewString = cmyString.replace("kyro cat say", "");
+var cmyNewString = cmyString.replace("kyro cat say ", "");
  bot.createMessage(msg.channel.id, "https://cataas.com/cat/says/"+ cmyNewString) } 
 
 if(msg.content.startsWith('Kyro cat say')) {
 var cmyString = msg.content ;
-var cmyNewString = cmyString.replace("Kyro cat say", "");
+var cmyNewString = cmyString.replace("Kyro cat say ", "");
  bot.createMessage(msg.channel.id, "https://cataas.com/cat/says/"+ cmyNewString) } 
 
 if(msg.content.startsWith('kyro say ')) {
