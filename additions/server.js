@@ -9,6 +9,8 @@ const {
 
 var kyrotestmode = 1
 
+const guild = null 
+
 //snake code from https://github.com/kabirsingh2004/Snake-Game
 
 const client = new Client({
