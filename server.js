@@ -103,7 +103,7 @@ var doggo = (Math.floor((Math.random() * 5) + 1))
 }, 2500);
 	}}
 		
-	if (msg.content != 't!cat' && msg.content != 'Kyro long cat' && msg.content != 'kyro long cat' && msg.content != 'Kyro gib cat' && msg.content != 'kyro gib cat') { 	
+	if (msg.content != 't!cat' && msg.content != 'Kyro long cat' && msg.content != 'kyro long cat' && msg.content != 'Kyro gib cat' && msg.content != 'kyro gib cat'  && msg.content != 'Kyro cat say' && msg.content != 'kyro cat say') { 	
 	if(msg.content.toLowerCase().includes('c a t') || msg.content.toLowerCase().includes(' cat') || msg.content.toLowerCase().startsWith('cat')) {  
    if(msg.content.toLowerCase().includes('cata') || msg.content.toLowerCase().includes('dog') ) {}
    else {
@@ -302,11 +302,21 @@ if (randomor == 1) {
 bot.createMessage(msg.channel.id, myNewString5 +"_ _" ) }
 } 
 
-if(msg.content.startsWith('kyro say')) {
+if(msg.content.startsWith('kyro cat say')) {
+var cmyString = msg.content ;
+var cmyNewString = cmyString.replace("kyro cat say", "");
+ bot.createMessage(msg.channel.id, "https://cataas.com/cat/says/"+ cmyNewString) } 
+
+if(msg.content.startsWith('Kyro cat say')) {
+var cmyString = msg.content ;
+var cmyNewString = cmyString.replace("Kyro cat say", "");
+ bot.createMessage(msg.channel.id, "https://cataas.com/cat/says/"+ cmyNewString) } 
+
+if(msg.content.startsWith('kyro say ')) {
 var myString = msg.content ;
 var myNewString = myString.replace("kyro say", "");
- bot.createMessage(msg.channel.id, myNewString +"_ _" ) } 
-
+ bot.createMessage(msg.channel.id, myNewString +"_ _" ) } 			
+			
 if(msg.content.startsWith('Kyro say')) {
 var myString = msg.content ;
 var myNewString = myString.replace("Kyro say", "");
@@ -513,7 +523,7 @@ if (msg.author.id == '670769970396790795')	{
        var k =(Math.floor((Math.random() * 50) + 1))
 	   setTimeout(function(){ 
 	   if (k==33)
-	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, what drop, @ ping, macro, bubble wrap, kyro what iq, kyro what art collects, among us, is good at, kyro say, kyro longcat, egirl, kyro yes no, kyro true, kyro rate, toyota, xd, rgb, ping tnt, fuck you kyro, died, genshin, no, nefersit, kyro ping, gay, fortnite, fuck off tori, cock, puta, I\'m poor, animal, Brazil, angeli, kyro source code, ping tori, anime bad, padoru, god, fragile ego, RAID Shadow Legends, kyro or, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, kyro what id, wanna do drag, suck, art, superior, gojo, stfu Kyro, kyro gib cat, donate to me, what drag');  }
+	   {bot.createMessage(msg.channel.id, 'Key words: cat, dog, got scammed, bruh, yah, what drop, @ ping, macro, bubble wrap, kyro what iq, kyro what art collects, among us, kyro cat say, is good at, kyro say, kyro longcat, egirl, kyro yes no, kyro true, kyro rate, toyota, xd, rgb, ping tnt, fuck you kyro, died, genshin, no, nefersit, kyro ping, gay, fortnite, fuck off tori, cock, puta, I\'m poor, animal, Brazil, angeli, kyro source code, ping tori, anime bad, padoru, god, fragile ego, RAID Shadow Legends, kyro or, Brawlhalla, Italy, OwO , TNTnearchos, boomer, vnj, ME, YOU, have friend, pog, kyro what id, wanna do drag, suck, art, superior, gojo, stfu Kyro, kyro gib cat, donate to me, what drag');  }
        else {
 	   bot.createMessage(msg.channel.id, 'no');  }
 }, 500);
