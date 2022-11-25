@@ -17,23 +17,7 @@ const client = new Client({
    intents: ['GUILD_PRESENCES', 'GUILD_MEMBERS', Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.DIRECT_MESSAGES],
    partials: ['CHANNEL', 'MESSAGE', 'REACTION']
 });
-let commands = [
-  {
-    name: "snake",
-    description: `snake but cat`,
-    type: "CHAT_INPUT",
-  },
-  {
-    name: "ping",
-    description: `check ping of bot`,
-    type: "CHAT_INPUT",
-  },
-  {
-    name: "stop",
-    description: `stop running game`,
-    type: "CHAT_INPUT",
-  },
-];
+
 client.on("ready", async () => {
   console.log("bot is online", client.user.tag);
   	client.user.setPresence({
@@ -53,8 +37,11 @@ client.on("ready", async () => {
     name: 'stop',
     description: `stop running game`
 }})
+  client.api.applications(client.user.id).commands.post({data: {
+    name: 'dice',
+    description: `roll a dice`
+}})
 });
-
 
 // declaring cache db to store game data
 const db = new Collection();
@@ -356,7 +343,7 @@ client.on("interactionCreate", async (interaction) => {
         break;
       case "ping":
         {
-          return send(interaction, `Ping :: **${client.ws.ping}**`);
+          return send(interaction, `Ping : **${client.ws.ping}**`);
         }
         break;
 		
@@ -371,6 +358,13 @@ client.on("interactionCreate", async (interaction) => {
               `Your Game Stoped Now Delete Your Ephemeral Game Message to Start New Game`
             );
           }
+        }
+        break;
+		
+		      case "dice":
+        {
+			var diceroll=(Math.floor((Math.random() * 6) + 1))	
+          return send(interaction, `You rolled : **${diceroll}**`);
         }
         break;
 
