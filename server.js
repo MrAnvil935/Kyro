@@ -104,7 +104,7 @@ var doggo = (Math.floor((Math.random() * 5) + 1))
 	}}
 		
 	if (msg.content != 't!cat' && msg.content != 'Kyro long cat' && msg.content != 'kyro long cat' && msg.content != 'Kyro gib cat' && msg.content != 'kyro gib cat') { 
-	if else(msg.content.toLowerCase().includes('c a t') || msg.content.toLowerCase().includes(' cat') || msg.content.toLowerCase().startsWith('cat')) {  
+	if (msg.content.toLowerCase().includes('c a t') || msg.content.toLowerCase().includes(' cat') || msg.content.toLowerCase().startsWith('cat')) {  
    if(msg.content.toLowerCase().includes('cata') || msg.content.toLowerCase().includes('dog') || msg.content.toLowerCase().includes('kyro cat say') {}
    else {
    if (msg.channel.id != '677876231609253914') {	
