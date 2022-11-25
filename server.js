@@ -305,13 +305,13 @@ bot.createMessage(msg.channel.id, myNewString5 +"_ _" ) }
 if(msg.content.startsWith('kyro cat say')) {
 var cmyString = msg.content ;
 var cmyNewString = cmyString.replace("kyro cat say ", "");
-var cmyNewStringc = cmyNewString.replace("/\s/g", "%20");
+var cmyNewStringc = cmyNewString.replace("//\s/g", "%20");
  bot.createMessage(msg.channel.id, "https://cataas.com/cat/says/"+ cmyNewStringc+"%20") } 
 
 if(msg.content.startsWith('Kyro cat say')) {
 var cmyString = msg.content ;
 var cmyNewString = cmyString.replace("Kyro cat say ", "");
-var cmyNewStringc = cmyNewString.replace("/\s/g", "%20");
+var cmyNewStringc = cmyNewString.replace("//\s/g", "%20");
  bot.createMessage(msg.channel.id, "https://cataas.com/cat/says/"+ cmyNewStringc+"%20") } 
 
 if(msg.content.startsWith('kyro say ')) {
