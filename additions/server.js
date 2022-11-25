@@ -40,6 +40,11 @@ client.on("ready", async () => {
     status: 'dnd',
 })
  client.application.commands.set([]);
+	
+client.api.applications(client.user.id).commands.post({data: {
+    name: 'ping',
+    description: `check ping of bot`
+}})
 });
 
 // declaring cache db to store game data
