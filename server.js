@@ -93,7 +93,7 @@ var doggo = (Math.floor((Math.random() * 5) + 1))
   var c =(Math.floor((Math.random() * 100) + 1))            
        setTimeout(function(){ 
 	   
-	     if (c==69 || c==50)
+if (c==69 || c==50)
 	   {bot.createMessage(msg.channel.id, 'CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT');  }
        
 	   else if (c>75) {
@@ -103,9 +103,9 @@ var doggo = (Math.floor((Math.random() * 5) + 1))
 }, 2500);
 	}}
 		
-	if (msg.content != 't!cat' && msg.content != 'Kyro long cat' && msg.content != 'kyro long cat' && msg.content != 'Kyro gib cat' && msg.content != 'kyro gib cat') { 
-	if (msg.content.toLowerCase().includes('c a t') || msg.content.toLowerCase().includes(' cat') || msg.content.toLowerCase().startsWith('cat')) {  
-   if(msg.content.toLowerCase().includes('cata') || msg.content.toLowerCase().includes('dog') || msg.content.toLowerCase().includes('kyro cat say') {}
+	if (msg.content != 't!cat' && msg.content != 'Kyro long cat' && msg.content != 'kyro long cat') { 	
+	if(msg.content.toLowerCase().includes('c a t') || msg.content.toLowerCase().includes(' cat') || msg.content.toLowerCase().startsWith('cat')) {  
+   if(msg.content.toLowerCase().includes('cata') || msg.content.toLowerCase().includes('kyro gib cat') || msg.content.toLowerCase().includes('dog') || msg.content.toLowerCase().includes('kyro cat say')) {}
    else {
    if (msg.channel.id != '677876231609253914') {	
    var c =(Math.floor((Math.random() * 100) + 1))		
