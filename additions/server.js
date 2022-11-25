@@ -17,14 +17,7 @@ const client = new Client({
    intents: ['GUILD_PRESENCES', 'GUILD_MEMBERS', Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.DIRECT_MESSAGES],
    partials: ['CHANNEL', 'MESSAGE', 'REACTION']
 });
-
-client.on("ready", async () => {
-  console.log("bot is online", client.user.tag);
-  	client.user.setPresence({
-    status: 'dnd',
-})
-	
-client.api.applications(client.user.id).commands.post({data: 
+let commands = [
   {
     name: "snake",
     description: `snake but cat`,
@@ -37,12 +30,31 @@ client.api.applications(client.user.id).commands.post({data:
   },
   {
     name: "stop",
-    description: `stop your running game`,
+    description: `stop running game`,
     type: "CHAT_INPUT",
   },
+];
+client.on("ready", async () => {
+  console.log("bot is online", client.user.tag);
+  	client.user.setPresence({
+    status: 'dnd',
 })
-	 client.application.commands.set([]);
+  client.application.commands.set([]);
+  
+  client.api.applications(client.user.id).commands.post({data: {
+    name: 'snake',
+    description: `snake but cat`
+}})
+  client.api.applications(client.user.id).commands.post({data: {
+    name: 'ping',
+    description: 'check ping of bot'
+}})
+  client.api.applications(client.user.id).commands.post({data: {
+    name: 'stop',
+    description: `stop running game`
+}})
 });
+
 
 // declaring cache db to store game data
 const db = new Collection();
