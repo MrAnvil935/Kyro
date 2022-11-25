@@ -251,7 +251,7 @@ if(msg.content.toLowerCase().includes('kyro') && msg.content.toLowerCase().inclu
        setTimeout(function(){ 
 var randomcatimage = (Math.floor((Math.random() * 99999) + 1))
 	
-         bot.createMessage(msg.channel.id, '/https://cataas.com/cat?'+randomcatimage);  
+         bot.createMessage(msg.channel.id, 'https://cataas.com/cat?'+randomcatimage);  
 }, 500);
   }
 
