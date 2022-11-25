@@ -39,7 +39,7 @@ client.on("ready", async () => {
   	client.user.setPresence({
     status: 'dnd',
 })
-  client.application.commands.set([]);
+  client.applicationCommands.set([]);
 });
 
 // declaring cache db to store game data
