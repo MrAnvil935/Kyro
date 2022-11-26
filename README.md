@@ -1,2 +1,2 @@
 # Kyro
-Horribly coded discord bot made for fun. Uses both discord.js and eris.js
+Horribly coded discord bot more or less focused on imprersonating Kyro#5273. Uses both discord.js and eris.js
