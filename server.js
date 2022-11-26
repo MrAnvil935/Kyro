@@ -37,6 +37,8 @@ if (kyrotestmode == 1) {
 	if (msg.author.id != '755098192038854686')
 	{
 
+		// help menu of the bot
+		
 if (msg.content.toLowerCase().includes('kyro gib keywords'))
     {
 	var khelpm =(Math.floor((Math.random() * 10) + 1)) 
