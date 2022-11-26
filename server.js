@@ -33,7 +33,7 @@ if(msg.content.toLowerCase().startsWith('kyro test')) { bot.createMessage(msg.ch
 
 if (kyrotestmode == 1) {
 
-if (msg.content.toLowerCase().includes('kyro gib keywords') || msg.content.toLowerCase().includes('‎ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _‎ ')
+if (msg.content.toLowerCase().includes('kyro gib keywords') || msg.content.toLowerCase().includes('‎ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _‎ '))
     {
 	if(msg.author.id != '755098192038854686') { var khelpm =(Math.floor((Math.random() * 10) + 1)) }
        if(msg.author.id == '755098192038854686') { var khelpm = 8 }
