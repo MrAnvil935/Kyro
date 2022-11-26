@@ -41,6 +41,10 @@ client.on("ready", async () => {
     name: 'dice',
     description: `roll a dice`
 }})
+  client.api.applications(client.user.id).commands.post({data: {
+    name: 'help',
+    description: `instantly opens help menu`
+}})
 });
 
 // declaring cache db to store game data
@@ -365,6 +369,12 @@ client.on("interactionCreate", async (interaction) => {
         {
 			var diceroll=(Math.floor((Math.random() * 6) + 1))	
           return send(interaction, `You rolled : **${diceroll}**`);
+        }
+        break;
+
+		      case "help":
+        {			
+          return message.channel.send(`‎ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _‎ `);
         }
         break;
 
