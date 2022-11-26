@@ -18,11 +18,6 @@ console.log("Ready!");
 bot.on('messageCreate', (msg) => {                     
 
 
-	if (msg.author.id != '755098192038854686')
-	{
-
-
-
 if (msg.author.id == '388409222011944960' || msg.author.id == '470582170151550977')	
 {
 if(msg.content.toLowerCase().startsWith('kyro on')) { 
@@ -37,6 +32,19 @@ if(msg.content.toLowerCase().startsWith('kyro test')) { bot.createMessage(msg.ch
 } 
 
 if (kyrotestmode == 1) {
+
+	if(msg.content.toLowerCase().includes('kyro gib key words') || msg.content.toLowerCase().includes('kyro gib keywords')) {                 
+       var k =(Math.floor((Math.random() * 10) + 1))
+	   setTimeout(function(){ 
+	   if (k==8)
+	   {bot.createMessage(msg.channel.id, 'Kyro is bot focused on impersonating Kyro#5273 \n **General Keywords** \n ```cat, dog, RAID Shadow Legends, OwO, meow, fragile ego, (don\'t) have friend, wanna do drag, stfu Kyro, donate to me, TNTnearchos, pog, bruh, yah, got scammed, @Kyro#7436, ping tori, egirl (egrill), macro, Italy, Brazil, brawlhalla, padoru, cock, puta, fuck off tori, I\'m poor, anime bad, rgb, fuck you kyro, vnj, ME, YOU, nefersit, ping tnt``` \n **Rng Keywords: (some rare response can happen on any message)** \n ```gojo, boomer, angeli, no, art, superior, (someone) is good at, gay, fortnite (terraria, minecraft, league of legends), god, suck, among us, genshin, animal, toyota, died, suck, xd, ``` \n **Commands** \n ``` what drag - hypixel skyblock dragon simulator \n what drop - hypixel skyblock dragon loot simulator (can be used along "what drag") \n kyro (x) or (y) - chooses 1 of 2 elements \n kyro ping - shows ping and api latency \n kyro source code - links source code of the bot \n kyro what art collects - list of Karuta series collected by ArtificialAngel#4618 \n kyro rate (x) - ask bot to rate something \n kyro true - example: Kyro is it true that x \n kyro yes no - example: Kyro do u agree? Yes or no? \n kyro longcat - responds with random length cat \n kyro say - make bot say something example: Kyro say mogus \n kyro gib cat - generates random cat image \n kyro cat say - generates random cat image with text on it example: Kyro cat say mogus \n kyro what id - exmaple: Kyro what\'s my id - gives you your discord id \n kyro what iq - example: Kyro what\'s x\'s iq? \n bubble wrap - virtual bubble wrap``` \n **Slash commands** \n ```/ping - gives you your ping \n/snake - cat themed version of classic snake game \n/stop - stops current snake game \n/dice - roll a dice \n/help - instantly gives u list of keywords``` \n');  }
+       else {
+	   bot.createMessage(msg.channel.id, 'no');  }
+}, 500);
+	}
+
+	if (msg.author.id != '755098192038854686')
+	{
 
 
 	if(msg.content.includes('yah') && msg.content.includes('fortnite')&& msg.content.includes('angeli') && msg.content.includes('animal'))
@@ -519,17 +527,6 @@ if (msg.author.id == '670769970396790795')	{
     bot.createMessage(msg.channel.id, "Akame ga Kill! • Angel Beats • Another • Arcane • Assassination Classroom • Attack on Titan • Bakugan • Black Lagoon (no spin offs) • My Hero Academia • Danganronpa • Dalring in the FranXX • Date a Live • Death Note • Death Parade • Dororo • Fullmetal Alchemist Brotherhood • Ghost in the Shell (only original 1,2 movies) • God of High School • Ishuzoku Reviewers • Island • Jujutsu Kaisen • Kill la Kill • Demon Slayer • Kobayashi-san Chi no Maid Dragon • Konosuba • Mob Psycho 100 • Monster Musume • Mushoku Tensei (Jobless Reincarnation) • My Dressup Darling  • Neon Genesis Evangelion (no spin offs) • No Game No Life • One Piece (some movies included) • One Punch Man • Overlord • Plasitc Memories • Psycho-Pass • Re: Zero • Redo of Healer • Sewayaki Kitsune no Senko-san • Spice and Wolf (still gotta watch 2nd season) • Shield Hero • The Promised Neverland • Vivy: Fluorite Eye's Song • Wonder Egg Priority • Ya Boy Kongming • Bubble • Maquia When the Promised Flower Blooms • Silent Voice • Your Name • Tokyo Ghoul • Solo Leveling • Genshin Impact • Honkai Impact • Hololive (kinda) • NieR Automata • Doki Doki Literature Club • Made in Abyss • Shelter • Me! Me! Me! • Hatsune Miku: Downloader • Gravity Rush • Fate/Zero • Cyberpunk: Edgerunners • Chainsaw Man");  
 }, 500);
   }
-
-	if (msg.channel.id != '677876231609253914') {
-	if(msg.content.toLowerCase().includes('kyro gib key words') || msg.content.toLowerCase().includes('kyro gib keywords')) {                 
-       var k =(Math.floor((Math.random() * 10) + 1))
-	   setTimeout(function(){ 
-	   if (k==8)
-	   {bot.createMessage(msg.channel.id, 'Kyro is bot focused on impersonating Kyro#5273 \n **General Keywords** \n ```cat, dog, RAID Shadow Legends, OwO, meow, fragile ego, (don\'t) have friend, wanna do drag, stfu Kyro, donate to me, TNTnearchos, pog, bruh, yah, got scammed, @Kyro#7436, ping tori, egirl (egrill), macro, Italy, Brazil, brawlhalla, padoru, cock, puta, fuck off tori, I\'m poor, anime bad, rgb, fuck you kyro, vnj, ME, YOU, nefersit, ping tnt``` \n **Rng Keywords: (some rare response can happen on any message)** \n ```gojo, boomer, angeli, no, art, superior, (someone) is good at, gay, fortnite (terraria, minecraft, league of legends), god, suck, among us, genshin, animal, toyota, died, suck, xd, ``` \n **Commands** \n ```what drag - hypixel skyblock dragon simulator \n what drop - hypixel skyblock dragon loot simulator (can be used along "what drag") \n kyro (x) or (y) - chooses 1 of 2 elements \n kyro ping - shows ping and api latency \n kyro source code - links source code of the bot \n kyro what art collects - list of Karuta series collected by ArtificialAngel#4618 \n kyro rate (x) - ask bot to rate something \n  kyro true - example: Kyro is it true that x \n kyro yes no - example: Kyro do u agree? Yes or no? \n kyro longcat - responds with random length cat \n kyro say - make bot say something example: Kyro say mogus \n kyro gib cat - generates random cat image \n kyro cat say - generates random cat image with text on it example: Kyro cat say mogus \n kyro what id - exmaple: Kyro what\'s my id - gives you your discord id \n kyro what iq - example: Kyro what\'s x\'s iq? \n bubble wrap - virtual bubble wrap``` \n **Slash commands** \n ```/ping - gives you your ping \n /snake - cat themed version of classic snake game \n /stop - stops current snake game \n /dice - roll a dice \n /help - instantly gives u list of keywords``` \n');  }
-       else {
-	   bot.createMessage(msg.channel.id, 'no');  }
-}, 500);
-	}}
   
   
   	if(msg.content.toLowerCase().includes('wanna do drag')) {                 
