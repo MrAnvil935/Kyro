@@ -43,7 +43,7 @@ client.on("ready", async () => {
 }})
   client.api.applications(client.user.id).commands.post({data: {
     name: 'help',
-    description: `instantly opens help menu`
+    description: `how to get list of keywords`
 }})
 });
 
@@ -374,7 +374,7 @@ client.on("interactionCreate", async (interaction) => {
 
 		      case "help":
         {			
-          return message.channel.send(`‎ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _‎ `);
+       return send(interaction, `To get list of keywords as "Kyro gib keywords". There is random chance bot will respond with list of keywords.`);
         }
         break;
 
