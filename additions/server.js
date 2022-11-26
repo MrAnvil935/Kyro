@@ -374,7 +374,7 @@ client.on("interactionCreate", async (interaction) => {
 
 		      case "help":
         {			
-       return send(interaction, `To get list of keywords as "Kyro gib keywords". There is random chance bot will respond with list of keywords.`);
+       return send(interaction, `To get list of keywords ask "Kyro gib keywords". There is random chance bot will respond with list of keywords.`);
         }
         break;
 
