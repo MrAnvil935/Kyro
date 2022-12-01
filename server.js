@@ -424,7 +424,7 @@ if (msg.author.id == '670769970396790795')	{
 
 	if(msg.content.toLowerCase().includes('french')) {                 
 	   setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, 'fr*nch\*');  
+    bot.createMessage(msg.channel.id, 'fr*nch\\*');  
 }, 500);
 	}	
   
