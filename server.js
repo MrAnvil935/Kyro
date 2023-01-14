@@ -347,7 +347,7 @@ if(msg.content.toLowerCase().includes('is good at') || msg.content.toLowerCase()
 }
 			
 if(msg.content === 'fr') 	
-   {bot.createMessage(msg.channel.id, '🇫🇷');  }			
+  { bot.addMessageReaction(msg.channel.id, msg.id, "🇫🇷")}			
 
 if(msg.content.toLowerCase().includes('died') || msg.content.toLowerCase().includes("killed")) {  	
    var gatk =(Math.floor((Math.random() * 3) + 1))	
