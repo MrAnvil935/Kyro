@@ -57,7 +57,7 @@ const settings = {
   Food: "🐟",
   background: "⬛",
   Snake: "🐈",
-  color: "#464F3D",
+  color: "#5a609b",
   emojis: {
     left: "⬅️",
     right: "➡️",
