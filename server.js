@@ -160,7 +160,7 @@ if (c==69 || c==50)
 }, 500);
   }
   
-     if(msg.content.toLowerCase().includes('fuck you kyro')) {                 
+     if(msg.content.toLowerCase().includes('fuck you kyro') || msg.content.toLowerCase().includes('fuck u kyro') || msg.content.toLowerCase().includes('fuck kyro')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, 'fuck you <@'+msg.author.id+'>');  
 }, 500);
