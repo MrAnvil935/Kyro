@@ -637,7 +637,7 @@ var nope=(Math.floor((Math.random() * 6) + 1))
 if(msg.content.toLowerCase().startsWith('art')) {    
 var artm=(Math.floor((Math.random() * 4) + 1))	
 	if (artm ==2)	
-{bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/991413549350010922/1041830803249840169/IMG_20221114_224317.jpg');  }	
+{bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/692723580118499349/1076960351024840795/1656158975683.png');  }	
 }
 	
 if(msg.content.toLowerCase().includes(' ok') || msg.content.toLowerCase().startsWith('ok')) {  	
