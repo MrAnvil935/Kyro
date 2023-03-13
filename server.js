@@ -67,7 +67,7 @@ if (msg.content.toLowerCase().includes('kyro gib keywords'))
 	if (j==69)
 	{  
 	var h =(Math.floor((Math.random() * 3) + 1))	
-	  if (h==2) {bot.createMessage(msg.channel.id, 'https://youtu.be/_QDI696qpe4');  }
+	  if (h==3) {bot.createMessage(msg.channel.id, 'https://youtu.be/_QDI696qpe4');  }
           if (h==2) {bot.createMessage(msg.channel.id, 'https://youtu.be/mlbch74sfG4');  }
 	  if (h==1) {bot.createMessage(msg.channel.id, 'https://youtu.be/FljGi6jzDmM');  }
 	}
