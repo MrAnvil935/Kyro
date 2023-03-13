@@ -62,15 +62,15 @@ if (msg.content.toLowerCase().includes('kyro gib keywords'))
      var k =(Math.floor((Math.random() * 100) + 1))	
 	if (k==69)
 	   {bot.createMessage(msg.channel.id, '<a:pcat:788895948675874866>');  }	
-
-	if (msg.channel.id != '806105660722774016') {		
+		
         var j =(Math.floor((Math.random() * 3000) + 1))	
 	if (j==69)
 	{  
-	var h =(Math.floor((Math.random() * 2) + 1))	
+	var h =(Math.floor((Math.random() * 3) + 1))	
+	  if (h==2) {bot.createMessage(msg.channel.id, 'https://youtu.be/_QDI696qpe4');  }
           if (h==2) {bot.createMessage(msg.channel.id, 'https://youtu.be/mlbch74sfG4');  }
-	  else {bot.createMessage(msg.channel.id, 'https://youtu.be/FljGi6jzDmM');  }
-	}}
+	  if (h==1) {bot.createMessage(msg.channel.id, 'https://youtu.be/FljGi6jzDmM');  }
+	}
 					
 			
 	var c =(Math.floor((Math.random() * 5000) + 1))	
