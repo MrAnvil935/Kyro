@@ -63,13 +63,14 @@ if (msg.content.toLowerCase().includes('kyro gib keywords'))
 	if (k==69)
 	   {bot.createMessage(msg.channel.id, '<a:pcat:788895948675874866>');  }	
 		
-        var j =(Math.floor((Math.random() * 3000) + 1))	
+        var j =(Math.floor((Math.random() * 2500) + 1))	
 	if (j==69)
 	{  
-	var h =(Math.floor((Math.random() * 3) + 1))	
-	  if (h==3) {bot.createMessage(msg.channel.id, 'https://youtu.be/_QDI696qpe4');  }
+	var h =(Math.floor((Math.random() * 4) + 1))	
+	  if (h==1) {bot.createMessage(msg.channel.id, 'https://youtu.be/_QDI696qpe4');  }
           if (h==2) {bot.createMessage(msg.channel.id, 'https://youtu.be/mlbch74sfG4');  }
-	  if (h==1) {bot.createMessage(msg.channel.id, 'https://youtu.be/FljGi6jzDmM');  }
+	  if (h==3) {bot.createMessage(msg.channel.id, 'https://youtu.be/FljGi6jzDmM');  }
+          if (h==4) {bot.createMessage(msg.channel.id, 'https://cdn.discordapp.com/attachments/1029746506087014402/1096026856525934612/ad2d1756c4c7fcc491ade5f14b59f12f.mp4');  }
 	}
 					
 			
