@@ -347,7 +347,7 @@ if(msg.content.toLowerCase().includes('is good at') || msg.content.toLowerCase()
 {bot.createMessage(msg.channel.id, '🧢');  }	
 }
 			
-if(msg.content === 'fr') 	
+if(msg.content.toLowerCase() === 'fr') 	
   { bot.addMessageReaction(msg.channel.id, msg.id, "🇫🇷");}						
 
 if(msg.content.toLowerCase().includes('died') || msg.content.toLowerCase().includes("killed")) {  	
