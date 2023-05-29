@@ -141,11 +141,7 @@ if (c==69 || c==50)
 }, 500);
   }
   
-	if(msg.content.toLowerCase().includes('is dropping') || msg.content.toLowerCase().includes('m dropping')) {                 
-       setTimeout(function(){ 
-    bot.addMessageReaction(msg.channel.id, msg.id, "TrolleadorCara:792338470898499584")
-}, 3000);
-  }					
+				
 			
   if (msg.channel.id != '677876231609253914') {
     if(msg.content.toLowerCase().includes('yah')) {                 
