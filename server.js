@@ -346,7 +346,7 @@ if(msg.content.toLowerCase().includes('is good at') || msg.content.toLowerCase()
 if(msg.content.toLowerCase() === 'fr') 	
   { bot.addMessageReaction(msg.channel.id, msg.id, "🇫🇷");}			
 
-if(msg.content.includes('wave') || msg.content.includes(':')) {                 
+if(msg.content.includes('wave') && msg.content.includes(':')) {                 
        setTimeout(function(){ 
     bot.createMessage(msg.channel.id, '<:neko_wave:991630971369685013>');  
 }, 500);
