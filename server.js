@@ -348,7 +348,7 @@ if(msg.content.toLowerCase() === 'fr')
 
 if(msg.content.includes('wave') || msg.content.includes(':')) {                 
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, '<:wave:991423143841378464>');  
+    bot.createMessage(msg.channel.id, '<:neko_wave:991630971369685013>');  
 }, 500);
   }    
    			
