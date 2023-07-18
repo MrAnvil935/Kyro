@@ -12,4 +12,4 @@ RUN npm install
 COPY . /usr/src/kyro
 
 # Start me!
-CMD ["node", "index.js"]
+CMD ["node", "server.js"]
