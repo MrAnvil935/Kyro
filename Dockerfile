@@ -1,6 +1,6 @@
 
 FROM node:18
 
-RUN npm install
+RUN node server.js
 
-CMD ["npm", "start"]
+
