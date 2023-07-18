@@ -1,3 +1,6 @@
 
 FROM node:18
-RUN npm start
+
+RUN npm install
+
+CMD ["npm", "start"]
