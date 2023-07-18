@@ -13,4 +13,4 @@ COPY . /usr/src/kyro
 # Start me!
 CMD ["node", "server.js"]
 
-EXPOSE 443/tcp
+EXPOSE 80/tcp
