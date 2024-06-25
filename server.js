@@ -1,6 +1,6 @@
 const Eris = require("eris");
  
-var bot = new Eris(process.env.token);
+var bot = new Eris("xxx");
 
 var status = "dnd"
 var game = new Object();
@@ -13,6 +13,8 @@ bot.editStatus(status, game);
 console.log("Ready!");
 });
 
+bot.on('error', console.error);
+
 // reading past this point may cause severe eye bleeding and other damage to physical and mental health
  
 bot.on('messageCreate', (msg) => {                     
@@ -20,6 +22,15 @@ bot.on('messageCreate', (msg) => {
 
 if (msg.author.id == '388409222011944960' || msg.author.id == '470582170151550977')	
 {
+
+if(msg.content.toLowerCase().startsWith('kyro status ')) { 
+if (msg.content.toLowerCase().includes('dnd')) {var status = "dnd"}
+if (msg.content.toLowerCase().includes('idle'))  {var status = "idle"}
+if (msg.content.toLowerCase().includes('online'))  {var status = "online"}
+bot.addMessageReaction(msg.channel.id, msg.id, "done:1012382136252239893")
+bot.editStatus(status)
+ } 	
+	
 if(msg.content.toLowerCase().startsWith('kyro on')) { 
 kyrotestmode = 1
 bot.addMessageReaction(msg.channel.id, msg.id, "done:1012382136252239893")
@@ -43,7 +54,7 @@ if (msg.content.toLowerCase().includes('kyro gib keywords'))
     {
 	var khelpm =(Math.floor((Math.random() * 10) + 1)) 
 
-	   if (khelpm==8)  {bot.createMessage(msg.channel.id, 'Kyro is a bot focused on impersonating Kyro#5273. Everything bot does is more or less related to Kyro. \n\n **General Keywords** \n ```cat, dog, RAID Shadow Legends, OwO, meow, fragile ego, (don\'t) have friend, wanna do drag, stfu Kyro, donate to me, TNTnearchos, pog, bruh, yah, fr, got scammed, @Kyro#7436, ping tori, egirl (egrill), macro, Italy, Brazil, french, brawlhalla, padoru, cock, puta, fuck off tori, I\'m poor, anime bad, :wave, rgb, fuck you kyro, vnj, ME, YOU, nefersit, ping tnt``` \n **Rng Keywords: (some rare response can happen on any message)** \n ```gojo, boomer, angeli, no, art, superior, (someone) is good at, gay, fortnite (terraria, minecraft, league of legends), god, suck, among us, genshin, animal, toyota, died, suck, xd, ``` \n **Commands** \n ``` what drag - hypixel skyblock dragon simulator \n what drop - hypixel skyblock dragon loot simulator (can be used along "what drag") \n kyro (x) or (y) - chooses 1 of 2 elements \n kyro ping - shows ping and api latency \n kyro source code - links source code of the bot \n kyro what art collects - list of Karuta series collected by ArtificialAngel#4618 \n kyro rate (x) - ask bot to rate something \n kyro true - example: Kyro is it true that x \n yes no - example: Do u agree? Yes or no? \n kyro long cat - responds with random length cat \n kyro say - make bot say something example: Kyro say mogus \n kyro gib cat - generates random cat image \n kyro cat say - generates random cat image with text on it example: Kyro cat say mogus \n kyro what id - exmaple: Kyro what\'s my id - gives you your discord id \n kyro what iq - example: Kyro what\'s x\'s iq? \n bubble wrap - virtual bubble wrap``` \n **Slash commands** \n ```/ping - gives you your ping \n/snake - cat themed version of classic snake game \n/stop - stops current snake game \n/dice - roll a dice \n/help - explains how to get list of keywords``` \n');  }
+	   if (khelpm==8)  {bot.createMessage(msg.channel.id, 'Kyro is a bot focused on impersonating Kyro#5273. Everything bot does is more or less related to Kyro. \n\n **General Keywords** \n ```cat, dog, RAID Shadow Legends, OwO, meow, fragile ego, (don\'t) have friend, wanna do drag, stfu Kyro, donate to me, TNTnearchos, pog, bruh, yah, fr, got scammed, @Kyro#7436, ping tori, egirl (egrill), macro, Italy, Brazil, french, brawlhalla, padoru, cock, puta, fuck off tori, I\'m poor, anime bad, :wave, rgb, fuck you kyro, vnj, ME, YOU, nefersit, ping tnt``` \n **Rng Keywords: (some rare response can happen on any message)** \n ```gojo, boomer, angeli, no, art, superior, (someone) is good at, gay, fortnite (terraria, minecraft, league of legends), god, suck, among us, genshin, animal, toyota, died, suck, xd, ``` \n **Commands** \n ``` what drag - hypixel skyblock dragon simulator \n what drop - hypixel skyblock dragon loot simulator (can be used along "what drag") \n kyro (x) or (y) - chooses 1 of 2 elements \n kyro ping - shows ping and api latency \n kyro source code - links source code of the bot \n kyro what art collects - list of Karuta series collected by ArtificialAngel#4618 \n kyro rate (x) - ask bot to rate something \n kyro true - example: Kyro is it true that x \n yes no - example: Do u agree? Yes or no? \n kyro long cat - responds with random length cat \n kyro say - make bot say something example: Kyro say mogus \n kyro gib cat - generates random cat image \n kyro cat say - generates random cat image with text on it example: Kyro cat say mogus \n kyro what id - exmaple: Kyro what\'s my id - gives you your discord id \n kyro what iq - example: Kyro what\'s x\'s iq? \n bubble wrap - virtual bubble wrap``` \n **Slash commands** \n ```/ping - gives you your ping \n/snake - cat themed version of classic snake game \n/stop - stops current snake game \n/dice - roll a dice \n/say - make Kyro say something \n/help - explains how to get list of keywords``` \n \n **Restricted commands** \n ``` kyro mode on/off \n kyro on/off \n kyro status dnd/online/idle``` \n');  }
         if (khelpm!=8) {bot.createMessage(msg.channel.id, 'no');  }}
 
 	if(msg.content.includes('yah') && msg.content.includes('brawlhalla') && msg.content.includes('rgb'))
@@ -348,7 +359,7 @@ if(msg.content.toLowerCase() === 'fr')
 
 if(msg.content.includes('wave') && msg.content.includes(':')) {                 
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, '<:neko_wave:991630971369685013>');  
+    bot.createMessage(msg.channel.id, '<:neko_wave:1167903182341550211>');  
 }, 500);
   }    
    			
@@ -535,7 +546,7 @@ if (msg.author.id == '670769970396790795')	{
 	
   	if(msg.content.toLowerCase().includes('kyro what') && msg.content.toLowerCase().includes('art collects')) {                 
        setTimeout(function(){ 
-    bot.createMessage(msg.channel.id, "Akame ga Kill! • Angel Beats • Another • Arcane • Assassination Classroom • Attack on Titan • Bakugan • Black Lagoon (no spin offs) • My Hero Academia • Danganronpa • Dalring in the FranXX • Date a Live • Death Note • Death Parade • Dororo • Fullmetal Alchemist Brotherhood • Ghost in the Shell (only original 1,2 movies) • God of High School • Itadaki! Seieki • Ishuzoku Reviewers • Island • Jujutsu Kaisen • Kill la Kill • Demon Slayer • Kobayashi-san Chi no Maid Dragon • Konosuba • Mob Psycho 100 • Monster Musume • Mushoku Tensei (Jobless Reincarnation) • My Dressup Darling  • Neon Genesis Evangelion (no spin offs) • No Game No Life • One Piece (some movies included) • One Punch Man • Overlord • Plasitc Memories • Psycho-Pass • Re: Zero • Redo of Healer • Sewayaki Kitsune no Senko-san • Spice and Wolf • Shield Hero • The Promised Neverland • Vivy: Fluorite Eye's Song • Wonder Egg Priority • Ya Boy Kongming • Bubble • Maquia When the Promised Flower Blooms • Silent Voice • Your Name • Tokyo Ghoul • Solo Leveling • Genshin Impact • Honkai Impact • Hololive (kinda) • NieR Automata • Doki Doki Literature Club • Made in Abyss • Shelter • Me! Me! Me! • Hatsune Miku: Downloader • Gravity Rush • Fate/Zero • Fate/stay night: Unlimited Blade Works • Fate/stay night: Heaven's Feel • Fate/Grand Order THE MOVIE Divine Realm of the Round Table: Camelot Wandering; Agateram • Cyberpunk: Edgerunners • Chainsaw Man • Cowboy Bepop • Vinland Saga • Sailor Moon Crystal • Oshi no Ko");  
+    bot.createMessage(msg.channel.id, "Akame ga Kill! • Angel Beats • Another • Arcane • Assassination Classroom • Attack on Titan • Berserk • Bakugan • Black Lagoon (no spin offs) • Code Geass: Lelouch of the Rebellion • My Hero Academia • Danganronpa • Darling in the FranXX • Date a Live • Death Note • Death Parade • Dororo • Fullmetal Alchemist Brotherhood • Ghost in the Shell (only original 1,2 movies) • God of High School • Itadaki! Seieki • Ishuzoku Reviewers • Island • Jujutsu Kaisen • Kill la Kill • Demon Slayer • Kobayashi-san Chi no Maid Dragon • Konosuba • Mob Psycho 100 • Monster Musume • Mushoku Tensei (Jobless Reincarnation) • My Dressup Darling  • Neon Genesis Evangelion (no spin offs) • No Game No Life • One Piece (some movies included) • One Punch Man • Overlord • Plasitc Memories • Psycho-Pass • Re: Zero • Redo of Healer • Sewayaki Kitsune no Senko-san • Spice and Wolf • Shield Hero • The Promised Neverland • Vivy: Fluorite Eye's Song • Weathering With You • Wonder Egg Priority • Ya Boy Kongming • Bubble • Maquia When the Promised Flower Blooms • Silent Voice • Your Name • Tokyo Ghoul • The Eminence in Shadow • Solo Leveling • Genshin Impact • Honkai Impact • Hololive (kinda) • Hell's Paradise • Hellsing Ultimate • NieR Automata • Doki Doki Literature Club • Made in Abyss • Shelter • Me! Me! Me! • Hatsune Miku: Downloader • Gravity Rush • Fate/Zero • Fate/stay night: Unlimited Blade Works • Fate/stay night: Heaven's Feel • Fate/Grand Order THE MOVIE Divine Realm of the Round Table: Camelot Wandering; Agateram • Cyberpunk: Edgerunners • Chainsaw Man • Cowboy Bepop • Vinland Saga • Sailor Moon Crystal • Oshi no Ko");  
 }, 500);
   }
   

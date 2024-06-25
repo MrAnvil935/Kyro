@@ -18,6 +18,8 @@ const client = new Client({
    partials: ['CHANNEL', 'MESSAGE', 'REACTION']
 });
 
+client.on('error', console.error);
+
 client.on("ready", async () => {
   console.log("bot is online", client.user.tag);
   	client.user.setPresence({
@@ -45,6 +47,16 @@ client.on("ready", async () => {
     name: 'help',
     description: `how to get list of keywords`
 }})
+  client.api.applications(client.user.id).commands.post({data: {
+    name: 'say',
+    description: `Kyro say`,
+	options: [
+        {   name: "input",
+            description: "what Kyro should say",
+			type: 3,
+            required: true,
+        }]
+}})
 });
 
 // declaring cache db to store game data
@@ -69,7 +81,7 @@ const settings = {
 client.on("interactionCreate", async (interaction) => {
   if (interaction.user.bot) return;
   if (interaction.isCommand()) {
-    await interaction.deferReply({ ephemeral: true }).catch((e) => {});
+    await interaction.deferReply({ ephemeral: false }).catch((e) => {});
 
     switch (interaction.commandName) {
       case "snake":
@@ -203,7 +215,7 @@ client.on("interactionCreate", async (interaction) => {
               content: `** Snake Game **`,
               embeds: [embed],
               components: [row, row2, row3],
-              ephemeral: true,
+              ephemeral: false,
               fetchReply: true,
             };
           }
@@ -211,10 +223,10 @@ client.on("interactionCreate", async (interaction) => {
             embeds: [
               new MessageEmbed()
                 .setColor(settings.color)
-                .setDescription(`Game Will Start in 5 Seconds`),
+                .setDescription(`Game Will Start in 1 Second`),
             ],
           });
-          await sleep(5000);
+          await sleep(1000);
           let GameMsg = await interaction.editReply(getData());
           let filter = (i) => i.user.id === interaction.user.id;
           let collector = await GameMsg.createMessageComponentCollector({
@@ -359,7 +371,7 @@ client.on("interactionCreate", async (interaction) => {
             db.delete(`snake-${interaction.user.id}`);
             send(
               interaction,
-              `Your Game Stoped Now Delete Your Ephemeral Game Message to Start New Game`
+              `Your Game Stoped`
             );
           }
         }
@@ -375,6 +387,13 @@ client.on("interactionCreate", async (interaction) => {
 		      case "help":
         {			
        return send(interaction, `To get list of keywords ask "Kyro gib keywords". There is a random chance bot will respond with list of keywords.`);
+        }
+        break;
+		
+		case "say":
+        {	
+        var input = interaction.options.getString("input")		
+		return send(interaction, input);
         }
         break;
 
@@ -409,7 +428,7 @@ client.on("guildCreate", async (guild) => {
   await guild.commands.set(commands);
 });
 
-client.login(process.env.token);
+client.login("xxx");
 
 function sleep(ms) {
   return new Promise((resolve) => {
@@ -422,6 +441,6 @@ function sleep(ms) {
 function send(interaction, data) {
   return interaction.followUp({
     embeds: [new MessageEmbed().setColor(settings.color).setDescription(data)],
-    ephemeral: true,
+    ephemeral: false,
   });
 }
