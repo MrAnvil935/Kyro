@@ -5,6 +5,7 @@ const {
   MessageButton,
   Collection,
   Intents,
+  Commands
 } = require("discord.js");
 
 var kyrotestmode = 1
@@ -229,6 +230,7 @@ client.on("interactionCreate", async (interaction) => {
           await sleep(1000);
           let GameMsg = await interaction.editReply(getData());
           let filter = (i) => i.user.id === interaction.user.id;
+		  //const collector = GameMsg.createMessageComponentCollector({ filter, time: 15_000 });
           let collector = await GameMsg.createMessageComponentCollector({
             filter: filter,
           });
@@ -428,7 +430,7 @@ client.on("guildCreate", async (guild) => {
   await guild.commands.set(commands);
 });
 
-client.login("xxx");
+client.login("token");
 
 function sleep(ms) {
   return new Promise((resolve) => {
