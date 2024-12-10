@@ -321,22 +321,26 @@ if(msg.content.startsWith('kyro cat say')) {
 var cmyString = msg.content ;
 var cmyNewString = cmyString.replace("kyro cat say ", "");
 var cmyNewStringc = cmyNewString.replaceAll(" ", "%20");
+msg.delete();
  bot.createMessage(msg.channel.id, "https://cataas.com/cat/says/"+ cmyNewStringc+"%20") } 
 
 if(msg.content.startsWith('Kyro cat say')) {
 var cmyString = msg.content ;
 var cmyNewString = cmyString.replace("Kyro cat say ", "");
 var cmyNewStringc = cmyNewString.replaceAll(" ", "%20");
+msg.delete();
  bot.createMessage(msg.channel.id, "https://cataas.com/cat/says/"+ cmyNewStringc+"%20") } 
 
 if(msg.content.startsWith('kyro say ')) {
 var myString = msg.content ;
 var myNewString = myString.replace("kyro say", "");
+msg.delete();
  bot.createMessage(msg.channel.id, myNewString +"_ _" ) } 			
 			
 if(msg.content.startsWith('Kyro say')) {
 var myString = msg.content ;
 var myNewString = myString.replace("Kyro say", "");
+msg.delete();
  bot.createMessage(msg.channel.id, myNewString +"_ _" ) } 
 
   if (msg.channel.id != '677876231609253914') {
